@@ -1,0 +1,61 @@
+/*rut 07102020 custom header*/
+.portalicon {
+    color: #000 !important;
+}
+
+.portalicon:hover {
+    color: #b3d334 !important;
+}
+
+li.primary-link-lv1 {
+    font-family: 'db_heavent_cond', sans-serif !important;
+    font-size: 17px !important;
+    color: #ffffff !important;
+    line-height: 42px !important;
+    display: block !important;
+    font-weight: normal !important;
+}
+
+li.primary-link-lv1 h2.submenu__head a.menu__link {
+    font-weight: normal !important;
+}
+/*end rut 07102020*/
+
+.sub-menu-pane .submenu__item span.menu__header {
+    font-family: 'db_heavent_cond', sans-serif !important;
+    ;
+    font-size: 18px !important;
+    ;
+    padding: 10px 0 !important;
+    ;
+    display: block !important;
+    ;
+    font-weight: 400 !important;
+    ;
+}
+
+.sub-menu-pane .submenu__item a {
+    font-size: 17px !important;
+    padding: 0.35em 0 !important;
+    line-height: 1em !important;
+    display: block !important;
+    cursor: pointer !important;
+    font-weight: 300 !important;
+    font-family: 'db_heavent_cond', sans-serif !important;
+}
+
+#mainnav .bt_menu a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 999px) {
+    #ais_topbar.mini-menu .topbar_menu {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #ais_topbar.mini-menu .topbar_menu {
+        display: none;
+    }
+}
