@@ -316,7 +316,10 @@ body>sec {
     -webkit-box-shadow: 0px 160px 30px -155px black;
     margin: auto;
 }
-
+.syl-box1:hover {
+    background-color: #7bab33;
+    border: 1px solid #7bab33;
+}
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
 
