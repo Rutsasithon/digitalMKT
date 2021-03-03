@@ -5,7 +5,18 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    overflow: visible; /*scroll ซ้อน*/
+    /* overflow: visible; scroll ซ้อน */
+}
+body>div {
+    overflow: hidden;
+    width: 100%;
+}
+body>sec {
+    overflow-x: hidden;
+}
+.sec {
+    flex: 100%;
+    background-color: #f1f1f1;
 }
 /* เมนูย่อยของ ais ปรับ font*/
 .sub-menu-pane .submenu__item span.menu__header {
@@ -167,12 +178,19 @@ body {
     margin-right: 1rem;
 }
 #digi-mkt {
-    background-image: url(../images/home-dt/bg-ex/bg04.jpg);
+    background-image: url(../images/home-dt/bg-ex/bg04-1.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0;
+    padding: 3% 0 10% 0;
+}
+#digi-mkt1 {
+    background-color: white;
+    position: relative;
+    padding: 3% 0 3% 0;
+    width: auto;
+    height: auto;
 }
 .img-text01 {
     width: 500px;
@@ -201,7 +219,7 @@ body {
     font-family: 'db_heaventlight_cond';
     line-height: 1.2;
     font-size: 1.9rem;
-    font-size: clamp(1rem, 2.5vw, 1.9rem);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 .digi-grid {
     display: grid;
@@ -280,6 +298,33 @@ body {
     }
 }
 
+@media only screen and (max-width : 1250px) {
+    .title-text1 {
+        font-size: 3.5rem;
+        font-size: clamp(3.5rem, 2vw, 5rem);
+    }
+    .img-notebook {
+        left: -90px;
+        min-width: 750px;
+    }
+    .img-detail2 {
+        top: 0;
+        left: 55%;
+        margin-top: 15%;
+    }
+    .img-detail3 {
+        top: 0;
+        left: 55%;
+        margin-top: 40%;
+    }
+    .img-detail5 {
+        top: 0;
+        left: 75%;
+        margin-top: 55%;
+    }
+    
+}
+
 @media (min-width: 992px) {
     .mini-menu+#container {
         padding-top: 100px;
@@ -302,6 +347,51 @@ body {
         height: auto;
         object-fit: contain;
     }
+    .digi-grid {
+        grid-template-columns: 1fr;
+    }
+    .img-notebook {
+        position: relative;
+        top: 30px;
+        left: 0;
+        min-width: 80px;
+    }
+    .img-detail1 {
+        top: 0;
+        left: 50%;
+    }
+    .img-detail2 {
+        top: 0;
+        left: 34%;
+        margin-top: 5%;
+    }
+    .img-detail3 {
+        top: 0;
+        left: 30%;
+        margin-top: -50%;
+    }
+    .img-detail4 {
+        top: 0;
+        left: 55%;
+        margin-top: 20%;
+    }
+    .img-detail5 {
+        top: 0;
+        left: 46%;
+        margin-top: -35%;
+    }
+    .title-text1 {
+        font-size: clamp(2.5rem, 2vw, 4rem);
+    }
+    .title-text2 {
+        font-size: clamp(2rem, 2vw, 3.5rem);
+    }
+    .mb1 {
+        margin-bottom: 3rem;
+    }
+    .ic01 {
+        width: 10%;
+    }
 }
 
 @media only screen and (max-width : 767px) {  
@@ -322,28 +412,46 @@ body {
     }
     .img-detail1 {
         top: 0;
-        left: 220px;
+        left: 50%;
     }
     .img-detail2 {
-        top: 30px;
-        left: 140px;
+        top: 0;
+        left: 34%;
+        margin-top: 7%;
     }
     .img-detail3 {
-        top: -195px;
-        left: 130px;
+        top: 0;
+        left: 30%;
+        margin-top: -47%;
     }
     .img-detail4 {
-        top: 80px;
-        left: 240px;
+        top: 0;
+        left: 55%;
+        margin-top: 20%;
     }
     .img-detail5 {
-        top: -150px;
-        left: 200px;
+        top: 0;
+        left: 46%;
+        margin-top: -33%;
+    }
+    .title-text1 {
+        font-size: clamp(2.5rem, 2vw, 4rem);
+    }
+    .title-text2 {
+        font-size: clamp(2rem, 2vw, 3.5rem);
+    }
+    .mb1 {
+        margin-bottom: 3rem;
+    }
+    .ic01 {
+        width: 10%;
     }
 }
 
 @media only screen and (max-width : 378px) {
-
+    .title-text2 {
+        font-size: clamp(1.8rem, 2vw, 3rem);
+    }
 }
 
 @media only screen and (max-width : 320px) {
