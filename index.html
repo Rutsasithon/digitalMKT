@@ -243,7 +243,65 @@
         <section id="digi-mkt1">
             <div class="content-grid">
                 <div class="ms-col-1"></div>
-                <div class="ms-col-2"></div>
+                <div class="ms-col-2">
+                    <div class="digi1-grid">
+                        <div class="ms-col-1 syl-box1" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="100">
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="150">
+                                <img class="ic03 mb4" src="./images/home-dt/banner-ex/ic_05.png">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200">
+                                <font class="text-detail2 color1">ONLINE</font>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250">
+                                <font class="text-detail1 color1">SOCIAL MEDIA</font>
+                            </div>
+                        </div>
+                        <div class="ms-col-2 syl-box1" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
+                                <img class="ic03 mb4" src="./images/home-dt/banner-ex/ic_06.png">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+                                <font class="text-detail2 color1">MOBILE</font>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="450">
+                                <font class="text-detail1 color1">MARKETING</font>
+                            </div>
+                        </div>
+                        <div class="ms-col-3 syl-box1" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
+                                <img class="ic03 mb4" src="./images/home-dt/banner-ex/ic_07.png">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+                                <font class="text-detail2 color1">APPLICATION</font>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="450">
+                                <font class="text-detail1 color1">DEVELOPMENT</font>
+                            </div>
+                        </div>
+                        <div class="ms-col-4 syl-box1" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
+                                <img class="ic03 mb4" src="./images/home-dt/banner-ex/ic_08.png">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+                                <font class="text-detail2 color1">CRM</font>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="450">
+                                <font class="text-detail1 color1">PLATFORM</font>
+                            </div>
+                        </div>
+                        <div class="ms-col-5 syl-box1" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
+                                <img class="ic03 mb4" src="./images/home-dt/banner-ex/ic_09.png">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+                                <font class="text-detail2 color1">MULTI MEDIA</font>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-anchor="#digi-mkt" data-aos-anchor-placement="bottom-bottom" data-aos-delay="450">
+                                <font class="text-detail1 color1">DESIGN</font>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="ms-col-3"></div>
             </div>
         </section>
@@ -471,6 +529,15 @@
                 },
                 onBeforeNextSlide: function(el) {},
                 onBeforePrevSlide: function(el) {}
+            });
+
+            $(".menu_online").mouseover(function() {
+                $(".img-ebiz").attr("src", "images/ic_packages02.png");
+                $('.txtebiz').css("color", "#b2d233");
+            });
+            $(".menu_ebiz").mouseout(function() {
+                $(".img-ebiz").attr("src", "images/ic_packages01.png");
+                $('.txtebiz').css("color", "white");
             });
     
          
