@@ -105,14 +105,39 @@ body>sec {
     position: absolute;
     width: 30%;
     margin-top: 5%;
+    margin-left: 10%;
 }
 .fragment-banner2 {
     animation-delay: 500ms;
     -webkit-animation-delay: 500ms;
     position: absolute;
-    width: 35%;
-    margin-left: 30%;
+    width: 34%;
+    margin-left: 12%;
+    margin-top: 11%;
+}
+.fragment-banner3 {
+    animation-delay: 800ms;
+    -webkit-animation-delay: 800ms;
+    position: absolute;
+    width: 20%;
+    margin-left: 12%;
+    margin-top: 21%;
+}
+.fragment-banner4 {
+    animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
+    position: absolute;
+    width: 46%;
+    margin-left: 47%;
     margin-top: 1%;
+}
+.fragment-banner5 {
+    animation-delay: 800ms;
+    -webkit-animation-delay: 800ms;
+    position: absolute;
+    width: 25%;
+    margin-left: 53%;
+    margin-top: 3%;
 }
 #myBtn {
     display: none;
@@ -181,7 +206,7 @@ body>sec {
     margin-right: 1rem;
 }
 #digi-mkt {
-    background-image: url(../images/home-dt/bg-ex/bg04-1.jpg);
+    background-image: url(../images/home-dt/bg/bg01.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -238,7 +263,7 @@ body>sec {
 }
 .img-notebook {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: -120px;
     min-width: 980px;
     height: auto;
@@ -247,43 +272,12 @@ body>sec {
 .img-detail1 {
     position: absolute;
     top: 10px;
-    left: 380px;
-    width: 110px;
-    height: auto;
-    object-fit: contain;
-}
-.img-detail2 {
-    position: absolute;
-    top: 70px;
-    left: 270px;
-    width: 110px;
-    height: auto;
-    object-fit: contain;
-}
-.img-detail3 {
-    position: absolute;
-    top: 200px;
     left: 250px;
-    width: 110px;
+    width: 50%;
     height: auto;
     object-fit: contain;
 }
-.img-detail4 {
-    position: absolute;
-    top: 150px;
-    left: 400px;
-    width: 110px;
-    height: auto;
-    object-fit: contain;
-}
-.img-detail5 {
-    position: absolute;
-    top: 270px;
-    left: 350px;
-    width: 110px;
-    height: auto;
-    object-fit: contain;
-}
+
 .ic01 {
     width: 5%;
     height: auto;
@@ -321,6 +315,63 @@ body>sec {
     border: 1px solid #7bab33;
 }
 
+.bouncing-item {
+    color: #3079ed;
+    animation-name: angry-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes angry-animation {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    10% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    20% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    30% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    40% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    60% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    70% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    90% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
 
 @media only screen and (max-width : 1500px) {
@@ -351,26 +402,6 @@ body>sec {
     .img-detail1 {
         top: 10px;
         left: 290px;
-        width: 80px;
-    }
-    .img-detail2 {
-        top: 60px;
-        left: 210px;
-        width: 80px;
-    }
-    .img-detail3 {
-        top: 155px;
-        left: 210px;
-        width: 80px;
-    }
-    .img-detail4 {
-        top: 120px;
-        left: 310px;
-        width: 80px;
-    }
-    .img-detail5 {
-        top: 210px;
-        left: 275px;
         width: 80px;
     }
     .ic01 {
@@ -415,30 +446,6 @@ body>sec {
         left: 50%;
         width: 15%;
     }
-    .img-detail2 {
-        top: 0;
-        left: 37%;
-        margin-top: 7%;
-        width: 15%;
-    }
-    .img-detail3 {
-        top: 0;
-        left: 36%;
-        margin-top: -50%;
-        width: 15%;
-    }
-    .img-detail4 {
-        top: 0;
-        left: 54%;
-        margin-top: 17%;
-        width: 15%;
-    }
-    .img-detail5 {
-        top: 0;
-        left: 50%;
-        margin-top: -40%;
-        width: 15%;
-    }
     .title-text1 {
         font-size: clamp(2.5rem, 2vw, 4rem);
     }
@@ -470,33 +477,9 @@ body>sec {
         min-width: 80px;
     }
     .img-detail1 {
-        top: 0;
-        left: 50%;
-        width: 15%;
-    }
-    .img-detail2 {
-        top: 0;
-        left: 34%;
-        margin-top: 10%;
-        width: 15%;
-    }
-    .img-detail3 {
-        top: 0;
-        left: 35%;
-        margin-top: -46%;
-        width: 15%;
-    }
-    .img-detail4 {
-        top: 0;
-        left: 55%;
-        margin-top: 20%;
-        width: 15%;
-    }
-    .img-detail5 {
-        top: 0;
-        left: 48%;
-        margin-top: -35%;
-        width: 15%;
+        top: -205px;
+        left: 39%;
+        width: 35%;
     }
     .title-text1 {
         font-size: clamp(2.5rem, 2vw, 4rem);
@@ -517,30 +500,6 @@ body>sec {
     .img-detail1 {
         top: 0;
         left: 50%;
-        width: 15%;
-    }
-    .img-detail2 {
-        top: 0;
-        left: 34%;
-        margin-top: 13%;
-        width: 15%;
-    }
-    .img-detail3 {
-        top: 0;
-        left: 35%;
-        margin-top: -43%;
-        width: 15%;
-    }
-    .img-detail4 {
-        top: 0;
-        left: 55%;
-        margin-top: 20%;
-        width: 15%;
-    }
-    .img-detail5 {
-        top: 0;
-        left: 48%;
-        margin-top: -33%;
         width: 15%;
     }
 }
