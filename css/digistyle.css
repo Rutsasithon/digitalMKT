@@ -412,6 +412,16 @@ body>sec {
     margin-top: 250px;
     margin-right: 271px;
 }
+.ic09 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.ic10 {
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+}
 .digi1-grid {
     display: grid;
     display: -ms-grid;
@@ -506,6 +516,42 @@ body>sec {
     outline: none;
 }
 
+.btn-outline-detail3 {
+    width: 120px;
+    height: auto;
+    font-family: 'db_heaventbold_cond';
+    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: 5rem;
+    background-color: #b4d74d;
+    color: #222426;
+    border-color: #b4d74d !important;
+    border: 2px solid;
+    padding: 3px 20px;
+
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-outline-detail3:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-color: rgb(255, 255, 255) !important;
+    border: 2px solid;
+    text-decoration: none;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-outline-detail3:focus {
+    outline: none;
+}
+
 .mob-grid {
     display: grid;
     display: -ms-grid;
@@ -533,6 +579,19 @@ body>sec {
     border-radius: 15px;
     margin: 0 0 0 5%;
     z-index: 9;
+}
+.app-dev-grid1 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(2,1fr);
+    -ms-grid-columns: 1fr 1fr;
+}
+.app-dev-grid2 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(3,1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
 }
 
 .bouncing-item {
@@ -664,13 +723,16 @@ body>sec {
 }
 
 @media only screen and (max-width : 1120px) {
+    #digi-mkt1 {
+        display: none;
+    }
     .d-desktop1 {
         display: none;
     }
     .d-mobile1 {
         display: block;
         position: fixed;
-        z-index: 99999999999999999999;
+        z-index: 999999999;
     }
     .digi1-grid {
         display: grid;
@@ -686,9 +748,6 @@ body>sec {
     }
     .ic03 {
         width: 80px;
-    }
-    #digi-mkt1 {
-        padding: 0 0 3% 0;
     }
     .tabmenu-left1 {
         width: auto;
@@ -756,7 +815,7 @@ body>sec {
         border: 1px solid #4a4a4a;
     }
     .ic-menu1 {
-        width: 100px;
+        width: 30px;
         height: auto;
         object-fit: contain;
     }
@@ -882,6 +941,13 @@ body>sec {
     .syl-box3 {
         height: 190px;
         padding: 20px;
+    }
+    .app-dev-grid1 {
+        grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
+    }
+    .app-dev-grid2 {
+        margin-left: 0%;
     }
 }
 
