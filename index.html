@@ -113,6 +113,9 @@
     <link rel="stylesheet" href="https://business.ais.co.th/base_interface/fonts/fonts.css">
     <link rel="stylesheet" href="https://business.ais.co.th/base_interface/css/jquery.typeahead.css">
     <link rel="stylesheet" href="https://business.ais.co.th/base_interface/css/menutypeahead.css">
+    <!-- CAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
     <!-- K'F AIS Menu Core Script -->
     <script src="//assets.adobedtm.com/9abd832c44b9/26745d27e994/launch-0d87e067d506.min.js"></script>
@@ -875,13 +878,14 @@
                                 </div>
                             </div>
 <!------------------------------------------------------ captcha --------------------------------------------------------------------------->
-                            <div data-aos="fade-left" data-aos-anchor="#multi-media" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">
-                                
+                            <div data-aos="fade-left" data-aos-anchor="#multi-media" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">                                
+                                <div class="g-recaptcha" data-sitekey="6LdukXwaAAAAAA_Zxn1TUWjkmdIQK_aSXkTeGeSI" data-callback="callback"></div>
                             </div>
+
 <!---------------------------------------------------- END captcha ------------------------------------------------------------------------->
                             <div class="d-flex align-items-center justify-content-center mt2 center1" data-aos="fade-left" data-aos-anchor="#multi-media" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">
                                 <a>
-                                    <button type="button" class="btn-outline-detail1" onclick="buttonAISeBizShopCliked('business:th:digitalmarketing:contact:submit');">
+                                    <button type="button" id="contactsubmit" class="btn-outline-detail1" onclick="buttonAISeBizShopCliked('business:th:digitalmarketing:contact:submit');">
                                         <font>ยืนยัน</font>
                                     </button>
                                 </a>
@@ -1177,6 +1181,7 @@
         $('html, body').animate({
             scrollTop: $("" + location.hash).offset().top
         }, 0);
+        $('#contactsubmit').attr("disabled", true);
     });
     $('a.line-none').click(function() {
         var target = $(this).attr("href");
@@ -1187,7 +1192,14 @@
         }, 0);
         return false;
     });
-    </script>
+    function callback() {
+        $('#contactsubmit').removeAttr("disabled");
+      }
+    var onloadCallback = function() {
+        console.log("grecaptcha is ready!");
+    };
+   
+</script>
 <!-- K'F start -->
     <script type="text/javascript">_satellite.pageBottom();</script>
 <!-- K'F end  -->
