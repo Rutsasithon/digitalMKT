@@ -574,7 +574,13 @@ body>sec {
 .center2 {
     width: auto;
     height: auto;
-    margin: auto 0;
+    margin: 0;
+}
+.center-ie {
+    top:50%;
+    left:50%;   
+    transform: translate(-50%, -50%);
+    position:relative;
 }
 ::placeholder {
     color: black;
