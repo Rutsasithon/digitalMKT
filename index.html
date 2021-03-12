@@ -1171,7 +1171,27 @@
          
         });
     </script>
- 
+    <script>        
+    // $(window).on('hashchange', function () 
+    // {
+    //     var top = $(window.location.hash).offset().top;
+    //     $(window).scrollTop(top);
+    // })    
+    $(document).ready(function() {    
+        $('html, body').animate({
+            scrollTop: $("" + location.hash).offset().top
+        }, 0);
+    });
+    $('a.line-none').click(function() {
+        var target = $(this).attr("href");
+        location.hash = target;
+        console.log(target);
+        $('html, body').animate({
+            scrollTop: $("" + target).offset().top
+        }, 0);
+        return false;
+    });
+    </script>
 <!-- K'F start -->
     <script type="text/javascript">_satellite.pageBottom();</script>
 <!-- K'F end  -->
