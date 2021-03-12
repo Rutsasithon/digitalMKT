@@ -1178,9 +1178,11 @@ body>sec {
         margin-top: -58%;
     }
     .title-text1 {
+        font-size: 2.5rem;
         font-size: clamp(2.5rem, 2vw, 4rem);
     }
     .title-text2 {
+        font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
     .mt1 {
@@ -1325,12 +1327,15 @@ body>sec {
         min-width: 80px;
     }
     .title-text1 {
+        font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
     .title-text2 {
+        font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
     .title-text5 {
+        font-size: 2.3rem;
         font-size: clamp(2.3rem, 2vw, 4rem);
     }
     .mb1 {
