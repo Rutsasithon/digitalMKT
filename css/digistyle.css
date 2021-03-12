@@ -791,6 +791,43 @@ body>sec {
     transition: all .4s ease-in-out;
 }
 
+
+.btn-outline-detail10 {
+    width: 120px;
+    height: auto;
+    font-family: 'db_heaventbold_cond';
+    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: 5rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000 !important;
+    border: 2px solid;
+    padding: 3px 20px;
+
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-outline-detail10.no-disable:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255) !important;
+    border: 2px solid;
+    text-decoration: none;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-outline-detail10:focus {
+    outline: none;
+}
+
 .btn-outline-detail4:focus {
     outline: none;
 }

@@ -885,7 +885,7 @@
 <!---------------------------------------------------- END captcha ------------------------------------------------------------------------->
                             <div class="d-flex align-items-center justify-content-center mt2 center1" data-aos="fade-left" data-aos-anchor="#multi-media" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">
                                 <a>
-                                    <button type="button" id="contactsubmit" class="btn-outline-detail1" onclick="buttonAISeBizShopCliked('business:th:digitalmarketing:contact:submit');">
+                                    <button type="button" id="contactsubmit" class="btn-outline-detail10" onclick="buttonAISeBizShopCliked('business:th:digitalmarketing:contact:submit');">
                                         <font>ยืนยัน</font>
                                     </button>
                                 </a>
@@ -1194,10 +1194,9 @@
     });
     function callback() {
         $('#contactsubmit').removeAttr("disabled");
-      }
-    var onloadCallback = function() {
-        console.log("grecaptcha is ready!");
-    };
+        $('#contactsubmit').addClass("no-disable");
+    }
+   
    
 </script>
 <!-- K'F start -->
