@@ -1461,8 +1461,7 @@ body>sec {
 (-ms-high-contrast: active) { 
     .ic05 {
         position: absolute;
-        width: 650px;
-        min-width: 0;
+        min-width: 650px;
         height: auto;
         object-fit: contain;
         margin-top: 130px;
@@ -1478,7 +1477,7 @@ body>sec {
     }
     .ic07 {
         position: absolute;
-        min-width: 750px;
+        min-width: 755px;
         height: auto;
         object-fit: contain;
         margin-top: 0;
@@ -1494,8 +1493,7 @@ body>sec {
     }
     .ic11 {
         position: absolute;
-        width: 77%;
-        min-width:0;
+        min-width:500px;
         height: auto;
         object-fit: contain;
         margin-top: 10%;
