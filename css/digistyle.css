@@ -406,6 +406,12 @@ body>sec {
     font-size: 1.9rem;
     font-size: clamp(1.5rem, 2.5vw, 1.9rem);
 }
+.title-text18 {
+    font-family: 'db_heaventbold_cond';
+    line-height: 1.5;
+    font-size: 4rem;
+    font-size: clamp(4rem, 2vw, 5rem);
+}
 .digi-grid {
     display: grid;
     display: -ms-grid;
@@ -444,19 +450,23 @@ body>sec {
 }
 .img-notebook {
     position: absolute;
-    top: 100px;
-    left: -120px;
-    min-width: 980px;
+    bottom: 0;
+    left: 0;
+    max-width: 62%;
     height: auto;
     object-fit: contain;
+    margin-bottom: -10%;
+    margin-left: 2%;
 }
 .img-detail1 {
     position: absolute;
-    top: 10px;
-    left: 254px;
-    width: 320px;
+    bottom: 0;
+    left: 0;
+    max-width: 20%;
     height: auto;
     object-fit: contain;
+    margin-bottom: 7%;
+    margin-left: 25%;
 }
 
 .ic01 {
@@ -481,36 +491,40 @@ body>sec {
 }
 .ic05 {
     position: absolute;
-    min-width: 550px;
+    max-width: 40%;
+    bottom: 0;
+    right: 0;
     height: auto;
     object-fit: contain;
-    margin-top: 723px;
-    margin-left: 150px;
 }
 .ic06 {
     position: absolute;
-    width: 38%;
+    max-width: 16%;
     height: auto;
     object-fit: contain;
-    margin-top: 473px;
-    margin-left: 137px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5%;
+    margin-right: 12%;
 }
 .ic07 {
     position: absolute;
-    max-width: 750px;
+    max-width: 50%;
     height: auto;
     object-fit: contain;
-    margin: 0;
     bottom: 0;
     right: 0;
+    margin-right: 5%;
 }
 .ic08 {
     position: absolute;
-    width: 45%;
+    max-width: 20%;
     height: auto;
     object-fit: contain;
-    margin-top: 250px;
-    margin-right: 271px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 22%;
+    margin-right: 30%;
 }
 .ic09 {
     width: 100%;
@@ -524,42 +538,53 @@ body>sec {
 }
 .ic11 {
     position: absolute;
-    width: 85%;
+    max-width: 30%;
     height: auto;
     object-fit: contain;
-    margin-top: 730px;
+    bottom: 0;
+    right: 0;
+    margin-right: 5%;
 }
 .ic12 {
     position: absolute;
-    width: 360px;
+    max-width: 20%;
     height: auto;
     object-fit: contain;
-    margin-top: 560px;
-    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15%;
+    margin-right: 17%;
 }
 .ic13 {
     position: absolute;
-    width: 260px;
+    max-width: 13%;
     height: auto;
     object-fit: contain;
-    margin-top: 850px;
-    margin-right: 210px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 12%;
+    margin-right: 20%;
 }
 .ic14 {
+    position: relative;
     min-width: 120%;
     height: auto;
     object-fit: contain;
+    bottom: 0;
+    margin: auto;
 }
 .ic15 {
     min-width: 160%;
     height: auto;
     object-fit: contain;
+    bottom: 0;
     margin-top: 72.8%;
 }
 .ic16 {
     min-width: 115%;
     height: auto;
     object-fit: contain;
+    bottom: 0;
     margin-top: 95.5%;
 }
 .ic17 {
@@ -870,8 +895,8 @@ body>sec {
     padding: 20px;
     border: 1px solid #ffffff;
     border-radius: 15px;
-    box-shadow: 0px 2px 8px 2px #888888;
-    -webkit-box-shadow: 0px 2px 8px 2px #888888;
+    box-shadow: 0px 1px 8px -2px #888888;
+    -webkit-box-shadow: 0px 1px 8px -2px #888888;
     margin: 3%;
 }
 .app-dev-grid1 {
@@ -946,16 +971,6 @@ body>sec {
 }
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
-@media only screen and (min-width : 1920px) {
-    .img-notebook {
-        position: absolute;
-        top: 100px;
-        left: -120px;
-        min-width: 1100px;
-        height: auto;
-        object-fit: contain;
-    }
-}
 
 @media only screen and (max-width : 1500px) {
     .d-mobile {
@@ -963,9 +978,6 @@ body>sec {
     }
     .d-desktop {
         display: block;
-    }
-    .img-notebook {
-        min-width: 900px;
     }
     .ic06 {
         position: absolute;
@@ -975,20 +987,7 @@ body>sec {
         margin-top: 520px;
         margin-left: 147px;
     }
-    .ic11 {
-        min-width: 520px;
-    }
-    .ic12 {
-        width: 320px;
-    }
-    .ic13 {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 805px;
-        margin-right: 237px;
-    }
+    
 }
 
 
@@ -1001,15 +1000,6 @@ body>sec {
         font-size: 2.5rem;
         font-size: clamp(2.5rem, 2vw, 3rem);
     }
-    .img-notebook {
-        left: -90px;
-        min-width: 720px;
-    }
-    .img-detail1 {
-        top: 55px;
-        left: 185px;
-        width: 200px;
-    }
     .ic01 {
         width: 7%;
     }
@@ -1021,22 +1011,7 @@ body>sec {
         height: 250px;
         padding: 20px;
     }
-    .ic07 {
-        min-width: 650px;
-        margin-top: 775px;
-    }
-    .ic08 {
-        margin-top: 465px;
-        margin-right: 200px;
-    }
-    .ic13 {
-        position: absolute;
-        width: 180px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 805px;
-        margin-right: 160px;
-    }
+    
 }
 
 @media only screen and (max-width : 1120px) {
@@ -1145,17 +1120,13 @@ body>sec {
         font-size: 3.3rem;
         font-size: clamp(3.3rem, 2vw, 5rem);
     }
-    .ic11 {
-        min-width: 475px;
+    .title-text18 {
+        font-family: 'db_heaventbold_cond';
+        line-height: 1.5;
+        font-size: 3.3rem;
+        font-size: clamp(3.3rem, 2vw, 5rem);
     }
-    .ic13 {
-        position: absolute;
-        width: 160px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 789px;
-        margin-right: 148px;
-    }
+    
     .title-text7 {
         font-size: 6.5rem;
         font-size: clamp(7rem, 2vw, 10rem);
@@ -1213,15 +1184,24 @@ body>sec {
     }
     .img-notebook {
         position: relative;
-        top: 80px;
+        bottom: 0;
         left: 0;
-        min-width: 80px;
+        max-width: 62%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 0%;
+        margin-left: 0;
+        margin: 7% auto;
     }
     .img-detail1 {
-        top: 0;
-        left: 37%;
-        width: 35%;
-        margin-top: -58%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 20%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24%;
+        margin-left: 42%;
     }
     .title-text1 {
         font-size: 2.5rem;
@@ -1258,26 +1238,26 @@ body>sec {
     }
     .ic07 {
         position: relative;
-        min-width: 50px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 80px;
-        margin-bottom: -1px;
+        max-width: 100%;
+        margin-top: 10%;
     }
     .ic08 {
-        position: absolute;
-        width: 35%;
-        height: auto;
-        object-fit: contain;
-        margin-top: -25%;
-        margin-right: 0;
-        left: 15%;
+        max-width: 35%;
+        margin-bottom: 45%;
+        margin-right: 57%;
     }
     .title-text5 {
         font-family: 'db_heaventbold_cond';
         line-height: 1.5;
         font-size: 3.5rem;
         font-size: clamp(2.7rem, 2vw, 4rem);
+    }
+    .title-text18 {
+        font-family: 'db_heaventbold_cond';
+        line-height: 1.5;
+        font-size: 3.5rem;
+        font-size: clamp(2.7rem, 2vw, 4rem);
+        text-align: center;
     }
     .mr-social {
         margin-right: 1rem;
@@ -1290,7 +1270,7 @@ body>sec {
     }
     .ic05 {
         position: relative;
-        width: 100%;
+        max-width: 90%;
         min-width: 0;
         height: auto;
         object-fit: contain;
@@ -1299,11 +1279,13 @@ body>sec {
     }
     .ic06 {
         position: absolute;
-        width: 38%;
+        max-width: 35%;
         height: auto;
         object-fit: contain;
-        margin-top: -1%;
-        margin-left: 0;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 12%;
+        margin-right: 33%;
     }
     .syl-box2 {
         height: 190px;
@@ -1327,12 +1309,15 @@ body>sec {
     .line-bottom3 {
         margin: 15px auto;
     }
+    .line-bottom2 {
+        margin: 15px auto;
+    }
     #crm {
         padding: 3% 0 0 0;
     }
     .ic11 {
         position: relative;
-        width: 60%;
+        max-width: 60%;
         min-width:0;
         height: auto;
         object-fit: contain;
@@ -1341,22 +1326,23 @@ body>sec {
     }
     .ic12 {
         position: absolute;
-        width: 35%;
+        max-width: 43%;
         height: auto;
         object-fit: contain;
-        margin-top: 19%;
-        top: 0;
-        left: 20%;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 29%;
+        margin-right: 44%;
     }
     .ic13 {
         position: absolute;
-        width: 25%;
+        max-width: 24%;
         height: auto;
         object-fit: contain;
-        margin-top: 41%;
-        margin-right: 0;
-        top: 0;
-        left: 28%;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 24%;
+        margin-right: 55%;
     }
 }
 
@@ -1370,12 +1356,6 @@ body>sec {
     .digi-grid {
         grid-template-columns: 1fr;
     }
-    .img-notebook {
-        position: relative;
-        top: 50px;
-        left: 0;
-        min-width: 80px;
-    }
     .title-text1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -1385,6 +1365,10 @@ body>sec {
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
     .title-text5 {
+        font-size: 2.3rem;
+        font-size: clamp(2rem, 2vw, 4rem);
+    }
+    .title-text18 {
         font-size: 2.3rem;
         font-size: clamp(2.3rem, 2vw, 4rem);
     }
@@ -1423,24 +1407,20 @@ body>sec {
     .ml3 {
         margin-left: 2.5%;
     }
+    .text-detail5 {
+        font-size: 1.7rem;
+        font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+    }
+    .text-detail1 {
+        font-size: 1.5rem;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
 }
 
 
 @media only screen and (max-width : 378px) {
     .title-text2 {
         font-size: clamp(1.8rem, 2vw, 3rem);
-    }
-    .img-notebook {
-        position: relative;
-        top: 35px;
-        left: 0;
-        min-width: 80px;
-    }
-    .img-detail1 {
-        top: 0;
-        left: 38%;
-        width: 30%;
-        margin-top: -55%;
     }
     .syl-box2 {
         height: 220px;
@@ -1462,62 +1442,6 @@ body>sec {
 /* --------------------------------------------------------------IE------------------------------------------------------------------------ */
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) { 
-    .ic05 {
-        position: absolute;
-        min-width: 650px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 130px;
-        margin-left: -265px;
-    }
-    .ic06 {
-        position: absolute;
-        width: 280px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 28px;
-        margin-left: -85px;
-    }
-    .ic07 {
-        position: absolute;
-        min-width: 755px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 0;
-        margin-left: -300px;
-    }
-    .ic08 {
-        position: absolute;
-        width: 45%;
-        height: auto;
-        object-fit: contain;
-        margin-top: -50px;
-        margin-left: -240px;
-    }
-    .ic11 {
-        position: absolute;
-        min-width:500px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 10%;
-        margin-left: -30%;
-    }
-    .ic12 {
-        position: absolute;
-        width: 50%;
-        height: auto;
-        object-fit: contain;
-        margin-top: 22%;
-        left: 13%;
-    }
-    .ic13 {
-        position: absolute;
-        width: 30%;
-        height: auto;
-        object-fit: contain;
-        margin-top: 54%;
-        margin-left: -25%;
-    }
     .center2 {
         text-align: center;
     }
