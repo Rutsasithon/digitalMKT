@@ -565,27 +565,51 @@ body>sec {
     margin-bottom: 12%;
     margin-right: 20%;
 }
-.ic14 {
+/* .ic14 {
     position: relative;
     min-width: 120%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     margin: auto;
+} */
+.ic14 {
+    position: relative;
+    min-width: 120%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    margin: 0;
 }
-.ic15 {
+/* .ic15 {
     min-width: 160%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     margin-top: 72.8%;
+} */
+.ic15 {
+    min-width: 160%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
 }
-.ic16 {
+/* .ic16 {
     min-width: 115%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     margin-top: 95.5%;
+} */
+.ic16 {
+    min-width: 115%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
 }
 .ic17 {
     width: 80px;
