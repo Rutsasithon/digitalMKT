@@ -211,6 +211,9 @@ body>sec {
 .ml2 {
     margin-left: 5%;
 }
+.ml2-1 {
+    margin-left: 5%;
+}
 .ml3 {
     margin-left: 1.5%;
 }
@@ -1154,6 +1157,9 @@ body>sec {
     .center1 {
         display: flex;
         justify-content: center;
+    }
+    .ml2-1 {
+        margin-left: 0;
     }
     .mt-mob {
         margin-top: 5%;
