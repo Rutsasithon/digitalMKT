@@ -254,6 +254,7 @@ body>sec {
     display: block;
     margin: 15px 0;
 }
+
 #digi-mkt {
     background-image: url(../images/home-dt/bg/bg01.jpg);
     position: relative;
@@ -1422,6 +1423,14 @@ body>sec {
     .text-detail1 {
         font-size: 1.5rem;
         font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
+    
+}
+
+@media only screen and (max-width : 400px) {
+    .g-recaptcha {
+        transform:scale(0.77);
+        transform-origin:0 0;
     }
 }
 
