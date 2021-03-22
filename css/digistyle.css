@@ -368,6 +368,13 @@ body>sec {
     font-size: 9rem;
     font-size: clamp(9rem, 2vw, 10rem);
 }
+.title-text9 {
+    font-family: 'db_heavent_cond';
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
 .text-detail1 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
@@ -633,6 +640,11 @@ body>sec {
 .form-check-input1 {
     position: absolute;
     margin-top: .7rem;
+    margin-left: -1.25rem;
+}
+.form-check-input2 {
+    position: absolute;
+    margin-top: 0.3rem;
     margin-left: -1.25rem;
 }
 .form-control1 {
@@ -1439,6 +1451,9 @@ body>sec {
 @media only screen and (max-width : 600px) {
     .form-check-input1 {
         margin-top: .3rem;
+    }
+    .form-check-input2 {
+        margin-top: 0rem;
     }
     .ml3 {
         margin-left: 2.5%;
