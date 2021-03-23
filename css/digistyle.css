@@ -996,7 +996,7 @@ body>sec {
     }
 }
 
-/* -----------------------------------------------Online Page add style-------------------------------------------------------------------- */
+/* -----------------------------------------------Start Online Page add style-------------------------------------------------------------------- */
 .fragment-online-banner1 {
     position: absolute;
     width: 30%;
@@ -1016,6 +1016,131 @@ body>sec {
     font-size: 9rem;
     font-size: clamp(6rem, 2vw, 7rem);
 }
+#introduce-online {
+    background-image: url(../images/home-dt/bg/bg02.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#social-planning {
+    background-image: url(../images/home-dt/bg/bg02.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#social-channel {
+    background-image: url(../images/home-dt/bg/bg03.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#creative-social {
+    background-image: url(../images/home-dt/bg/bg02.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+.text-online1 {
+    font-family: 'db_heaventbold_cond';
+    line-height: 1.2;
+    font-size: 4rem;
+    font-size: clamp(3rem, 2vw, 5rem);
+}
+.text-online2 {
+    font-family: 'db_heaventmed_cond';
+    line-height: 1.5;
+    font-size: 2rem;
+    font-size: clamp(2rem, 2.5vw, 2.8rem);
+}
+.text-online3 {
+    font-family: 'db_heaventmed_cond';
+    line-height: 1.5;
+    font-size: 7.5rem;
+    font-size: clamp(7rem, 2.5vw, 8rem);
+}
+.text-online4 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 2rem;
+    font-size: clamp(1.7rem, 2.5vw, 2.2rem);
+}
+.text-online5 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 1.9rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+.ml1-online {
+    margin-left: 9%;
+}
+.ic01-quotation {
+    width: 7%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 8%;
+}
+.ic02-quotation {
+    width: 7%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 85%;
+}
+.ic01-quotation1 {
+    width: 7%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 12%;
+}
+.ic02-quotation2 {
+    width: 7%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 75%;
+}
+.ic-online1 {
+    width: 55px;
+    height: auto;
+    object-fit: contain;
+}
+.ic-online2 {
+    width: 7%;
+    height: auto;
+    object-fit: contain;
+}
+.social-planning1 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(2,1fr);
+    -ms-grid-columns: 1fr 1fr;
+}
+.ic-online3 {
+    position: absolute;
+    max-width: 40%;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    object-fit: contain;
+    margin-left: 5%
+}
+.ic-online4 {
+    position: absolute;
+    max-width: 16%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5%;
+    margin-left: 17%;
+}
+/* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
 
@@ -1034,7 +1159,16 @@ body>sec {
         margin-top: 520px;
         margin-left: 147px;
     }
-    
+    /* ----------------------------Start Style Online Page---------------------------- */
+    .ic-online4 {
+        position: absolute;
+        width: 220px;
+        height: auto;
+        object-fit: contain;
+        margin-top: 520px;
+        margin-right: 165px;
+    }
+    /* ----------------------------End Style Online Page---------------------------- */
 }
 
 
@@ -1058,7 +1192,16 @@ body>sec {
         height: 250px;
         padding: 20px;
     }
-    
+    /* --------------------------Start Style Online Page----------------------- */
+    .text-online2 {
+        font-size: 2rem;
+        font-size: clamp(1.8rem, 2.5vw, 2.1rem);
+    }
+    .text-online4 {
+        font-size: 1.8rem;
+        font-size: clamp(1rem, 2.5vw, 1.9rem);
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 1120px) {
@@ -1178,6 +1321,20 @@ body>sec {
         font-size: 6.5rem;
         font-size: clamp(7rem, 2vw, 10rem);
     }
+   /* --------------------------Start Style Online Page----------------------- */
+    .text-online4 {
+        font-size: 1.7rem;
+        font-size: clamp(1rem, 2.5vw, 1.7rem);
+    }
+    .text-online5 {
+        font-size: 1.6rem;
+        font-size: clamp(1rem, 2.5vw, 1.6rem);
+    }
+    .title-text8 {
+        font-size: 6rem;
+        font-size: clamp(4.8rem, 2vw, 6rem);
+    }
+    /* --------------------------End Style Online Page----------------------- */
 }
 
 @media (min-width: 992px) {
@@ -1222,6 +1379,10 @@ body>sec {
     }
     .title-text7 {
         font-size: clamp(5rem, 2vw, 7rem);
+    }
+    .title-text8 {
+        font-size: 4.5rem;
+        font-size: clamp(4rem, 2vw, 5rem);
     }
     .line-bottom4 {
         width: 100px;
@@ -1397,6 +1558,58 @@ body>sec {
         margin-bottom: 24%;
         margin-right: 55%;
     }
+    /* --------------------------Start Style Online Page----------------------- */
+    #social-planning {
+        padding: 3% 0 0 0;
+    }
+    .text-online4 {
+        font-size: 1.8rem;
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+    }
+    .ic-online3{
+        position: relative;
+        max-width: 90%;
+        min-width: 0;
+        height: auto;
+        object-fit: contain;
+        margin-top: 20%;
+        margin-left: 0;
+    }
+    .ic-online4 {
+        position: absolute;
+        max-width: 35%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 12%;
+        margin-left: 33%;
+    }
+    .ic01-quotation {
+        width: 7%;
+        height: auto;
+        object-fit: contain;
+        margin-left: -10%;
+    }
+    .ic02-quotation {
+        width: 7%;
+        height: auto;
+        object-fit: contain;
+        margin-left: 103%;
+    }
+    .ic01-quotation1 {
+        width: 7%;
+        height: auto;
+        object-fit: contain;
+        margin-left: -15%;
+    }
+    .ic02-quotation2 {
+        width: 7%;
+        height: auto;
+        object-fit: contain;
+        margin-left: 100%;
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 767px) {  
@@ -1451,6 +1664,16 @@ body>sec {
         grid-template-columns: 1fr;
         -ms-grid-columns: 1fr;
     }
+    /* --------------------------Start Style Online Page----------------------- */
+    .text-online1 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 2vw, 3.5rem);
+    }
+    .text-online4 {
+        font-size: 1.5rem;
+        font-size: clamp(1.6rem, 2.5vw, 2.5rem);
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 600px) {
@@ -1471,7 +1694,19 @@ body>sec {
         font-size: 1.5rem;
         font-size: clamp(1.5rem, 2.5vw, 2rem);
     }
-    
+    /* --------------------------Start Style Online Page----------------------- */
+    .ic-online2 {
+        width: 12%;
+    }
+    .text-online2 {
+        font-size: 1.8rem;
+        font-size: clamp(1.8rem, 2.5vw, 3rem);
+    }
+    .text-online5 {
+        font-size: 1.2rem;
+        font-size: clamp(1.3rem, 2.5vw, 2rem);
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 400px) {
@@ -1505,6 +1740,20 @@ body>sec {
         height: 220px;
         padding: 20px;
     }
+     /* --------------------------Start Style Online Page----------------------- */
+     .text-online2 {
+        font-size: 1.4rem;
+        font-size: clamp(1.4rem, 2.5vw, 3rem);
+    }
+    .text-online4 {
+        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2.5vw, 2.5rem);
+    }
+    .title-text8 {
+        font-size: 4rem;
+        font-size: clamp(3.3rem, 2vw, 4.5rem);
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 
 }
 
@@ -1512,6 +1761,9 @@ body>sec {
     .text-detail4 {
         font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     }
+    /* --------------------------Start Style Online Page----------------------- */
+    
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 /* --------------------------------------------------------------IE------------------------------------------------------------------------ */
