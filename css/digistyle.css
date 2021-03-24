@@ -1215,6 +1215,10 @@ body>sec {
         margin-top: 520px;
         margin-right: 165px;
     }
+    .syl-box5 {
+        padding: 15px;
+        margin: 10%;
+    }
     /* ----------------------------End Style Online Page---------------------------- */
 }
 
@@ -1247,6 +1251,10 @@ body>sec {
     .text-online4 {
         font-size: 1.8rem;
         font-size: clamp(1rem, 2.5vw, 1.9rem);
+    }
+    .syl-box5 {
+        padding: 20px;
+        margin: 10%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1381,6 +1389,10 @@ body>sec {
         font-size: 6rem;
         font-size: clamp(4.8rem, 2vw, 6rem);
     }
+    .syl-box5 {
+        padding: 16px;
+        margin: 10%;
+    }
     /* --------------------------End Style Online Page----------------------- */
 }
 
@@ -1392,7 +1404,12 @@ body>sec {
 }
 
 @media only screen and (max-width : 992px) {
-
+     /* --------------------------Start Style Online Page----------------------- */
+    .syl-box5 {
+        padding: 9px;
+        margin: 10%;
+    }
+    /* --------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 930px) {
@@ -1620,7 +1637,7 @@ body>sec {
     }
     .text-online4 {
         font-size: 1.8rem;
-        font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+        font-size: clamp(1rem, 2.1vw, 1.85rem);
     }
     .ic-online4 {
         position: absolute;
@@ -1657,8 +1674,8 @@ body>sec {
         margin-left: 100%;
     }
     .syl-box5 {
-        padding: 15px;
-        margin: 5%;
+        padding: 10px;
+        margin: 3%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1769,6 +1786,7 @@ body>sec {
         font-size: 1.2rem;
         font-size: clamp(1.3rem, 2.5vw, 2rem);
     }
+    
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -1788,6 +1806,13 @@ body>sec {
     .mt-commit{
         margin-top: 0!important;
     }
+    /* --------------------------Start Style Online Page----------------------- */
+    .ic-online1 {
+        width: 45px;
+        height: auto;
+        object-fit: contain;
+    }
+    /* ----------------------------End Style Online Page----------------------- */
 }
 
 
@@ -1816,6 +1841,11 @@ body>sec {
         font-size: 4rem;
         font-size: clamp(3.3rem, 2vw, 4.5rem);
     }
+    .ic-online1 {
+        width: 36px;
+        height: auto;
+        object-fit: contain;
+    }
     /* ----------------------------End Style Online Page----------------------- */
 
 }
@@ -1825,7 +1855,7 @@ body>sec {
         font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
-    
+
     /* ----------------------------End Style Online Page----------------------- */
 }
 
