@@ -997,6 +997,18 @@ body>sec {
 }
 
 /* -----------------------------------------------Start Online Page add style-------------------------------------------------------------------- */
+.creative-grid {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1.4fr 1fr;
+    -ms-grid-columns: 1.4fr 1fr;
+}
+.creative-grid1 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 0.5fr 5fr;
+    -ms-grid-columns: 0.5fr 5fr;
+}
 .fragment-online-banner1 {
     position: absolute;
     width: 30%;
@@ -1082,28 +1094,29 @@ body>sec {
     margin-left: 9%;
 }
 .ic01-quotation {
-    width: 7%;
+    width: 6%;
     height: auto;
     object-fit: contain;
     margin-left: 8%;
 }
 .ic02-quotation {
-    width: 7%;
+    width: 6%;
     height: auto;
     object-fit: contain;
     margin-left: 85%;
+    margin-top: -8%;
 }
 .ic01-quotation1 {
-    width: 7%;
+    width: 6%;
     height: auto;
     object-fit: contain;
-    margin-left: 12%;
+    margin-left: 9%;
 }
 .ic02-quotation2 {
-    width: 7%;
+    width: 6%;
     height: auto;
     object-fit: contain;
-    margin-left: 75%;
+    margin-left: 80%;
 }
 .ic-online1 {
     width: 55px;
@@ -1122,13 +1135,13 @@ body>sec {
     -ms-grid-columns: 1fr 1fr;
 }
 .ic-online3 {
-    position: absolute;
-    max-width: 40%;
-    bottom: 0;
+    position: relative;
+    max-width: 100%;
+    top: 0;
     left: 0;
     height: auto;
     object-fit: contain;
-    margin-left: 5%
+    margin-top: 22%;
 }
 .ic-online4 {
     position: absolute;
@@ -1139,6 +1152,23 @@ body>sec {
     left: 0;
     margin-bottom: 5%;
     margin-left: 17%;
+}
+.ic-online5 {
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+.syl-box5 {
+    display: block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 1px 8px -2px #888888;
+    -webkit-box-shadow: 0px 1px 8px -2px #888888;
+    margin: 10%;
 }
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
@@ -1353,6 +1383,9 @@ body>sec {
         display: flex;
         justify-content: center;
     }
+    .textcenter1 {
+        text-align: center;
+    }
     .ml2-1 {
         margin-left: 0;
     }
@@ -1559,21 +1592,18 @@ body>sec {
         margin-right: 55%;
     }
     /* --------------------------Start Style Online Page----------------------- */
+    .creative-grid {
+        grid-template-columns: 1fr;
+    }
+    .creative-grid1 {
+        grid-template-columns: 2fr 5fr;
+    }
     #social-planning {
         padding: 3% 0 0 0;
     }
     .text-online4 {
         font-size: 1.8rem;
         font-size: clamp(1.5rem, 2.5vw, 2.2rem);
-    }
-    .ic-online3{
-        position: relative;
-        max-width: 90%;
-        min-width: 0;
-        height: auto;
-        object-fit: contain;
-        margin-top: 20%;
-        margin-left: 0;
     }
     .ic-online4 {
         position: absolute;
@@ -1608,6 +1638,10 @@ body>sec {
         height: auto;
         object-fit: contain;
         margin-left: 100%;
+    }
+    .syl-box5 {
+        padding: 15px;
+        margin: 5%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1665,6 +1699,9 @@ body>sec {
         -ms-grid-columns: 1fr;
     }
     /* --------------------------Start Style Online Page----------------------- */
+    .creative-grid1 {
+        grid-template-columns: 1.5fr 5fr;
+    }
     .text-online1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -1672,6 +1709,9 @@ body>sec {
     .text-online4 {
         font-size: 1.5rem;
         font-size: clamp(1.6rem, 2.5vw, 2.5rem);
+    }
+    .syl-box5 {
+        padding: 20px;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1695,8 +1735,14 @@ body>sec {
         font-size: clamp(1.5rem, 2.5vw, 2rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
+    .creative-grid1 {
+        grid-template-columns: 0.5fr 5fr;
+    }
     .ic-online2 {
         width: 12%;
+    }
+    .ic-online5 {
+        width: 15%;
     }
     .text-online2 {
         font-size: 1.8rem;
