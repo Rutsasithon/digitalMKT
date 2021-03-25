@@ -46,6 +46,9 @@ body>sec {
 .d-desktop1 {
     display: block;
 }
+.d-desktop2 {
+    display: block;
+}
 .d-text {
     display: none;
 }
@@ -223,6 +226,9 @@ body>sec {
 .ml3 {
     margin-left: 1.5%;
 }
+.ml4 {
+    margin-left: 10%;
+}
 .mr1 {
     margin-right: 3rem;
 }
@@ -379,6 +385,12 @@ body>sec {
     line-height: 1.5;
     font-size: 1.5rem;
     font-size: clamp(1.3rem, 2vw, 1.65rem);
+}
+.title-text10 {
+    font-family: 'db_heaventbold_cond';
+    line-height: 1.2;
+    font-size: 4.5rem;
+    font-size: clamp(4.5rem, 2vw, 6rem);
 }
 .text-detail1 {
     font-family: 'db_heaventlight_cond';
@@ -1046,7 +1058,7 @@ body>sec {
     font-size: clamp(6rem, 2vw, 7rem);
 }
 #introduce-online {
-    background-image: url(../images/home-dt/bg/bg02.jpg);
+    background-image: url(../images/online/desktop/bg/bg07.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -1054,15 +1066,15 @@ body>sec {
     padding: 3% 0 3% 0;
 }
 #social-planning {
-    background-image: url(../images/home-dt/bg/bg02.jpg);
+    background-image: url(../images/online/desktop/bg/bg06.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 3% 0;
+    padding: 0 0 3% 0;
 }
 #social-channel {
-    background-image: url(../images/home-dt/bg/bg03.jpg);
+    background-image: url(../images/online/desktop/bg/bg08.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -1107,6 +1119,12 @@ body>sec {
     font-size: 1.9rem;
     font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
+.text-online6 {
+    font-family: 'db_heaventcond';
+    line-height: 1.2;
+    font-size: 4rem;
+    font-size: clamp(3rem, 2vw, 5rem);
+}
 .ml1-online {
     margin-left: 9%;
 }
@@ -1114,13 +1132,12 @@ body>sec {
     width: 6%;
     height: auto;
     object-fit: contain;
-    margin-left: 8%;
 }
 .ic02-quotation {
     width: 6%;
     height: auto;
     object-fit: contain;
-    margin-left: 85%;
+    margin-left: 78%;
     margin-top: -8%;
 }
 .ic01-quotation1 {
@@ -1134,6 +1151,20 @@ body>sec {
     height: auto;
     object-fit: contain;
     margin-left: 80%;
+}
+.ic01-quotation3 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 15%;
+    margin-bottom: -3%;
+}
+.ic02-quotation3 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 82%;
+    margin-top: -7%;
 }
 .ic-online1 {
     width: 55px;
@@ -1153,22 +1184,22 @@ body>sec {
 }
 .ic-online3 {
     position: relative;
-    max-width: 100%;
+    max-width: 76%;
     top: 0;
     left: 0;
     height: auto;
     object-fit: contain;
-    margin-top: 22%;
+    margin-top: 5%;
 }
 .ic-online4 {
     position: absolute;
-    max-width: 16%;
+    max-width: 38%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 5%;
-    margin-left: 17%;
+    margin-bottom: 25%;
+    margin-left: 55%;
 }
 .ic-online5 {
     width: 10%;
@@ -1186,6 +1217,25 @@ body>sec {
     box-shadow: 0px 1px 8px -2px #888888;
     -webkit-box-shadow: 0px 1px 8px -2px #888888;
     margin: 10%;
+}
+.im05-online {
+    position: absolute;
+    max-width: 40%;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    object-fit: contain;
+    margin-right: 13%;
+}
+.im06-online {
+    position: absolute;
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 7%;
+    margin-right: 7.5%;
 }
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
@@ -1218,6 +1268,23 @@ body>sec {
     .syl-box5 {
         padding: 15px;
         margin: 10%;
+    }
+    .ic02-quotation {
+        margin-left: 470px;
+    }
+    .title-text10 {
+        font-family: 'db_heaventbold_cond';
+        line-height: 1.2;
+        font-size: 4.2rem;
+        font-size: clamp(3.7rem, 2vw, 5rem);
+    }
+    .im06-online{
+        position: absolute;
+        width: 562px;
+        height: auto;
+        object-fit: contain;
+        margin-top: 520px;
+        margin-left: 147px;
     }
     /* ----------------------------End Style Online Page---------------------------- */
 }
@@ -1255,6 +1322,15 @@ body>sec {
     .syl-box5 {
         padding: 20px;
         margin: 10%;
+    }
+    .ic02-quotation {
+        margin-left: 360px;
+    }
+    .ic01-quotation3 {
+        margin-left: 10%;
+    }
+    .ic02-quotation3 {
+        margin-left: 86%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1393,6 +1469,12 @@ body>sec {
         padding: 16px;
         margin: 10%;
     }
+    .ic01-quotation3 {
+        margin-left: 4%;
+    }
+    .ic02-quotation3 {
+        margin-left: 93%;
+    }
     /* --------------------------End Style Online Page----------------------- */
 }
 
@@ -1409,12 +1491,19 @@ body>sec {
         padding: 9px;
         margin: 10%;
     }
+    .mr-social {
+        margin-right: 1rem;
+    }
+
     /* --------------------------End Style Online Page----------------------- */
 }
 
 @media only screen and (max-width : 930px) {
     .center1 {
         display: flex;
+        justify-content: center;
+    }
+    .center3 {
         justify-content: center;
     }
     .textcenter1 {
@@ -1425,6 +1514,9 @@ body>sec {
     }
     .mt-mob {
         margin-top: 5%;
+    }
+    .ml4 {
+        margin-left: 0%;
     }   
     .d-mobile {
         display: block;
@@ -1543,6 +1635,12 @@ body>sec {
     .mr-social {
         margin-right: 1rem;
     }
+    .ml-social {
+        margin-left: 1rem;
+    }
+    .mb-commit{
+        margin-bottom: 3rem;
+    }
     .ic04 {
         width: 50px;
     }
@@ -1626,6 +1724,9 @@ body>sec {
         margin-right: 55%;
     }
     /* --------------------------Start Style Online Page----------------------- */
+    #introduce-online {
+        background-image: url(../images/online/mobile/bg/bg01.jpg);
+    }
     .creative-grid {
         grid-template-columns: 1fr;
     }
@@ -1641,13 +1742,13 @@ body>sec {
     }
     .ic-online4 {
         position: absolute;
-        max-width: 35%;
+        max-width: 38%;
         height: auto;
         object-fit: contain;
         bottom: 0;
         left: 0;
-        margin-bottom: 12%;
-        margin-left: 33%;
+        margin-bottom: 23%;
+        margin-left: 56%;
     }
     .ic01-quotation {
         width: 7%;
@@ -1677,6 +1778,39 @@ body>sec {
         padding: 10px;
         margin: 3%;
     }
+    .ml-osm-detail {
+        margin-left: 15%;
+    }
+    .ic01-quotation3 {
+        margin-left: -3%;
+    }
+    .ic02-quotation3 {
+        margin-left: 100%;
+    }
+    .im05-online {
+        position: relative;
+        max-width: 90%;
+        min-width: 0;
+        height: auto;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .im06-online {
+        position: absolute;
+        max-width: 100%;
+        width: 79%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 19%;
+        margin-right: 6%;
+    }
+    .title-text10 {
+        font-size: 4rem;
+        font-size: clamp(3.5rem, 2vw, 5rem);
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -1685,6 +1819,9 @@ body>sec {
         display: block;
     }
     .d-desktop {
+        display: none;
+    }
+    .d-desktop2 {
         display: none;
     }
     .digi-grid {
@@ -1744,8 +1881,16 @@ body>sec {
         font-size: 1.5rem;
         font-size: clamp(1.6rem, 2.5vw, 2.5rem);
     }
+    .text-online6 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 2vw, 3.5rem);
+    }
     .syl-box5 {
         padding: 20px;
+    }
+    .title-text10 {
+        font-size: 3rem;
+        font-size: clamp(2.8rem, 2vw, 5rem);
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1786,7 +1931,21 @@ body>sec {
         font-size: 1.2rem;
         font-size: clamp(1.3rem, 2.5vw, 2rem);
     }
-    
+    .ml-osm-detail {
+        margin-left: 7%;
+    }
+    .title-text10 {
+        font-size: 2.2rem;
+        font-size: clamp(2.3rem, 2vw, 5rem);
+    }
+    .ic01-quotation3 {
+        width: 5%;
+        margin-left: -7%;
+    }
+    .ic02-quotation3 {
+        width: 5%;
+        margin-left: 100%;
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -1811,6 +1970,9 @@ body>sec {
         width: 45px;
         height: auto;
         object-fit: contain;
+    }
+    .ml-osm-detail {
+        margin-left: 0%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
