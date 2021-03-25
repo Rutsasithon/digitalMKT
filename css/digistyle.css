@@ -1438,7 +1438,7 @@ body>sec {
         background-size: 100% 100%;
         width: 100%;
         height: auto;
-        padding: 3% 0 3% 0;
+        padding: 3% 0 0 0;
     }
     .contact-grid1 {
         grid-template-columns: 1fr;
@@ -1453,7 +1453,7 @@ body>sec {
     }
     .line-bottom4 {
         width: 100px;
-        margin: 15px auto;
+        margin: 22px auto;
     }
     .img-text01 {
         width: 300px;
