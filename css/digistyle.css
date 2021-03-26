@@ -1040,16 +1040,23 @@ body>sec {
 }
 .fragment-online-banner1 {
     position: absolute;
-    width: 30%;
-    margin-top: 5%;
+    width: 17%;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-left: 7%;
 }
 .fragment-online-banner2 {
     animation-delay: 500ms;
     -webkit-animation-delay: 500ms;
     position: absolute;
-    width: 35%;
-    margin-left: 30%;
-    margin-top: 1%;
+    width: 32%;
+    height: auto;
+    top: 0;
+    right: 0;
+    margin-top: 3%;
+    margin-right: 10%;
 }
 .title-text8 {
     font-family: 'akrobatextrabold';
