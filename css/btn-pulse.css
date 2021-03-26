@@ -1,0 +1,134 @@
+/*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+
+
+/* -------------------------------------btn-pds------------------------------------- */
+
+.pulse:hover,
+.pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 1em rgba(255, 255, 255, 0);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+.pulse {
+    --color: #87be25;
+    --hover: #87be25;
+}
+
+.btn-pds {
+    color: var(--color);
+    transition: 0.25s;
+}
+
+.btn-pds:hover,
+.btn-pds:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+
+
+/* ------------------------------------btn-digital------------------------------------ */
+
+.pulse1:hover,
+.pulse1:focus {
+    animation: pulse1 1s;
+    box-shadow: 0 0 0 1em rgba(255, 255, 255, 0);
+}
+
+@keyframes pulse1 {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+.pulse1 {
+    --color: #ffffff;
+    --hover: #ffffff;
+}
+
+.btn-digital {
+    color: var(--color);
+    transition: 0.25s;
+}
+
+.btn-digital:hover,
+.btn-digital:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+
+
+/* body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em 'Fira Sans', sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex; } */
+
+
+/* button {
+    background-color: #b4d74d;
+    border-color: #b4d74d;
+    border: 2px solid;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+   */
+
+.btn-group-lg>.btn,
+.btn-lg {
+    width: 100%;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+}
+
+.btn-pds {
+    border: 2px solid;
+    transition: box-shadow 100ms ease-in-out 0s;
+    position: relative;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    background-color: #87be25;
+    border-color: #87be25;
+}
+
+.btn-digital {
+    border: 2px solid;
+    transition: box-shadow 100ms ease-in-out 0s;
+    position: relative;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    border-color: white;
+    margin-top: 30%;
+}
+
+
+/*# sourceMappingURL=btn-pulse.css.map */
