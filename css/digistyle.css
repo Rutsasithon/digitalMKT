@@ -178,6 +178,12 @@ body>sec {
     grid-template-columns: 6% 1fr 6%;
     -ms-grid-columns: 6% 1fr 6%;
 }
+.content-grid2 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+}
 .color1 {
     color: #000000;
 }
@@ -268,6 +274,13 @@ body>sec {
     width: 200px;
     display: block;
     margin: 15px 0;
+}
+.line-bottom5 {
+    border: solid #ffffff;
+    border-width: 5px 0px 0px 0px;
+    width: 100px;
+    display: block;
+    margin: 15px auto;
 }
 
 #digi-mkt {
@@ -1038,6 +1051,12 @@ body>sec {
     grid-template-columns: 0.5fr 5fr;
     -ms-grid-columns: 0.5fr 5fr;
 }
+.creative-grid2 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1.5fr 1fr;
+    -ms-grid-columns: 1.5fr 1fr;
+}
 .fragment-online-banner1 {
     position: absolute;
     width: 17%;
@@ -1089,7 +1108,7 @@ body>sec {
     padding: 3% 0 3% 0;
 }
 #creative-social {
-    background-image: url(../images/home-dt/bg/bg02.jpg);
+    background-image: url(../images/online/desktop/bg/bg04.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -1152,12 +1171,14 @@ body>sec {
     height: auto;
     object-fit: contain;
     margin-left: 9%;
+    margin-bottom: -2%;
 }
 .ic02-quotation2 {
     width: 6%;
     height: auto;
     object-fit: contain;
-    margin-left: 80%;
+    margin-left: 71%;
+    margin-top: -2%;
 }
 .ic01-quotation3 {
     width: 3%;
@@ -1174,7 +1195,7 @@ body>sec {
     margin-top: -7%;
 }
 .ic-online1 {
-    width: 55px;
+    width: 60px;
     height: auto;
     object-fit: contain;
 }
@@ -1209,7 +1230,32 @@ body>sec {
     margin-left: 55%;
 }
 .ic-online5 {
-    width: 10%;
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+}
+.ic-online6 {
+    position: relative;
+    max-width: 74%;
+    top: 0;
+    left: 0;
+    height: auto;
+    object-fit: contain;
+    margin-top: 15%;
+    margin-left: -55%;
+}
+.ic-online7 {
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 8%;
+    margin-left: 32%;
+}
+.ic-online8 {
+    width: 30%;
     height: auto;
     object-fit: contain;
 }
@@ -1243,6 +1289,11 @@ body>sec {
     right: 0;
     margin-bottom: 7%;
     margin-right: 7.5%;
+}
+.abs-text {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
@@ -1292,6 +1343,12 @@ body>sec {
         object-fit: contain;
         margin-top: 520px;
         margin-left: 147px;
+    }
+    .text-online2 {
+        font-family: 'db_heaventmed_cond';
+        line-height: 1.5;
+        font-size: 2.3rem;
+        font-size: clamp(2rem, 2.5vw, 2.3rem);
     }
     /* ----------------------------End Style Online Page---------------------------- */
 }
@@ -1481,6 +1538,10 @@ body>sec {
     }
     .ic02-quotation3 {
         margin-left: 93%;
+    }
+    .text-online2 {
+        font-size: 2rem;
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------End Style Online Page----------------------- */
 }
@@ -1737,9 +1798,6 @@ body>sec {
     .creative-grid {
         grid-template-columns: 1fr;
     }
-    .creative-grid1 {
-        grid-template-columns: 2fr 5fr;
-    }
     #social-planning {
         padding: 3% 0 0 0;
     }
@@ -1774,12 +1832,14 @@ body>sec {
         height: auto;
         object-fit: contain;
         margin-left: -15%;
+        margin-bottom: -8%;
     }
     .ic02-quotation2 {
         width: 7%;
         height: auto;
         object-fit: contain;
-        margin-left: 100%;
+        margin-left: 85%;
+        margin-top: -6%;
     }
     .syl-box5 {
         padding: 10px;
@@ -1817,6 +1877,12 @@ body>sec {
     .title-text10 {
         font-size: 4rem;
         font-size: clamp(3.5rem, 2vw, 5rem);
+    }
+    .ic-online5 {
+        width: 15%;
+    }
+    .ic-online8 {
+        width: 22%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1877,9 +1943,6 @@ body>sec {
         -ms-grid-columns: 1fr;
     }
     /* --------------------------Start Style Online Page----------------------- */
-    .creative-grid1 {
-        grid-template-columns: 1.5fr 5fr;
-    }
     .text-online1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -1893,7 +1956,10 @@ body>sec {
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
     .syl-box5 {
+        width: 70%;
+        height: auto;
         padding: 20px;
+        margin: 3% auto;
     }
     .title-text10 {
         font-size: 3rem;
@@ -1922,13 +1988,20 @@ body>sec {
     }
     /* --------------------------Start Style Online Page----------------------- */
     .creative-grid1 {
-        grid-template-columns: 0.5fr 5fr;
+        grid-template-columns: 0fr 5fr;
+    }
+    .creative-grid2 {
+        grid-template-columns: 1.3fr 1fr;
+        -ms-grid-columns: 1.3fr 1fr;
     }
     .ic-online2 {
         width: 12%;
     }
     .ic-online5 {
-        width: 15%;
+        width: 20%;
+    }
+    .ic-online8 {
+        width: 25%;
     }
     .text-online2 {
         font-size: 1.8rem;
@@ -1971,6 +2044,9 @@ body>sec {
     }
     .mt-commit{
         margin-top: 0!important;
+    }
+    .mr3 {
+        margin-right: 0.5rem;
     }
     /* --------------------------Start Style Online Page----------------------- */
     .ic-online1 {
