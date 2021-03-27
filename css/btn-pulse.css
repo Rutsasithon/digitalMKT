@@ -130,5 +130,19 @@
     margin-top: 30%;
 }
 
+/* ---------------------------Responsive------------------------------- */
+@media only screen and (max-width : 600px) {
+    .btn-pds {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width : 378px) {
+    .btn-pds {
+        height: 30px;
+        width: 30px;
+    }
+}
 
 /*# sourceMappingURL=btn-pulse.css.map */

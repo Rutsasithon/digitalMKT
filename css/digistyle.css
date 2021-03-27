@@ -34,6 +34,9 @@ body>sec {
 .mini-menu+#container {
     padding-top: 50px;
 }
+.d-mob {
+    display: block;
+}
 .d-mobile {
     display: none;
 }
@@ -533,7 +536,7 @@ body>sec {
     object-fit: contain;
 }
 .ic04 {
-    width: 70px;
+    width: 65px;
     height: auto;
     object-fit: contain;
 }
@@ -1064,6 +1067,18 @@ body>sec {
     grid-template-columns: 1.5fr 1fr;
     -ms-grid-columns: 1.5fr 1fr;
 }
+.manage-grid {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1fr 1.4fr;
+    -ms-grid-columns: 1fr 1.4fr;
+}
+.manage-grid1 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 0fr 5fr;
+    -ms-grid-columns: 0fr 5fr;
+}
 .fragment-online-banner1 {
     position: absolute;
     width: 17%;
@@ -1122,6 +1137,14 @@ body>sec {
     height: auto;
     padding: 3% 0 3% 0;
 }
+#social-manage {
+    background-image: url(../images/online/desktop/bg/bg03.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
 .text-online1 {
     font-family: 'db_heaventbold_cond';
     line-height: 1.2;
@@ -1131,7 +1154,7 @@ body>sec {
 .text-online2 {
     font-family: 'db_heaventmed_cond';
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-size: clamp(2rem, 2.5vw, 2.8rem);
 }
 .text-online3 {
@@ -1143,7 +1166,7 @@ body>sec {
 .text-online4 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-size: clamp(1.7rem, 2.5vw, 2.2rem);
 }
 .text-online5 {
@@ -1155,14 +1178,20 @@ body>sec {
 .text-online6 {
     font-family: 'db_heaventcond';
     line-height: 1.2;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-size: clamp(3rem, 2vw, 5rem);
 }
 .text-online7 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     font-size: clamp(1.7rem, 2.5vw, 2.6rem);
+}
+.text-online8 {
+    font-family: 'db_heaventbold_cond';
+    line-height: 1.2;
+    font-size: 4rem;
+    font-size: clamp(3rem, 2vw, 5rem);
 }
 .ic-add-plus {
     width: 80%;
@@ -1211,6 +1240,20 @@ body>sec {
     object-fit: contain;
     margin-left: 82%;
     margin-top: -7%;
+}
+.ic01-quotation4 {
+    width: 6%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+.ic02-quotation4 {
+    width: 6%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 82%;
+    margin-top: -2%;
 }
 .ic-online1 {
     width: 60px;
@@ -1318,7 +1361,53 @@ body>sec {
 .abs-btn {
     position: absolute;
     bottom: 0;
-    margin-bottom: 0%;
+    margin-bottom: 25%;
+}
+#device-popup {
+    display: none;
+    padding: 70px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 5;
+    text-align: center;
+}
+#lightSlider-device {
+    height: auto !important;
+}
+.device-popup-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+}
+.text-title1 {
+    font-family: 'db_heaventmed_cond';
+    line-height: 1.5;
+    font-size: 2.2rem;
+    font-size: clamp(1.0rem, 2.5vw, 2.2rem);
+}
+.text-title3 {
+    font-family: 'db_heaventmed_cond';
+    line-height: 1.5;
+    font-size: clamp(2.2rem, 2.5vw, 5rem);
+}
+.arr-close {
+    width: 30px;
+    height: 30px;
+    background: url(../images/online/desktop/icon/close.png);
+    margin: 100px 20px;
+    display: inline-block;
+    cursor: pointer;
+    object-fit: contain;
+}
+.arr-close:hover {
+    background-image: url(../images/online/desktop/icon/close-hover.png);
+    cursor: pointer;
+}
+#social-channel-box {
+    position: relative;
 }
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
@@ -1375,6 +1464,13 @@ body>sec {
         font-size: 2.3rem;
         font-size: clamp(2rem, 2.5vw, 2.3rem);
     }
+    .text-online7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
+    #device-popup {
+        padding: 40px 0;
+    }
     /* ----------------------------End Style Online Page---------------------------- */
 }
 
@@ -1420,6 +1516,15 @@ body>sec {
     }
     .ic02-quotation3 {
         margin-left: 86%;
+    }
+    .text-online7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
+    .abs-btn {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 14%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -1567,6 +1672,13 @@ body>sec {
     .text-online2 {
         font-size: 2rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
+    }
+    .text-online7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    }
+    .abs-text {
+        margin-top: 15%;
     }
     /* --------------------------End Style Online Page----------------------- */
 }
@@ -1817,11 +1929,19 @@ body>sec {
         margin-right: 55%;
     }
     /* --------------------------Start Style Online Page----------------------- */
+    .content-grid2 {
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr 1fr;
+    }
     #introduce-online {
         background-image: url(../images/online/mobile/bg/bg01.jpg);
     }
     .creative-grid {
         grid-template-columns: 1fr;
+    }
+    .manage-grid {
+        grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
     }
     #social-planning {
         padding: 3% 0 0 0;
@@ -1909,6 +2029,17 @@ body>sec {
     .ic-online8 {
         width: 22%;
     }
+    .manage-grid1 {
+        grid-template-columns: 0.5fr 5fr;
+        -ms-grid-columns: 0.5fr 5fr;
+    }
+    #device-popup {
+        padding: 20px;
+    }
+    .text-title1 {
+        font-size: 2.1;
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -1980,6 +2111,10 @@ body>sec {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
     }
+    .text-online8 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 2vw, 3.5rem);
+    }
     .syl-box5 {
         width: 70%;
         height: auto;
@@ -1989,6 +2124,17 @@ body>sec {
     .title-text10 {
         font-size: 3rem;
         font-size: clamp(2.8rem, 2vw, 5rem);
+    }
+    #device-popup {
+        padding: 20px 0;
+    }
+    .device-popup-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text-title1 {
+        font-size: 2.1;
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -2018,6 +2164,9 @@ body>sec {
     .creative-grid2 {
         grid-template-columns: 1.3fr 1fr;
         -ms-grid-columns: 1.3fr 1fr;
+    }
+    .manage-grid1 {
+        grid-template-columns: 0fr 5fr;
     }
     .ic-online2 {
         width: 12%;
@@ -2051,7 +2200,36 @@ body>sec {
         width: 5%;
         margin-left: 100%;
     }
+    .text-online7 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 2.5vw, 2.5rem);
+    }
+    .text-online8 {
+        font-size: 2.2rem;
+        font-size: clamp(2.2rem, 2vw, 3.5rem);
+    }
+    .abs-text {
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .abs-btn {
+        margin-bottom: 3%;
+    }
+    
     /* ----------------------------End Style Online Page----------------------- */
+}
+@media only screen and (max-width : 500px) {
+    .d-mob {
+        display: none;
+    }
+    .text-online7 {
+        font-size: 1.6rem;
+        font-size: clamp(1.6rem, 2.5vw, 2.5rem);
+    }
+    .text-online8 {
+        font-size: 2.2rem;
+        font-size: clamp(2.2rem, 2vw, 3.5rem);
+    }
 }
 
 @media only screen and (max-width : 400px) {
@@ -2115,6 +2293,21 @@ body>sec {
         width: 36px;
         height: auto;
         object-fit: contain;
+    }
+    .abs-btn {
+        margin-bottom: 6%;
+    }
+    .ic-add-plus {
+        min-width: 195%;
+        width: 100%;
+    }
+    .text-online7 {
+        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2.5vw, 2.5rem);
+    }
+    .text-online8 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 2vw, 3.5rem);
     }
     /* ----------------------------End Style Online Page----------------------- */
 
