@@ -1378,9 +1378,9 @@ body>sec {
 }
 .device-popup-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 0fr 1fr 0fr;
     display: -ms-grid;
-    -ms-grid-columns: 1fr;
+    -ms-grid-columns: 0fr 1fr 0fr;
 }
 .text-title1 {
     font-family: 'db_heaventmed_cond';
@@ -2040,6 +2040,11 @@ body>sec {
         font-size: 2.1;
         font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     }
+    .arr-close {
+        width: 30px;
+        height: 30px;
+        margin: 20px 20px;
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -2130,7 +2135,7 @@ body>sec {
     }
     .device-popup-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
     }
     .text-title1 {
         font-size: 2.1;
