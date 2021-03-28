@@ -1274,6 +1274,7 @@ body>sec {
 .ic-online3 {
     position: relative;
     max-width: 76%;
+    width: 76%;
     top: 0;
     left: 0;
     height: auto;
@@ -1298,6 +1299,7 @@ body>sec {
 .ic-online6 {
     position: relative;
     max-width: 74%;
+    width: 74%;
     top: 0;
     left: 0;
     height: auto;
@@ -1496,6 +1498,14 @@ body>sec {
         padding: 20px;
     }
     /* --------------------------Start Style Online Page----------------------- */
+    .content-grid {
+        grid-template-columns: 5% 1fr 5%;
+        -ms-grid-columns: 5% 1fr 5%;
+    }
+    .creative-grid {
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr 1fr;
+    }
     .text-online2 {
         font-size: 2rem;
         font-size: clamp(1.8rem, 2.5vw, 2.1rem);
@@ -1525,6 +1535,16 @@ body>sec {
         position: absolute;
         bottom: 0;
         margin-bottom: 14%;
+    }
+    .ic-online6 {
+        max-width: 84%;
+        width: 84%;
+        margin-top: 25%;
+        margin-left: -41%;
+    }
+    .ic-online7 {
+        max-width: 55%;
+        margin-left: 40%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -2045,6 +2065,17 @@ body>sec {
         height: 30px;
         margin: 20px 20px;
     }
+    .ic-online6 {
+        max-width: 65%;
+        width: 65%;
+        margin-top: 5%;
+        margin-left: -30%;
+    }
+    .ic-online7 {
+        max-width: 45%;
+        margin-bottom: 5%;
+        margin-left: 41%;
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 
@@ -2160,7 +2191,7 @@ body>sec {
     }
     .text-detail1 {
         font-size: 1.5rem;
-        font-size: clamp(1.5rem, 2.5vw, 2rem);
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
     .creative-grid1 {
@@ -2188,7 +2219,7 @@ body>sec {
     }
     .text-online5 {
         font-size: 1.2rem;
-        font-size: clamp(1.3rem, 2.5vw, 2rem);
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     .ml-osm-detail {
         margin-left: 7%;
@@ -2199,11 +2230,11 @@ body>sec {
     }
     .ic01-quotation3 {
         width: 5%;
-        margin-left: -7%;
+        margin-left: -4%;
     }
     .ic02-quotation3 {
         width: 5%;
-        margin-left: 100%;
+        margin-left: 98%;
     }
     .text-online7 {
         font-size: 2rem;

@@ -184,7 +184,7 @@
                         <img class="ic02-quotation3" src="./images/home-dt/icon/quotation-mark4.png">
                     </div>
                     <div class="text-center mt3" data-aos="fade-left" data-aos-anchor="#banner-slide" data-aos-anchor-placement="bottom-bottom" data-aos-delay="150">
-                        <font class="text-online6 color1">โปรโมทสินค้าและบริการด้วยการตลาดยุคใหม่ด้วย</font>
+                        <font class="text-online6 color1">โปรโมทสินค้าและบริการด้วยการตลาดยุคใหม่</font>
                     </div>
                     <div class="digi-grid">
                         <div class="ms-col-1">
@@ -1168,6 +1168,38 @@
                 $(".slide-content3").hide();
                 $(".slide-content4").show();
             });
+    </script>
+    <script>
+        $(document).on('scroll', function() {
+                interface_header_zeed = $('#ais5g_menu20').outerHeight(),
+                //sectionบนpopup
+                hsection3 = $('#social-planning').outerHeight(),
+                psection3 = $('#social-planning').offset().top - 60,
+                //ตัวpopup
+                hsection4 = $('#social-channel-box').outerHeight(),
+                psection4 = $('#social-channel-box').offset().top-60,
+                //sectionล่างpopup
+                hsection5 = $('#creative-social').outerHeight(),
+                psection5 = $('#creative-social').offset().top - 60,
+    
+                wS = $(this).scrollTop();
+                // console.log(wS);
+                if (wS >= psection5 && wS < psection5+60) {              
+                    $("#device-popup").hide();
+                    // console.log("01 "+wS +" "+psection5);
+                }else if (wS >= psection4 && wS < psection4+60) {        
+                    // alert(wS +" " + psection4);   
+                    // $("#device-popup").hide();
+                    // console.log("02 "+wS +" "+psection4);
+                } else if (wS >= psection3 && wS < psection3+60) {        
+                    // alert(wS +" " + psection3);   
+                    $("#device-popup").hide();
+                    // console.log("03 "+wS +" "+psection3);
+                }
+                else {
+                    // alert(psection1+" "+psection2);
+                }   
+        });
     </script>
 <!-- K'F start -->
     <script type="text/javascript">_satellite.pageBottom();</script>
