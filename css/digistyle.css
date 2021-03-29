@@ -292,7 +292,13 @@ body>sec {
     display: block;
     margin: 15px 0;
 }
-
+.line-bottom7 {
+    border: solid #7bab33;
+    border-width: 3px 0px 0px 0px;
+    width: 55px;
+    display: block;
+    margin: 15px auto;
+}
 #digi-mkt {
     background-image: url(../images/home-dt/bg/bg01.jpg);
     position: relative;
@@ -1393,13 +1399,14 @@ body>sec {
 .text-title3 {
     font-family: 'db_heaventmed_cond';
     line-height: 1.5;
-    font-size: clamp(2.2rem, 2.5vw, 5rem);
+    font-size: clamp(1.7rem, 2.5vw, 2.6rem);
+    
 }
 .arr-close {
     width: 30px;
     height: 30px;
     background: url(../images/online/desktop/icon/close.png);
-    margin: 100px 20px;
+    margin: 5% 20px;
     display: inline-block;
     cursor: pointer;
     object-fit: contain;
@@ -1699,6 +1706,12 @@ body>sec {
     }
     .abs-text {
         margin-top: 15%;
+    }
+    #device-popup {
+        padding: 20px 0;
+    }
+    .arr-close {
+        margin: 3% 20px;
     }
     /* --------------------------End Style Online Page----------------------- */
 }
@@ -2063,7 +2076,7 @@ body>sec {
     .arr-close {
         width: 30px;
         height: 30px;
-        margin: 20px 20px;
+        margin: 5% 20px;
     }
     .ic-online6 {
         max-width: 65%;
