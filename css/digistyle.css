@@ -86,10 +86,10 @@ body>sec {
     margin-top: 25px!important;
 }
 
-#banner-slide .lSPager {
+/* #banner-slide .lSPager {
     padding-bottom: 20px!important;
     margin-top: -40px!important;
-}
+} */
 
 .lSSlideOuter .lSPager.lSpg>li.active a,
 .lSSlideOuter .lSPager.lSpg>li:hover a {
@@ -138,15 +138,17 @@ body>sec {
     position: absolute;
     width: 46%;
     margin-left: 47%;
-    margin-top: 1%;
+    /* margin-top: 1%; */
+    bottom: 0;
 }
 .fragment-banner5 {
+    bottom: 0;
     animation-delay: 800ms;
     -webkit-animation-delay: 800ms;
     position: absolute;
     width: 25%;
-    margin-left: 53%;
-    margin-top: 3%;
+    margin-left: 48%;
+    margin-bottom: 5%;
 }
 #myBtn {
     display: none;
@@ -2424,4 +2426,15 @@ a.anchor {
     position: relative; 
     top: -100px; 
     visibility: hidden; 
+}
+
+.lSSlideOuter .lSPager.lSpg {
+    margin: -45px 0 0!important;
+    padding: 0;
+    text-align: center;
+}
+.lSSlideOuter .lSPager.lSpg > li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 5px 20px 5px;
 }

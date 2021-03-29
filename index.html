@@ -159,7 +159,7 @@
             <ul id="lightSlider">
                 <li class="banner1">
                     <a target="_blank" title="">
-                        <div class="banner d-desktop">
+                        <div class="banner d-desktop" style="position: relative;">
                             <img src="./images/home-dt/hero_banner/bn_01.png" class="fragment fragment-banner1">
                             <img src="./images/home-dt/hero_banner/bn_02.png" class="fragment fragment-banner2">
                             <img src="./images/home-dt/hero_banner/bn_03.png" class="fragment fragment-banner3">
@@ -168,6 +168,16 @@
                             <img src="./images/home-dt/hero_banner/bg_hero01.jpg" class="stl-bnw">
                         </div>
                         <div class="banner d-mobile"><img src="./images/home-mb/banner_mobile.jpg" class="stl-bnw"></div>
+                    </a>
+                </li>              
+                <li class="banner2">
+                    <a target="_blank" title="">
+                        <div class="banner d-none d-xs-none d-sm-none d-md-block col-md-12 col-lg-12">
+                            <img src="./images/online/desktop/banner/icon_banner.png" class="fragment-online fragment-online-banner1">
+                            <img src="./images/online/desktop/banner/text_banner.png" class="fragment-online fragment-online-banner2">
+                            <img src="./images/online/desktop/banner/bg_herobanner.jpg" class="stl-bnw">
+                        </div>
+                        <div class="banner col-12 col-xs-12 col-sm-12 d-sm-block d-md-none d-lg-none"><img src="./images/online/mobile/banner/banner_m1080x1080.jpg" class="stl-bnw"></div>
                     </a>
                 </li>
             </ul>
@@ -1050,7 +1060,7 @@
                 easing: 'linear', //'for jquery animation',////
     
                 speed: 1000, //ms'
-                auto: true, // เล่นเอง
+                auto: false, // เล่นเอง
                 loop: false, //วนซ้ำ
                 slideEndAnimation: true,
                 pause: 5000,
@@ -1068,7 +1078,7 @@
                 vThumbWidth: 100,
     
                 thumbItem: 10,
-                pager: true,
+                pager: true, //แสดงแถบ pager ด้านล่าง slide
                 gallery: false,
                 galleryMargin: 5,
                 thumbMargin: 5,
@@ -1083,13 +1093,11 @@
     
                 onBeforeStart: function(el) {
                     $(".fragment").hide();
+                    $(".fragment-online").hide();
                 },
                 onSliderLoad: function(el) {
                     if ($(".banner1").hasClass('active')) {
-                        // alert('hello banner1');
-                        $(".fragment").removeClass('animate__animated');
-                        $(".fragment").removeClass('animate__fadeInRight');
-    
+                        // alert('hello banner1'); 
                         $(".fragment-banner1").addClass('animate__animated');
                         $(".fragment-banner1").addClass('animate__fadeInLeft');
 
@@ -1104,12 +1112,24 @@
 
                         $(".fragment-banner5").addClass('animate__animated');
                         $(".fragment-banner5").addClass('animate__fadeInRight');
-    
+                        
                         $(".fragment").show();
+                    }
+                    else if ($(".banner2").hasClass('active')) {
+                        // alert('hello banner1');                      
+    
+                        $(".fragment-online-banner1").addClass('animate__animated');
+                        $(".fragment-online-banner1").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-online-banner2").addClass('animate__animated');
+                        $(".fragment-online-banner2").addClass('animate__fadeInRight');
+    
+                        $(".fragment-online").show();
                     }
                 },
                 onBeforeSlide: function(el) {
                     $(".fragment").hide();
+                    $(".fragment-online").hide();
                 },
                 onAfterSlide: function(el) {
                     if ($(".banner1").hasClass('active')) {
@@ -1134,10 +1154,15 @@
     
                         $(".fragment").show();
                     } else if ($(".banner2").hasClass('active')) {
-                        // alert('hello banner2');
-                        $(".fragment").removeClass('animate__animated');
-                        $(".fragment").removeClass('animate__fadeInRight');
+                        // alert('hello banner1');                      
     
+                        $(".fragment-online-banner1").addClass('animate__animated');
+                        $(".fragment-online-banner1").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-online-banner2").addClass('animate__animated');
+                        $(".fragment-online-banner2").addClass('animate__fadeInRight');
+    
+                        $(".fragment-online").show();
                     }
                 },
                 onBeforeNextSlide: function(el) {},
