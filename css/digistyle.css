@@ -205,6 +205,9 @@ body>sec {
 .mt2{
     margin-top: 3rem;
 }
+.mt2-popup{
+    margin-top: 3rem;
+}
 .mt3{
     margin-top: 2rem;
 }
@@ -1390,17 +1393,11 @@ body>sec {
     display: -ms-grid;
     -ms-grid-columns: 0fr 1fr 0fr;
 }
-.text-title1 {
-    font-family: 'db_heaventmed_cond';
-    line-height: 1.5;
-    font-size: 2.2rem;
-    font-size: clamp(1.0rem, 2.5vw, 2.2rem);
-}
 .text-title3 {
     font-family: 'db_heaventmed_cond';
     line-height: 1.5;
+    font-size: 2.5;
     font-size: clamp(1.7rem, 2.5vw, 2.6rem);
-    
 }
 .arr-close {
     width: 30px;
@@ -2067,11 +2064,7 @@ body>sec {
         -ms-grid-columns: 0.5fr 5fr;
     }
     #device-popup {
-        padding: 20px;
-    }
-    .text-title1 {
-        font-size: 2.1;
-        font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+        padding: 30% 20px;
     }
     .arr-close {
         width: 30px;
@@ -2154,7 +2147,7 @@ body>sec {
     }
     .text-online4 {
         font-size: 1.5rem;
-        font-size: clamp(1.6rem, 2.5vw, 2.5rem);
+        font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     }
     .text-online6 {
         font-size: 2rem;
@@ -2163,6 +2156,10 @@ body>sec {
     .text-online8 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
+    }
+    .text-title3 {
+        font-size: 1.7;
+        font-size: clamp(1.7rem, 2.5vw, 2rem);
     }
     .syl-box5 {
         width: 70%;
@@ -2175,11 +2172,11 @@ body>sec {
         font-size: clamp(2.8rem, 2vw, 5rem);
     }
     #device-popup {
-        padding: 20px 0;
+        padding: 20% 0;
     }
     .device-popup-grid {
         display: grid;
-        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-columns: 0.02fr 1fr 0.02fr;
     }
     .text-title1 {
         font-size: 2.1;
@@ -2264,7 +2261,16 @@ body>sec {
     .abs-btn {
         margin-bottom: 3%;
     }
-    
+    .arr-close {
+        width: 15px;
+        height: 15px;
+        background: url(../images/online/mobile/icon/close-mob.png);
+        margin: 5% 20px;
+    }
+    .arr-close:hover {
+        background-image: url(../images/online/mobile/icon/close-hover-mob.png);
+        cursor: pointer;
+    }
     /* ----------------------------End Style Online Page----------------------- */
 }
 @media only screen and (max-width : 500px) {
@@ -2278,6 +2284,17 @@ body>sec {
     .text-online8 {
         font-size: 2.2rem;
         font-size: clamp(2.2rem, 2vw, 3.5rem);
+    }
+    #device-popup {
+        padding: 15% 0;
+    }
+    .text-title3 {
+        font-size: 1.6;
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
+    }
+    .text-online4 {
+        font-size: 1.4rem;
+        font-size: clamp(1.4rem, 2.5vw, 2.5rem);
     }
 }
 
@@ -2308,6 +2325,12 @@ body>sec {
     }
     .ml-osm-detail {
         margin-left: 0%;
+    }
+    #device-popup {
+        padding: 6% 0;
+    }
+    .mt2-popup {
+        margin-top: 2rem;
     }
     /* ----------------------------End Style Online Page----------------------- */
 }
@@ -2357,6 +2380,16 @@ body>sec {
     .text-online8 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
+    }
+    .mt2-popup {
+        margin-top: 1rem;
+    }
+    .text-title3 {
+        font-size: 1.5;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
+    .arr-close {
+        margin: 3% 20px;
     }
     /* ----------------------------End Style Online Page----------------------- */
 
