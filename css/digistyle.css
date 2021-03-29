@@ -1111,7 +1111,7 @@ body>sec {
 .title-text8 {
     font-family: 'akrobatextrabold';
     line-height: 1.2;
-    font-size: 9rem;
+    font-size: 7rem;
     font-size: clamp(6rem, 2vw, 7rem);
 }
 #introduce-online {
@@ -1396,7 +1396,7 @@ body>sec {
 .text-title3 {
     font-family: 'db_heaventmed_cond';
     line-height: 1.5;
-    font-size: 2.5;
+    font-size: 2.5rem;
     font-size: clamp(1.7rem, 2.5vw, 2.6rem);
 }
 .arr-close {
