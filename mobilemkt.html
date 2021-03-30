@@ -159,12 +159,13 @@
             <ul id="lightSlider">
                 <li class="banner1">
                     <a target="_blank" title="">
-                        <div class="banner d-none d-xs-none d-sm-none d-md-block col-md-12 col-lg-12">
-                            <img src="./images/banner-ex/hero01.png" class="fragment-online fragment-online-banner1">
-                            <img src="./images/banner-ex/hero02.png" class="fragment-online fragment-online-banner2">
-                            <img src="./images/banner-ex/bg_herobanner.jpg" class="stl-bnw">
+                        <div class="banner d-desktop position-relative">
+                            <img src="./images/mobile/desktop/banner/bn_03.png" class="fragment-mob fragment-mob-banner1">
+                            <img src="./images/mobile/desktop/banner/bn_01.png" class="fragment-mob fragment-mob-banner3">
+                            <img src="./images/mobile/desktop/banner/bn_02.png" class="fragment-mob fragment-mob-banner2 bouncing-item">
+                            <img src="./images/mobile/desktop/banner/bg_bn.jpg" class="stl-bnw">
                         </div>
-                        <div class="banner col-12 col-xs-12 col-sm-12 d-sm-block d-md-none d-lg-none"><img src="./images/home-mb/horo_mobile.jpg" class="stl-bnw"></div>
+                        <div class="banner d-mobile"><img src="./images/mobile/mobile/banner/banner1080x1080.jpg" class="stl-bnw"></div>
                     </a>
                 </li>
             </ul>
@@ -365,7 +366,7 @@
                 vThumbWidth: 100,
     
                 thumbItem: 10,
-                pager: true,
+                pager: false, //แสดงแถบ pager ด้านล่าง slide
                 gallery: false,
                 galleryMargin: 5,
                 thumbMargin: 5,
@@ -379,43 +380,49 @@
                 responsive: [],
     
                 onBeforeStart: function(el) {
-                    $(".fragment-online").hide();
+                    $(".fragment-mob").hide();
                 },
                 onSliderLoad: function(el) {
                     if ($(".banner1").hasClass('active')) {
                         // alert('hello banner1');
-                        $(".fragment-online").removeClass('animate__animated');
-                        $(".fragment-online").removeClass('animate__fadeInRight');
+                        $(".fragment-mob").removeClass('animate__animated');
+                        $(".fragment-mob").removeClass('animate__fadeInRight');
     
-                        $(".fragment-online-banner1").addClass('animate__animated');
-                        $(".fragment-online-banner1").addClass('animate__fadeInLeft');
+                        $(".fragment-mob-banner1").addClass('animate__animated');
+                        $(".fragment-mob-banner1").addClass('animate__fadeInLeft');
     
-                        $(".fragment-online-banner2").addClass('animate__animated');
-                        $(".fragment-online-banner2").addClass('animate__fadeInRight');
+                        $(".fragment-mob-banner2").addClass('animate__animated');
+                        $(".fragment-mob-banner2").addClass('animate__fadeInRight');
+
+                        $(".fragment-mob-banner3").addClass('animate__animated');
+                        $(".fragment-mob-banner3").addClass('animate__fadeInRight');
     
-                        $(".fragment-online").show();
+                        $(".fragment-mob").show();
                     }
                 },
                 onBeforeSlide: function(el) {
-                    $(".fragment-online").hide();
+                    $(".fragment-mob").hide();
                 },
                 onAfterSlide: function(el) {
                     if ($(".banner1").hasClass('active')) {
                         // alert('hello banner1');
-                        $(".fragment-online").removeClass('animate__animated');
-                        $(".fragment-online").removeClass('animate__fadeInRight');
+                        $(".fragment-mob").removeClass('animate__animated');
+                        $(".fragment-mob").removeClass('animate__fadeInRight');
     
-                        $(".fragment-online-banner1").addClass('animate__animated');
-                        $(".fragment-online-banner1").addClass('animate__fadeInLeft');
+                        $(".fragment-mob-banner1").addClass('animate__animated');
+                        $(".fragment-mob-banner1").addClass('animate__fadeInLeft');
     
-                        $(".fragment-online-banner2").addClass('animate__animated');
-                        $(".fragment-online-banner2").addClass('animate__fadeInRight');
+                        $(".fragment-mob-banner2").addClass('animate__animated');
+                        $(".fragment-mob-banner2").addClass('animate__fadeInRight');
+
+                        $(".fragment-mob-banner3").addClass('animate__animated');
+                        $(".fragment-mob-banner3").addClass('animate__fadeInRight');
     
-                        $(".fragment-online").show();
+                        $(".fragment-mob").show();
                     } else if ($(".banner2").hasClass('active')) {
                         // alert('hello banner2');
-                        $(".fragment-online").removeClass('animate__animated');
-                        $(".fragment-online").removeClass('animate__fadeInRight');
+                        $(".fragment-mob").removeClass('animate__animated');
+                        $(".fragment-mob").removeClass('animate__fadeInRight');
     
                     }
                 },

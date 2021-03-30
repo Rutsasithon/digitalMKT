@@ -252,6 +252,9 @@ body>sec {
 .mr3 {
     margin-right: 1rem;
 }
+.mr3-mob {
+    margin-right: 1rem;
+}
 .line-none a:hover {
     text-decoration: none;
 }
@@ -1116,6 +1119,36 @@ body>sec {
     margin-top: 3%;
     margin-right: 10%;
 }
+.fragment-mob-banner1 {
+    position: absolute;
+    width: 28%;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    margin-left: 11%;
+}
+.fragment-mob-banner2 {
+    animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
+    position: absolute;
+    width: 32%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 6%;
+    margin-right: 24%;
+}
+.fragment-mob-banner3 {
+    animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    margin-right: 8%;
+}
 .title-text8 {
     font-family: 'akrobatextrabold';
     line-height: 1.2;
@@ -1425,6 +1458,9 @@ body>sec {
 }
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
+/* --------------------------Start Style Mobile Page----------------------- */
+/* --------------------------End Style Mobile Page------------------------- */
+
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
 
 @media only screen and (max-width : 1500px) {
@@ -1484,6 +1520,9 @@ body>sec {
     }
 
     /* ----------------------------End Style Online Page---------------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 
@@ -1557,6 +1596,9 @@ body>sec {
         margin-left: 40%;
     }
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 @media only screen and (max-width : 1120px) {
@@ -1715,6 +1757,9 @@ body>sec {
         margin: 3% 20px;
     }
     /* --------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 @media (min-width: 992px) {
@@ -1725,7 +1770,7 @@ body>sec {
 }
 
 @media only screen and (max-width : 992px) {
-     /* --------------------------Start Style Online Page----------------------- */
+    /* --------------------------Start Style Online Page----------------------- */
     .syl-box5 {
         padding: 9px;
         margin: 10%;
@@ -1733,8 +1778,10 @@ body>sec {
     .mr-social {
         margin-right: 1rem;
     }
-
     /* --------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 @media only screen and (max-width : 930px) {
@@ -1756,7 +1803,16 @@ body>sec {
     }
     .ml4 {
         margin-left: 0%;
-    }   
+    }
+    .ml-mob {
+        margin-left: 6%;
+    }
+    .ml-mob1 {
+        margin-left: 12%;
+    }    
+    .mr3-mob {
+        margin-right: 4rem;
+    }
     .d-mobile {
         display: block;
     }
@@ -2085,6 +2141,9 @@ body>sec {
         margin-left: 41%;
     }
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 @media only screen and (max-width : 767px) {  
@@ -2099,6 +2158,9 @@ body>sec {
     }
     .digi-grid {
         grid-template-columns: 1fr;
+    }
+    .mr3-mob {
+        margin-right: 5rem;
     }
     .title-text1 {
         font-size: 2rem;
@@ -2182,7 +2244,13 @@ body>sec {
         font-size: 2.1;
         font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     }
+    .ml-mob1 {
+        margin-left: 1%;
+    }
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 @media only screen and (max-width : 600px) {
@@ -2194,6 +2262,9 @@ body>sec {
     }
     .ml3 {
         margin-left: 2.5%;
+    }
+    .mr3-mob {
+        margin-right: 2rem;
     }
     .text-detail5 {
         font-size: 1.7rem;
@@ -2236,7 +2307,7 @@ body>sec {
     }
     .title-text10 {
         font-size: 2.2rem;
-        font-size: clamp(2.3rem, 2vw, 5rem);
+        font-size: clamp(2.2rem, 2vw, 5rem);
     }
     .ic01-quotation3 {
         width: 5%;
@@ -2244,7 +2315,7 @@ body>sec {
     }
     .ic02-quotation3 {
         width: 5%;
-        margin-left: 98%;
+        margin-left: 99%;
     }
     .text-online7 {
         font-size: 2rem;
@@ -2272,6 +2343,9 @@ body>sec {
         cursor: pointer;
     }
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
     .d-mob {
@@ -2294,6 +2368,9 @@ body>sec {
         font-size: 1.4rem;
         font-size: clamp(1.4rem, 2.5vw, 2.5rem);
     }
+    .mr3-mob {
+        margin-right: 1rem;
+    }
 }
 
 @media only screen and (max-width : 400px) {
@@ -2315,6 +2392,9 @@ body>sec {
     .mr3 {
         margin-right: 0.5rem;
     }
+    .mr3-mob {
+        margin-right: 0.5rem;
+    }
     /* --------------------------Start Style Online Page----------------------- */
     .ic-online1 {
         width: 45px;
@@ -2329,6 +2409,9 @@ body>sec {
         margin-top: 2rem;
     }
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 
@@ -2389,6 +2472,9 @@ body>sec {
     }
     /* ----------------------------End Style Online Page----------------------- */
 
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
+
 }
 
 @media only screen and (max-width : 320px) {
@@ -2398,6 +2484,9 @@ body>sec {
     /* --------------------------Start Style Online Page----------------------- */
 
     /* ----------------------------End Style Online Page----------------------- */
+
+    /* --------------------------Start Style Mobile Page----------------------- */
+    /* --------------------------End Style Mobile Page------------------------- */
 }
 
 /* --------------------------------------------------------------IE------------------------------------------------------------------------ */
