@@ -204,6 +204,9 @@ body>sec {
 .mt1{
     margin-top: 5rem;
 }
+.mt-onlintro{
+    margin-top: 5rem;
+}
 .mt2{
     margin-top: 3rem;
 }
@@ -253,6 +256,9 @@ body>sec {
     margin-right: 1rem;
 }
 .mr3-mob {
+    margin-right: 1rem;
+}
+.mr4-mob {
     margin-right: 1rem;
 }
 .line-none a:hover {
@@ -1882,6 +1888,9 @@ body>sec {
     .mt1 {
         margin-top: 3rem;
     }
+    .mt-onlintro{
+        margin-top: 1rem;
+    }
     .mb1 {
         margin-bottom: 3rem;
     }
@@ -2025,6 +2034,7 @@ body>sec {
     }
     #introduce-online {
         background-image: url(../images/online/mobile/bg/bg01.jpg);
+        padding: 3% 0 7% 0;
     }
     .creative-grid {
         grid-template-columns: 1fr;
@@ -2162,6 +2172,9 @@ body>sec {
     .mr3-mob {
         margin-right: 5rem;
     }
+    .mr4-mob {
+        margin-right: 3rem;
+    }
     .title-text1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -2264,6 +2277,9 @@ body>sec {
         margin-left: 2.5%;
     }
     .mr3-mob {
+        margin-right: 2rem;
+    }
+    .mr4-mob {
         margin-right: 2rem;
     }
     .text-detail5 {
@@ -2371,6 +2387,9 @@ body>sec {
     .mr3-mob {
         margin-right: 1rem;
     }
+    .mr4-mob {
+        margin-right: 0rem;
+    }
 }
 
 @media only screen and (max-width : 400px) {
@@ -2393,6 +2412,9 @@ body>sec {
         margin-right: 0.5rem;
     }
     .mr3-mob {
+        margin-right: 0.5rem;
+    }
+    .mr4-mob {
         margin-right: 0.5rem;
     }
     /* --------------------------Start Style Online Page----------------------- */
