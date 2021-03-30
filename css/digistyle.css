@@ -1233,7 +1233,7 @@ body>sec {
 }
 .text-online6 {
     font-family: 'db_heaventcond';
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 4.5rem;
     font-size: clamp(3rem, 2vw, 5rem);
 }
@@ -1310,6 +1310,20 @@ body>sec {
     object-fit: contain;
     margin-left: 82%;
     margin-top: -2%;
+}
+.ic01-quotation5 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 21%;
+    margin-bottom: -3%;
+}
+.ic02-quotation5 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 77%;
+    margin-top: -7%;
 }
 .ic-online1 {
     width: 60px;
@@ -1465,6 +1479,35 @@ body>sec {
 /* -----------------------------------------------End Online Page add style-------------------------------------------------------------------- */
 
 /* --------------------------Start Style Mobile Page----------------------- */
+#introduce-mob {
+    background-image: url(../images/mobile/desktop/bg/bg01.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+.ic-mobMKT1 {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+    object-fit: contain;
+    margin-top: -12%;
+    margin-left: -16%;
+}
+.ic-mobMKT2 {
+    position: absolute;
+    max-width: 38%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25%;
+    margin-left: 55%;
+}
 /* --------------------------End Style Mobile Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
