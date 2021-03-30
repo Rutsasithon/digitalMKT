@@ -1485,14 +1485,12 @@ body>sec {
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 3% 0;
+    padding: 3% 0 0 0;
 }
 .ic-mobMKT1 {
     position: relative;
     max-width: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
+    width: 100%;    
     height: auto;
     object-fit: contain;
     margin-top: -12%;
