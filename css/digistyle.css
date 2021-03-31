@@ -1505,6 +1505,14 @@ body>sec {
     padding: 3% 0 3% 0;
     margin-top: -1%;
 }
+#hyper {
+    background-image: url(../images/mobile/desktop/bg/bg03.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
 .ic-mobMKT1 {
     position: relative;
     max-width: 87%;
@@ -1552,6 +1560,25 @@ body>sec {
     line-height: 1.5;
     font-size: 2rem;
     font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+}
+.icmob-08 {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-left: 10%;
+}
+.icmob-07 {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5%;
+    margin-left: 21%;
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
@@ -2281,6 +2308,26 @@ body>sec {
     }
     #location {
         background-size: cover;
+    }
+    .icmob-08 {
+        position: relative;
+        max-width: 45%;
+        min-width: 0;
+        height: auto;
+        object-fit: contain;
+        margin-top: 30px;
+        margin-left: -40px;
+        margin-bottom: 15px;
+    }
+    .icmob-07 {
+        position: absolute;
+        max-width: 45%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 18%;
+        margin-left: 45%;
     }
     /* --------------------------End Style Mobile Page------------------------- */
 }
