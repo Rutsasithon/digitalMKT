@@ -52,6 +52,12 @@ body>sec {
 .d-desktop2 {
     display: block;
 }
+.d-desktop3 {
+    display: block;
+}
+.d-desktop4 {
+    display: block;
+}
 .d-text {
     display: none;
 }
@@ -206,6 +212,9 @@ body>sec {
 }
 .mt-onlintro{
     margin-top: 5rem;
+}
+.mt-mobintro{
+    margin-top: 20%;
 }
 .mt2{
     margin-top: 3rem;
@@ -1203,7 +1212,7 @@ body>sec {
 }
 .text-online1 {
     font-family: 'db_heaventbold_cond';
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 4rem;
     font-size: clamp(3rem, 2vw, 5rem);
 }
@@ -1487,10 +1496,19 @@ body>sec {
     height: auto;
     padding: 3% 0 0 0;
 }
+#location {
+    background-image: url(../images/mobile/desktop/bg/bg02.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+    margin-top: -1%;
+}
 .ic-mobMKT1 {
     position: relative;
-    max-width: 100%;
-    width: 100%;    
+    max-width: 87%;
+    width: 87%;
     height: auto;
     object-fit: contain;
     margin-top: -12%;
@@ -1498,13 +1516,42 @@ body>sec {
 }
 .ic-mobMKT2 {
     position: absolute;
-    max-width: 38%;
+    max-width: 40%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 25%;
-    margin-left: 55%;
+    margin-bottom: 50%;
+    margin-left: 35%;
+}
+.ic-mobpage1 {
+    width: 67px;
+    height: auto;
+    object-fit: contain;
+}
+.location-grid1 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(4,1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+}
+.syl-box6 {
+    display: block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 1px 8px -2px #888888;
+    -webkit-box-shadow: 0px 1px 8px -2px #888888;
+    margin: 5%;
+}
+.text-mobMKT1 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 2rem;
+    font-size: clamp(1.8rem, 2.5vw, 2.5rem);
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
@@ -1806,6 +1853,13 @@ body>sec {
     /* --------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .ic01-quotation5 {
+        margin-left: 15%;
+        margin-bottom: -3%;
+    }
+    .ic02-quotation5 {
+        margin-left: 83%;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -1833,8 +1887,8 @@ body>sec {
 
 @media only screen and (max-width : 930px) {
     .center1 {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
     .center3 {
         justify-content: center;
@@ -1855,6 +1909,9 @@ body>sec {
         margin-left: 6%;
     }
     .ml-mob1 {
+        margin-left: 12%;
+    } 
+    .ml-mob2 {
         margin-left: 12%;
     }    
     .mr3-mob {
@@ -2194,6 +2251,37 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .ic-mobMKT1 {
+        max-width: 45%;
+        width: 45%;
+        margin-top: 0%;
+        margin-left: 0;
+    }
+    .mt-mobintro {
+        margin-top: 4%;
+    }
+    #introduce-mob {
+        background-image: url(../images/mobile/mobile/bg/bg-intro.jpg);
+        padding: 3% 0 3% 0;
+    }
+    .ic01-quotation5 {
+        margin-left: 11%;
+    }
+    .ic02-quotation5 {
+        margin-left: 87%;
+    }
+    .ic-mobMKT1 {
+        max-width: 50%;
+        width: 50%;
+    }
+    .ic-mobMKT2 {
+        max-width: 22%;
+        margin-bottom: 29%;
+        margin-left: 53%;
+    }
+    #location {
+        background-size: cover;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2304,6 +2392,13 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .ml-mob2 {
+        margin-left: 10%;
+    }
+    .location-grid1 {
+        grid-template-columns: repeat(2,1fr);
+        -ms-grid-columns: 1fr 1fr;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2402,6 +2497,10 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .text-mobMKT1 {
+        font-size: 1.5rem;
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
@@ -2430,6 +2529,18 @@ body>sec {
     }
     .mr4-mob {
         margin-right: 0rem;
+    }
+    .ml-mob2 {
+        margin-left: 5%;
+    }
+    .ic01-quotation5 {
+        margin-left: 2%;
+    }
+    .ic02-quotation5 {
+        margin-left: 95%;
+    }
+    .d-desktop4 {
+        display: none;
     }
 }
 
@@ -2536,6 +2647,15 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .d-desktop3 {
+        display: none;
+    }
+    .ic01-quotation5 {
+        margin-left: -2%;
+    }
+    .ic02-quotation5 {
+        margin-left: 100%;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 
 }
