@@ -2386,6 +2386,7 @@ body>sec {
         height: auto;
         object-fit: contain;
         margin-top: 10%;
+        margin-right: -6%;
     }
     .icmob-09 {
         position: absolute;
@@ -2818,4 +2819,8 @@ a.anchor {
     cursor: pointer;
     display: inline-block;
     padding: 0 5px 20px 5px;
+}
+
+.h100{
+    height: 100%;
 }
