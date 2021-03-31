@@ -1513,6 +1513,36 @@ body>sec {
     height: auto;
     padding: 3% 0 3% 0;
 }
+#otp {
+    background-image: url(../images/mobile/desktop/bg/bg04.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#sms-broadcast {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#sms-vote {
+    background-image: url(../images/mobile/desktop/bg/bg05.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#line-broadcast {
+    background-image: url(../images/mobile/desktop/bg/bg06.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
 .ic-mobMKT1 {
     position: relative;
     max-width: 87%;
@@ -1579,6 +1609,24 @@ body>sec {
     left: 0;
     margin-bottom: 5%;
     margin-left: 21%;
+}
+.icmob-06 {
+    position: absolute;
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+}
+.icmob-09 {
+    position: absolute;
+    max-width: 17%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 21%;
+    margin-right: 3%;
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
@@ -2309,6 +2357,9 @@ body>sec {
     #location {
         background-size: cover;
     }
+    #otp {
+        padding: 3% 0 0 0;
+    }
     .icmob-08 {
         position: relative;
         max-width: 45%;
@@ -2328,6 +2379,23 @@ body>sec {
         left: 0;
         margin-bottom: 18%;
         margin-left: 45%;
+    }
+    .icmob-06 {
+        position: relative;
+        max-width: 55%;
+        height: auto;
+        object-fit: contain;
+        margin-top: 10%;
+    }
+    .icmob-09 {
+        position: absolute;
+        max-width: 17%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 21%;
+        margin-right: 3%;
     }
     /* --------------------------End Style Mobile Page------------------------- */
 }
