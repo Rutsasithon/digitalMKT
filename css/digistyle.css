@@ -1678,16 +1678,17 @@ body>sec {
     margin-right: 10%;
     margin-bottom: 2%;
 }
+
 .icmob-01 {
     position: absolute;
-    max-width: 33%;
-    width: 33%;
-    height: auto;
+    height: 150%;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-left: 12%;
-}
+    margin-bottom: -5%;
+    margin-left: 5%;
+}   
+
 .syl-box7 {
     display: block;
     background-color: #b5d74d;
@@ -1695,7 +1696,8 @@ body>sec {
     height: auto;
     padding: 20px 0;
     border: 1px solid #b5d74d;
-    border-radius: 0 15px 15px 0;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
