@@ -1598,6 +1598,7 @@ body>sec {
 .icmob-08 {
     position: absolute;
     max-width: 20%;
+    width: 20%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1607,6 +1608,7 @@ body>sec {
 .icmob-07 {
     position: absolute;
     max-width: 20%;
+    width: 20%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1617,6 +1619,7 @@ body>sec {
 .icmob-06 {
     position: absolute;
     max-width: 40%;
+    width: 40%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1625,6 +1628,7 @@ body>sec {
 .icmob-09 {
     position: absolute;
     max-width: 17%;
+    width: 17%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1635,6 +1639,7 @@ body>sec {
 .icmob-05 {
     position: absolute;
     max-width: 34%;
+    width: 34%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1645,6 +1650,7 @@ body>sec {
 .icmob-04 {
     position: absolute;
     max-width: 31%;
+    width: 31%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1664,6 +1670,7 @@ body>sec {
 .icmob-03 {
     position: absolute;
     max-width: 35%;
+    width: 35%;
     height: auto;
     object-fit: contain;
     bottom: 0;
@@ -1674,6 +1681,7 @@ body>sec {
 .icmob-01 {
     position: absolute;
     max-width: 33%;
+    width: 33%;
     height: auto;
     object-fit: contain;
     bottom: 0;
