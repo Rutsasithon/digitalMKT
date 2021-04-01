@@ -216,6 +216,9 @@ body>sec {
 .mt-mobintro{
     margin-top: 20%;
 }
+.mt-mobsms{
+    margin-top: 15%;
+}
 .mt2{
     margin-top: 3rem;
 }
@@ -1534,7 +1537,7 @@ body>sec {
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 3% 0;
+    padding: 3% 0 0 0;
 }
 #line-broadcast {
     background-image: url(../images/mobile/desktop/bg/bg06.jpg);
@@ -1542,7 +1545,7 @@ body>sec {
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 3% 0;
+    padding: 3% 0 8% 0;
 }
 .ic-mobMKT1 {
     position: relative;
@@ -1648,6 +1651,43 @@ body>sec {
     left: 0;
     margin-bottom: 0%;
     margin-left: 11%;
+}
+.icmob-02 {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+}
+.icmob-03 {
+    position: absolute;
+    max-width: 35%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.icmob-01 {
+    position: absolute;
+    max-width: 33%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-left: 12%;
+}
+.syl-box7 {
+    display: block;
+    background-color: #b5d74d;
+    width: auto;
+    height: auto;
+    padding: 20px 0;
+    border: 1px solid #b5d74d;
+    border-radius: 0 15px 15px 0;
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
@@ -2082,6 +2122,9 @@ body>sec {
     .mt1 {
         margin-top: 3rem;
     }
+    .mt-mobsms{
+        margin-top: 5%;
+    }
     .mt-onlintro{
         margin-top: 1rem;
     }
@@ -2438,6 +2481,23 @@ body>sec {
         left: 0;
         margin-bottom: -5%;
         margin-left: 24%;
+    }
+    .icmob-02 {
+        position: relative;
+        max-width: 115%;
+        width: 115%;
+        height: auto;
+        object-fit: contain;
+        margin-right: -7%;
+    }
+    .icmob-03 {
+        position: relative;
+        max-width: 40%;
+        height: auto;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-right: 32%;
+        margin-bottom: -20%;
     }
     /* --------------------------End Style Mobile Page------------------------- */
 }
