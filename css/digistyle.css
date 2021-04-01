@@ -468,13 +468,13 @@ body>sec {
 .text-detail4 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     font-size: clamp(1.7rem, 2.5vw, 2.5rem);
 }
 .text-detail5 {
     font-family: 'db_heaventmed_cond';
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-size: clamp(1.8rem, 2.5vw, 2.5rem);
 }
 .text-detail6 {
@@ -1246,7 +1246,7 @@ body>sec {
 .text-online6 {
     font-family: 'db_heaventcond';
     line-height: 1.5;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-size: clamp(3rem, 2vw, 5rem);
 }
 .text-online7 {
@@ -1681,13 +1681,13 @@ body>sec {
 
 .icmob-01 {
     position: absolute;
-    height: 150%;
+    height: 165%;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: -5%;
+    margin-bottom: -8%;
     margin-left: 5%;
-}   
+} 
 
 .syl-box7 {
     display: block;
@@ -1698,6 +1698,12 @@ body>sec {
     border: 1px solid #b5d74d;
     border-radius: 15px 15px 15px 15px;
     position: relative;
+}
+.text-mobMKT2 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
 }
 /* --------------------------End Style Mobile Page------------------------- */
 
@@ -1762,9 +1768,20 @@ body>sec {
     /* ----------------------------End Style Online Page---------------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .text-mobMKT2 {
+        font-size: 1.9rem;
+        font-size: clamp(1.7rem, 2.5vw, 2.2rem);
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
+@media only screen and (max-width : 1300px) {
+
+    .text-mobMKT2 {
+        font-size: 1.9rem;
+        font-size: clamp(1.7rem, 2.5vw, 2rem);
+    }
+}
 
 @media only screen and (max-width : 1250px) {
     .title-text1 {
@@ -2006,6 +2023,10 @@ body>sec {
     .ic02-quotation5 {
         margin-left: 83%;
     }
+    .icmob-01 {
+        height: 155%;
+        margin-left: 2%;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2028,6 +2049,9 @@ body>sec {
     /* --------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .icmob-01 {
+        height: 136%;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2436,8 +2460,9 @@ body>sec {
     }
     .icmob-08 {
         position: relative;
-        max-width: 45%;
+        max-width: 25%;
         min-width: 0;
+        width: 25%;
         height: auto;
         object-fit: contain;
         margin-top: 30px;
@@ -2446,17 +2471,19 @@ body>sec {
     }
     .icmob-07 {
         position: absolute;
-        max-width: 45%;
+        max-width: 25%;
+        width: 25%;
         height: auto;
         object-fit: contain;
         bottom: 0;
         left: 0;
-        margin-bottom: 18%;
-        margin-left: 45%;
+        margin-bottom: 8%;
+        margin-left: 49%;
     }
     .icmob-06 {
         position: relative;
         max-width: 85%;
+        width: 85%;
         height: auto;
         object-fit: contain;
         margin-top: 10%;
@@ -2465,6 +2492,7 @@ body>sec {
     .icmob-09 {
         position: absolute;
         max-width: 35%;
+        width: 35%;
         height: auto;
         object-fit: contain;
         bottom: 0;
@@ -2474,7 +2502,8 @@ body>sec {
     }
     .icmob-05 {
         position: relative;
-        max-width: 85%;
+        max-width: 65%;
+        width: 65%;
         min-width: 0;
         height: auto;
         object-fit: contain;
@@ -2484,13 +2513,14 @@ body>sec {
     }
     .icmob-04 {
         position: absolute;
-        max-width: 75%;
+        max-width: 58%;
+        width: 58%;
         height: auto;
         object-fit: contain;
         bottom: 0;
         left: 0;
         margin-bottom: -5%;
-        margin-left: 24%;
+        margin-left: 29%;
     }
     .icmob-02 {
         position: relative;
@@ -2503,12 +2533,17 @@ body>sec {
     .icmob-03 {
         position: relative;
         max-width: 40%;
+        width: 40%;
         height: auto;
         object-fit: contain;
         margin-top: 5%;
         margin-right: 32%;
         margin-bottom: -20%;
     }
+    .syl-box7 {
+        padding: 20px 20px;
+    }
+    
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2889,6 +2924,7 @@ body>sec {
 
 @media only screen and (max-width : 320px) {
     .text-detail4 {
+        font-size: 1.5rem;
         font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
