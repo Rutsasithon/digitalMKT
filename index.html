@@ -1618,8 +1618,6 @@
 
             var tel = $("#phone_number").val();
 
-            var employee = $("#employee").val();
-
             var message = $("#messages").val();
 
             var price = $("#budget").val();
@@ -1690,25 +1688,24 @@
                         return false;
                     }                     
                 }
-            }            
+            }          
            
-
             var markers = {
-                product_id: "Digitalform",
-                product_name: "Digitalform",
-                cate: "",
-                subcate: "",
-                businesstype: "",
-                package: "",
-                price: "",
-                name: name,
-                company: company,
-                Surname: surname,
-                email: email,
-                tel: tel,
-                employee: employee,
-                message: message,
-                favorite: favorite,
+                "product_id": "Digitalform",
+                "product_name": "Digitalform",
+                "cate": "",
+                "subcate": "",
+                "businesstype": "",
+                "package": "" ,
+                "price": "",
+                "name": name,
+                "company": company,
+                "Surname": surname,
+                "email": email,
+                "tel": tel,
+                "message": message,
+                "budget": "งบประมาณ",
+                "favorite": favorite
             };
             console.log(favorite);
             console.log(markers);
@@ -1720,6 +1717,7 @@
                     data: JSON.stringify(markers),
 
                     success: function (data) {
+                        console.log(data);
                         Swal.fire(
                         'สำเร็จ',
                         'ขอบคุณที่ให้ความสนใจทางเราจะติดต่อกลับคุณโดยเร็วที่สุดค่ะ',
