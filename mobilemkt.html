@@ -99,6 +99,11 @@
     <link rel="stylesheet" href="font/helvetica.css">
     <link rel="stylesheet" href="font/font.css">
 
+    <!-- sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+    <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+
     <!-- AOS  Animation on scrolling -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -846,7 +851,7 @@
                         </div>
                         <div class="contact-grid2 mt4" data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
                             <div class="ms-col-1">
-                                <input id="phone_number" type="number" name="phone_number" class="form-control1" placeholder="เบอร์โทรติดต่อ*" required>
+                                <input id="phone_number" type="tel" name="phone_number" class="form-control1" placeholder="เบอร์โทรติดต่อ*" required>
                             </div>
                             <div class="ms-col-2 ml2">
                                 <input id="email" type="email" name="email" class="form-control1" placeholder="อีเมล*" required>
@@ -857,7 +862,7 @@
                                 <input id="company" type="text" name="company" class="form-control1" placeholder="บริษัท*" required>
                             </div>
                             <div class="ms-col-2 ml2">
-                                <input id="budget" type="number" name="budget" class="form-control1" placeholder="งบประมาณ/เดือน">
+                                <input id="budget" type="text" name="budget" class="form-control1" placeholder="งบประมาณ/เดือน">
                             </div>
                         </div>
                         <div class="mt4" data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="450">
@@ -868,7 +873,7 @@
                         </div>
                         <div class="mt3" data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="550">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_all" value="1" id="css_all_check">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="ALL" id="css_all_check">
                                 <label class="form-check-label text-detail7 ml3" for="all_item">
                                 เลือกทั้งหมด
                                 </label>
@@ -876,7 +881,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_LOCATION_BASED" value="2" id="online_social">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="2" id="online_social">
                                 <label class="form-check-label text-detail7 ml3" for="LOCATION_BASED">
                                     LOCATION BASED SMS
                                 </label>
@@ -884,7 +889,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="650">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_HYPER_SMS" value="3" id="mobile_mkt">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="3" id="mobile_mkt">
                                 <label class="form-check-label text-detail7 ml3" for="HYPER_SMS">
                                     HYPER SMS BROADCASTING
                                 </label>
@@ -892,7 +897,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_OTP_GATEWAY" value="4" id="app_dev">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="OTP GATEWAY" id="OTP_GATEWAY">
                                 <label class="form-check-label text-detail7 ml3" for="OTP_GATEWAY">
                                     OTP GATEWAY
                                 </label>
@@ -900,7 +905,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="750">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_SMS_BROADCAST" value="5" id="app_dev">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="SMS BROADCASTING" id="SMS_BROADCAST">
                                 <label class="form-check-label text-detail7 ml3" for="SMS_BROADCAST">
                                     SMS BROADCASTING
                                 </label>
@@ -908,7 +913,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="800">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_SMS_VOTE" value="6" id="app_dev">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="SMS VOTE AND PROMOTION" id="SMS_VOTE">
                                 <label class="form-check-label text-detail7 ml3" for="SMS_VOTE">
                                     SMS VOTE AND PROMOTION
                                 </label>
@@ -916,7 +921,7 @@
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="850">
                             <div class="form-check">
-                                <input class="form-check-input1 css_data_item" type="checkbox" name="chkbox_SMS_VOTE" value="7" id="app_dev">
+                                <input class="form-check-input1 css_data_item" type="checkbox" name="service_checkbox" value="LINE BROADCAST MESSAGE" id="LINE_BROADCAST">
                                 <label class="form-check-label text-detail7 ml3" for="LINE_BROADCAST">
                                     LINE BROADCAST MESSAGE
                                 </label>
@@ -924,7 +929,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-center mt3" data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="950">
                             <div class="form-check">
-                                <input class="form-check-input1" type="checkbox" name="chkbox_Disclose_information" value="10" id="check_mark">
+                                <input class="form-check-input1" type="checkbox" name="service_checkbox" value="AGREEMENT" id="check_mark">
                                 <label class="form-check-label title-text9 ml3" for="check_mark">
                                     ข้าพเจ้าตกลงที่จะให้ AIS ดำเนินการและเปิดเผยข้อมูลส่วนบุคคลของข้าพเจ้าให้เฉพาะ บริษัท ในเครือของ AIS  
             หรือคู่ค้าที่เกี่ยวข้องกับเทคโนโลยีที่สนใจที่ระบุไว้เพื่อประโยชน์ของข้าพเจ้า เช่น การให้ข้อมูลผลิตภัณฑ์และบริการ เป็นต้น
@@ -940,7 +945,7 @@
     <!---------------------------------------------------- END captcha ------------------------------------------------------------------------->
                         <div class="d-flex align-items-center justify-content-center mt2 center1 mt-commit mb-commit" data-aos="fade-left" data-aos-anchor="#line-broadcast" data-aos-anchor-placement="bottom-bottom" data-aos-delay="950">
                             <a>
-                                <button type="submit" id="contactsubmit-online" class="btn-outline-detail10" onclick="buttonAISeBizShopCliked('business:th:onlinesocialmedia:contact:submit');">
+                                <button type="button" id="contactsubmit" class="btn-outline-detail10" onclick="buttonAISeBizShopCliked('business:th:onlinesocialmedia:contact:submit'),onSubmit()">
                                     <font>ส่งข้อมูล</font>
                                 </button>
                             </a>
@@ -1164,6 +1169,153 @@
     
          
         });
+
+        $('#contactsubmit').attr("disabled", true);
+        $('a.line-none').click(function() {
+            var target = $(this).attr("href");
+            location.hash = target;
+            console.log(target);
+            $('html, body').animate({
+                scrollTop: $("" + target).offset().top
+            }, 0);
+            return false;
+        });
+        function callback() {
+            $('#contactsubmit').removeAttr("disabled");
+            $('#contactsubmit').addClass("no-disable");
+        }
+
+        // ปุ่มส่งข้อมูล
+        function onSubmit() {
+            var businesstype = $("#businesstype").val();
+
+            var name = $("#first_name").val();
+
+            var company = $("#company").val();
+
+            var surname = $("#last_name").val();
+
+            var email = $("#email").val();
+
+            var tel = $("#phone_number").val();
+
+            var employee = $("#employee").val();
+
+            var message = $("#messages").val();
+
+            var price = $("#budget").val();
+
+            var favorites = $('input[name="service_checkbox"]:checked');
+            var favorite = [];
+            var len = favorites.length;
+            for (var i = 0; i < len; i++) {
+                favorite[i] = favorites[i].value;
+            }
+
+            if (name == "") {
+                Swal.fire(
+                    'ผิดพลาด',
+                    'กรุณากรอกชื่อ - นามสกุล',
+                    'warning'
+                )
+                return false;
+            }
+
+            if (company == "") {
+                Swal.fire(
+                    'ผิดพลาด',
+                    'กรุณากรอกชื่อบริษัท',
+                    'warning'
+                )
+                return false;
+            }
+           
+
+            if (email == "") {
+                Swal.fire(
+                    'ผิดพลาด',
+                    'กรุณากรอกอีเมล',
+                    'warning'
+                )
+                return false;
+            } 
+
+            if (tel == "") {
+                Swal.fire(
+                    'ผิดพลาด',
+                    'กรุณากรอกเบอร์โทร',
+                    'warning'
+                )
+                return false;
+            } else {
+                if (tel.length <= 8) {
+                    Swal.fire(
+                    'ผิดพลาด',
+                    'กรอกเบอร์โทรไม่ครบ',
+                    'warning'
+                    )
+                    return false;
+                } 
+                else {
+                    if (
+                        tel.substring(0, 2) == "00" ||
+                        tel == "000000000" ||
+                        tel == "0000000000"
+                    ) 
+                    {
+                        Swal.fire(
+                        'ผิดพลาด',
+                        'เบอร์ไม่ถูกต้องตาม Format',
+                        'warning'
+                        )
+                        return false;
+                    }                     
+                }
+            }            
+           
+
+            var markers = {
+                product_id: "Digitalform",
+                product_name: "Digitalform",
+                cate: "",
+                subcate: "",
+                businesstype: "",
+                package: "",
+                price: "",
+                name: name,
+                company: company,
+                Surname: surname,
+                email: email,
+                tel: tel,
+                employee: employee,
+                message: message,
+                favorite: favorite,
+            };
+            console.log(favorite);
+            console.log(markers);
+            $.ajax({
+                    url: "https://business.shinee.com:443/contactform/Digitalform.aspx",
+                    type: "post",
+                    contentType: false, // Not to set any content header
+                    processData: false, // Not to process data
+                    data: JSON.stringify(markers),
+
+                    success: function (data) {
+                        Swal.fire(
+                        'สำเร็จ',
+                        'ขอบคุณที่ให้ความสนใจทางเราจะติดต่อกลับคุณโดยเร็วที่สุดค่ะ',
+                        'success'
+                        )
+                    },
+                    error: function (data) {
+                        Swal.fire(
+                        'ไม่สำเร็จ',
+                        'ไม่สามารถส่งข้อมูลได้ โปรดลองอีกครั้งหรือติดต่อเจ้าหน้าที่ภายหลังค่ะ',
+                        'error'
+                        )
+                    },
+              });  
+        }
     </script>
 
 <!-- K'F start -->

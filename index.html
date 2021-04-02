@@ -1112,7 +1112,7 @@
                                 <div class="contact-grid2 mt4" data-aos="fade-left" data-aos-anchor="#multi-media"
                                     data-aos-anchor-placement="bottom-bottom" data-aos-delay="350">
                                     <div class="ms-col-1">
-                                        <input id="phone_number" type="number" name="phone_number" class="form-control1"
+                                        <input id="phone_number" type="tel" name="phone_number" class="form-control1"
                                             placeholder="เบอร์โทรติดต่อ*" required />
                                     </div>
                                     <div class="ms-col-2 ml2">
@@ -1127,7 +1127,7 @@
                                             placeholder="บริษัท*" required />
                                     </div>
                                     <div class="ms-col-2 ml2">
-                                        <input id="budget" type="number" name="budget" class="form-control1"
+                                        <input id="budget" type="text" name="budget" class="form-control1"
                                             placeholder="งบประมาณ/เดือน" />
                                     </div>
                                 </div>
@@ -1604,7 +1604,7 @@
             $("#contactsubmit").removeAttr("disabled");
             $("#contactsubmit").addClass("no-disable");
         }
-
+        // ปุ่มส่งข้อมูล
         function onSubmit() {
             var businesstype = $("#businesstype").val();
 
