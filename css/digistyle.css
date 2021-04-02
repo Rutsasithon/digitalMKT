@@ -37,11 +37,17 @@ body>sec {
 .d-mob {
     display: block;
 }
+.d-mob2 {
+    display: none;
+}
 .d-mobile {
     display: none;
 }
 .d-mobile1 {
     display: none;
+}
+.d-mobile2 {
+    display:  none;
 }
 .d-desktop {
     display: block;
@@ -271,6 +277,9 @@ body>sec {
     margin-right: 1rem;
 }
 .mr4-mob {
+    margin-right: 1rem;
+}
+.mr5-mob {
     margin-right: 1rem;
 }
 .line-none a:hover {
@@ -1240,7 +1249,7 @@ body>sec {
 .text-online5 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 .text-online6 {
@@ -1592,7 +1601,7 @@ body>sec {
 .text-mobMKT1 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-size: clamp(1.8rem, 2.5vw, 2.5rem);
 }
 .icmob-08 {
@@ -2070,7 +2079,10 @@ body>sec {
         margin-left: 0;
     }
     .mt-mob {
-        margin-top: 5%;
+        margin-top: 8%;
+    }
+    .mt-mob1 {
+        margin-top: 10%;
     }
     .ml4 {
         margin-left: 0%;
@@ -2085,6 +2097,9 @@ body>sec {
         margin-left: 12%;
     }    
     .mr3-mob {
+        margin-right: 4rem;
+    }
+    .mr5-mob {
         margin-right: 4rem;
     }
     .d-mobile {
@@ -2571,6 +2586,9 @@ body>sec {
     .mr4-mob {
         margin-right: 3rem;
     }
+    .mr5-mob {
+        margin-right: 5rem;
+    }
     .title-text1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -2685,12 +2703,19 @@ body>sec {
     .mr4-mob {
         margin-right: 2rem;
     }
+    .mr5-mob {
+        margin-right: 2rem;
+    }
     .text-detail5 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         font-size: clamp(1.8rem, 2.5vw, 2.5rem);
     }
+    .text-detail4 {
+        font-size: 1.8rem;
+        font-size: clamp(1.7rem, 2.5vw, 2.5rem);
+    }
     .text-detail1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
@@ -2718,7 +2743,7 @@ body>sec {
         font-size: clamp(1.8rem, 2.5vw, 3rem);
     }
     .text-online5 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     .ml-osm-detail {
@@ -2765,7 +2790,7 @@ body>sec {
 
     /* --------------------------Start Style Mobile Page----------------------- */
     .text-mobMKT1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
@@ -2809,7 +2834,15 @@ body>sec {
     .d-desktop4 {
         display: none;
     }
+    .d-mobile2 {
+        display: block;
+    }
 }
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .d-mob2 {
+        display: block;
+    }
+  }
 
 @media only screen and (max-width : 400px) {
     .g-recaptcha {
@@ -2922,6 +2955,9 @@ body>sec {
     }
     .ic02-quotation5 {
         margin-left: 100%;
+    }
+    .d-mobile2 {
+        display:  none;
     }
     /* --------------------------End Style Mobile Page------------------------- */
 
