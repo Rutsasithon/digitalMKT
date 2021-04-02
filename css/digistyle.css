@@ -447,7 +447,7 @@ body>sec {
 .title-text9 {
     font-family: 'db_heavent_cond';
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-size: clamp(1.3rem, 2vw, 1.65rem);
 }
 .title-text10 {
@@ -2704,7 +2704,7 @@ body>sec {
         margin-right: 2rem;
     }
     .mr5-mob {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
     .text-detail5 {
         font-size: 1.8rem;
