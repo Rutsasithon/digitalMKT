@@ -1193,11 +1193,9 @@
 
             var tel = $("#phone_number").val();
 
-            var employee = $("#employee").val();
-
             var message = $("#messages").val();
 
-            var price = $("#budget").val();
+            var budget = $("#budget").val();
 
             var favorites = $('input[name="service_checkbox"]:checked');
             var favorite = [];
@@ -1206,7 +1204,7 @@
                 favorite[i] = favorites[i].value;
             }
 
-            if (name == "") {
+            if (name == ""||surname =="") {
                 Swal.fire(
                     'ผิดพลาด',
                     'กรุณากรอกชื่อ - นามสกุล',
@@ -1214,6 +1212,7 @@
                 )
                 return false;
             }
+            
 
             if (company == "") {
                 Swal.fire(
@@ -1265,25 +1264,24 @@
                         return false;
                     }                     
                 }
-            }            
+            }          
            
-
             var markers = {
-                product_id: "Digitalform",
-                product_name: "Digitalform",
-                cate: "",
-                subcate: "",
-                businesstype: "",
-                package: "",
-                price: "",
-                name: name,
-                company: company,
-                Surname: surname,
-                email: email,
-                tel: tel,
-                employee: employee,
-                message: message,
-                favorite: favorite,
+                "product_id": "Digitalform",
+                "product_name": "Digitalform",
+                "cate": "",
+                "subcate": "",
+                "businesstype": "",
+                "package": "" ,
+                "price": "",
+                "name": name,
+                "company": company,
+                "Surname": surname,
+                "email": email,
+                "tel": tel,
+                "message": message,
+                "budget": budget,
+                "favorite": favorite
             };
             console.log(favorite);
             console.log(markers);
@@ -1295,6 +1293,7 @@
                     data: JSON.stringify(markers),
 
                     success: function (data) {
+                        console.log(data);
                         Swal.fire(
                         'สำเร็จ',
                         'ขอบคุณที่ให้ความสนใจทางเราจะติดต่อกลับคุณโดยเร็วที่สุดค่ะ',
