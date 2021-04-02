@@ -40,6 +40,9 @@ body>sec {
 .d-mob2 {
     display: none;
 }
+.d-mob3 {
+    display: none;
+}
 .d-mobile {
     display: none;
 }
@@ -1714,6 +1717,12 @@ body>sec {
     font-size: 2.5rem;
     font-size: clamp(1.7rem, 2.5vw, 2.5rem);
 }
+.text-mobmkt5 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
 /* --------------------------End Style Mobile Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -2035,6 +2044,10 @@ body>sec {
     .icmob-01 {
         height: 155%;
         margin-left: 2%;
+    }
+    .text-mobmkt5 {
+        font-size: 1.7rem;
+        font-size: clamp(1.7rem, 2.5vw, 1.7rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
 }
@@ -2564,8 +2577,22 @@ body>sec {
     #sms-broadcast {
         padding: 3% 0 10% 0;
     }
+    .text-detail4 {
+        font-size: 1.9rem;
+        font-size: clamp(1.7rem, 2.5vw, 1.9rem);
+    }
+    .text-detail1 {
+        font-size: 1.7rem;
+        font-size: clamp(1.7rem, 2.5vw, 1.7rem);
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+    .d-mob3 {
+        display: block;
+    }
+  }
 
 @media only screen and (max-width : 767px) {  
     .d-mobile {
@@ -2704,7 +2731,7 @@ body>sec {
         margin-right: 2rem;
     }
     .mr5-mob {
-        margin-right: 1rem;
+        margin-right: 1.2rem;
     }
     .text-detail5 {
         font-size: 1.8rem;
@@ -2790,6 +2817,10 @@ body>sec {
 
     /* --------------------------Start Style Mobile Page----------------------- */
     .text-mobMKT1 {
+        font-size: 1.6rem;
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
+    }
+    .text-mobmkt5 {
         font-size: 1.6rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
@@ -2885,6 +2916,9 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .syl-box7 {
+        padding: 20px 5px;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2959,6 +2993,9 @@ body>sec {
     .d-mobile2 {
         display:  none;
     }
+    .syl-box7 {
+        padding: 20px 4px;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 
 }
@@ -2973,6 +3010,9 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
+    .syl-box7 {
+        padding: 20px 10px;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
