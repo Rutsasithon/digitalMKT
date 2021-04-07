@@ -67,6 +67,9 @@ body>sec {
 .d-desktop4 {
     display: block;
 }
+.d-desktop5 {
+    display: block;
+}
 .d-text {
     display: none;
 }
@@ -1755,6 +1758,83 @@ body>sec {
     font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 /* --------------------------End Style Mobile Page------------------------- */
+/* --------------------------Start Style AppDev Page----------------------- */
+#introduce-appdev {
+    background-image: url(../images/appdev/desktop/bg/bg03.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#mob-appdev {
+    background-image: url(../images/appdev/desktop/bg/bg02.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 0 0;
+}
+#web-appdev {
+    background-image: url(../images/appdev/desktop/bg/bg01.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 0 0;
+}
+.ic01-quotation6 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 19%;
+    margin-bottom: -3%;
+}
+.ic02-quotation6 {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 78%;
+    margin-top: -7%;
+}
+.ic-app1 {
+    position: relative;
+    max-width: 87%;
+    width: 87%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 0;
+    margin-top: 15%;
+}
+.ic-app2 {
+    position: absolute;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 27%;
+    margin-left: 15%;
+    z-index: 2;
+}
+.ic-app3 {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+}
+.ic-app4 {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+}
+.appintro-grid2 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1fr 5fr;
+    -ms-grid-columns: 1fr 5fr;
+}
+/* --------------------------End Style AppDev Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
 
@@ -1903,8 +1983,9 @@ body>sec {
     }
     /* ----------------------------End Style Online Page----------------------- */
 
-    /* --------------------------Start Style Mobile Page----------------------- */
-    /* --------------------------End Style Mobile Page------------------------- */
+    /* --------------------------Start Style AppDev Page----------------------- */
+
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media only screen and (max-width : 1120px) {
@@ -2081,6 +2162,15 @@ body>sec {
         font-size: clamp(1.7rem, 2.5vw, 1.7rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .ic01-quotation6 {
+        margin-left: 12%;
+    }
+    .ic02-quotation6 {
+        margin-left: 85%;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media (min-width: 992px) {
@@ -2617,6 +2707,27 @@ body>sec {
         font-size: clamp(1.7rem, 2.5vw, 1.7rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .ic01-quotation6 {
+        margin-left: 8%;
+    }
+    .ic02-quotation6 {
+        margin-left: 89%;
+    }
+    .ic-app1 {
+        max-width: 50%;
+        width: 50%;
+    }
+    .ic-app2 {
+        max-width: 30%;
+        width: 30%;
+        margin-bottom: 13%;
+        margin-left: 37%;
+    }
+    
+    
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media screen and (min-width: 768px) and (max-width: 840px) {
@@ -2742,6 +2853,16 @@ body>sec {
         grid-template-columns: repeat(2,1fr);
         -ms-grid-columns: 1fr 1fr;
     }
+    .ic-app1 {
+        max-width: 70%;
+        width: 70%;
+    }
+    .ic-app2 {
+        max-width: 40%;
+        width: 40%;
+        margin-bottom: 20%;
+        margin-left: 31%;
+    }
     /* --------------------------End Style Mobile Page------------------------- */
 }
 
@@ -2856,6 +2977,23 @@ body>sec {
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .ic01-quotation6 {
+        width: 4%;
+        margin-left: 7%;
+    }
+    .ic02-quotation6 {
+        width: 4%;
+        margin-left: 89%;
+    }
+    .d-desktop5 {
+        display: none;
+    }
+    .ml600 {
+        margin-left: 5%;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
     .d-mob {
@@ -2899,6 +3037,16 @@ body>sec {
     .d-mobile2 {
         display: block;
     }
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .ic01-quotation6 {
+        width: 4%;
+        margin-left: -2%;
+    }
+    .ic02-quotation6 {
+        width: 4%;
+        margin-left: 98%;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 @media screen and (min-width: 400px) and (max-width: 450px) {
     .d-mob2 {
@@ -2951,6 +3099,17 @@ body>sec {
         padding: 20px 5px;
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .ic01-quotation6 {
+        width: 4%;
+        margin-left: -4%;
+    }
+    .ic02-quotation6 {
+        width: 4%;
+        margin-left: 100%;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 
