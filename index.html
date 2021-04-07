@@ -275,6 +275,17 @@
                         </div>
                     </a>
                 </li>
+                <li class="banner4">
+                    <a target="_blank" title="">
+                        <div class="banner d-desktop position-relative">
+                            <img src="./images/appdev/desktop/banner/bn03.png" class="fragment-app fragment-app-banner1">
+                            <img src="./images/appdev/desktop/banner/bn02.png" class="fragment-app fragment-app-banner2 bouncing-item">
+                            <img src="./images/appdev/desktop/banner/bn01.png" class="fragment-app fragment-app-banner3">
+                            <img src="./images/appdev/desktop/banner/bn04.png" class="stl-bnw">
+                        </div>
+                        <div class="banner d-mobile"><img src="./images/appdev/mobile/banner/banner1080x1080.jpg" class="stl-bnw"></div>
+                    </a>
+                </li>
             </ul>
         </section>
         <!-- ---------------------------------------------------------TAB MENU ด้านข้าง------------------------------------------------------------ -->
@@ -1386,9 +1397,9 @@
 
                 speed: 1000, //ms'
                 auto: true, // เล่นเอง
-                loop: false, //วนซ้ำ
+                loop: true, //วนซ้ำ
                 slideEndAnimation: true,
-                pause: 5000,
+                pause: 6000,
 
                 keyPress: false,
                 controls: false, //ลูกศรซ้ายขวา
@@ -1420,6 +1431,7 @@
                     $(".fragment").hide();
                     $(".fragment-online").hide();
                     $(".fragment-mob").hide();
+                    $(".fragment-app").hide();
                 },
                 onSliderLoad: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1463,12 +1475,26 @@
                         $(".fragment-mob-banner3").addClass("animate__fadeInRight");
 
                         $(".fragment-mob").show();
+                    }else if ($(".banner4").hasClass("active")) {
+                        // alert('hello banner1');
+    
+                        $(".fragment-app-banner1").addClass('animate__animated');
+                        $(".fragment-app-banner1").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-app-banner2").addClass('animate__animated');
+                        $(".fragment-app-banner2").addClass('animate__fadeInRight');
+
+                        $(".fragment-app-banner3").addClass('animate__animated');
+                        $(".fragment-app-banner3").addClass('animate__fadeInRight');
+    
+                        $(".fragment-app").show();
                     }
                 },
                 onBeforeSlide: function (el) {
                     $(".fragment").hide();
                     $(".fragment-online").hide();
                     $(".fragment-mob").hide();
+                    $(".fragment-app").hide();
                 },
                 onAfterSlide: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1515,6 +1541,19 @@
                         $(".fragment-mob-banner3").addClass("animate__fadeInRight");
 
                         $(".fragment-mob").show();
+                    } else if ($(".banner4").hasClass("active")) {
+                        // alert('hello banner1');
+
+                        $(".fragment-app-banner1").addClass('animate__animated');
+                        $(".fragment-app-banner1").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-app-banner2").addClass('animate__animated');
+                        $(".fragment-app-banner2").addClass('animate__fadeInRight');
+
+                        $(".fragment-app-banner3").addClass('animate__animated');
+                        $(".fragment-app-banner3").addClass('animate__fadeInRight');
+    
+                        $(".fragment-app").show();
                     }
                 },
                 onBeforeNextSlide: function (el) { },
