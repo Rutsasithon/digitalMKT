@@ -1911,6 +1911,14 @@ body>sec {
 .mb2-app {
     margin-bottom: 3rem;
 }
+#contact-app {
+    background-image: url(../images/home-dt/bg/bg07.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
 /* --------------------------End Style AppDev Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -1983,7 +1991,7 @@ body>sec {
     /* --------------------------Start Style AppDev Page----------------------- */
     .text-app7 {
         font-size: 2rem;
-        font-size: clamp(1.2rem, 2.5vw, 2rem);
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -2080,7 +2088,7 @@ body>sec {
     }
     .text-app7 {
         font-size: 2rem;
-        font-size: clamp(1.2rem, 2.5vw, 2rem);
+        font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -2271,8 +2279,8 @@ body>sec {
         margin: 18px 0;
     }
     .text-app7 {
-        font-size: 2rem;
-        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+        font-size: 1.5rem;
+        font-size: clamp(1.5rem, 2.5vw, 1.8rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -2834,6 +2842,14 @@ body>sec {
     /* --------------------------End Style Mobile Page------------------------- */
 
     /* --------------------------Start Style AppDev Page----------------------- */
+    #contact-app {
+        background-image: url(../images/home-mb/bg_m04.jpg);
+        position: relative;
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+        padding: 3% 0 0 0;
+    }
     #web-appdev {
         padding: 3% 0 0 0;
     }
@@ -3161,7 +3177,7 @@ body>sec {
         margin-left: 30%;
     }
     .ic12-app {
-        width: 40px;
+        width: 35px;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -3218,14 +3234,23 @@ body>sec {
     }
     .abs-appdev {
         margin-top: 6%;
+        margin-left: 4%;
     }
     .line-bottom8 {
-        margin: 12px 0;
+        margin: 8px 0;
     }
     .mb2-app {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    .ml-app-detail {
+        margin-left: 24%;
     }
     /* --------------------------End Style AppDev Page------------------------- */
+}
+@media only screen and (max-width : 482px) {
+    #contact-app {
+        background-image: url(../images/appdev/mobile/bg/bg-mob-contact.jpg);
+    }
 }
 @media screen and (min-width: 400px) and (max-width: 450px) {
     .d-mob2 {
@@ -3289,16 +3314,17 @@ body>sec {
         margin-left: 100%;
     }
     .ml-app-detail {
-        margin-left: 25%;
-    }
-    .mb2-app {
-        margin-bottom: 1rem;
+        margin-left: 20%;
     }
     .line-bottom8 {
         margin: 8px 0;
     }
     .ic12-app {
         width: 30px;
+    }
+    .text-app7 {
+        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2.5vw, 1.8rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -3398,6 +3424,7 @@ body>sec {
     .line-bottom8 {
         margin: 5px 0;
     }
+    
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -3415,6 +3442,13 @@ body>sec {
         padding: 20px 10px;
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .text-app7 {
+        font-size: 1.2rem;
+        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 /* --------------------------------------------------------------IE------------------------------------------------------------------------ */
