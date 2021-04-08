@@ -560,7 +560,7 @@ body>sec {
     position: absolute;
     bottom: 0;
     left: 0;
-    max-width: 20%;
+    max-width: 18%;
     height: auto;
     object-fit: contain;
     margin-bottom: 5%;
@@ -3456,6 +3456,9 @@ body>sec {
 (-ms-high-contrast: active) { 
     .center2 {
         text-align: center;
+    }
+    .mb-ie-25{
+        margin-bottom: 25px;
     }
 }
 
