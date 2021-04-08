@@ -1049,7 +1049,12 @@ body>sec {
     -ms-grid-columns: 1fr 1fr 1fr;
     margin-left: 10%;
 }
-
+.app-dev-grid3 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(4,1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+}
 .bouncing-item {
     color: #3079ed;
     animation-name: angry-animation;
@@ -1779,7 +1784,7 @@ body>sec {
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 0 0;
+    padding: 3% 0 3% 0;
 }
 #web-appdev {
     background-image: url(../images/appdev/desktop/bg/bg01.jpg);
@@ -1787,7 +1792,7 @@ body>sec {
     background-size: 100% 100%;
     width: 100%;
     height: auto;
-    padding: 3% 0 0 0;
+    padding: 3% 0 3% 0;
 }
 .ic01-quotation6 {
     width: 3%;
@@ -1833,6 +1838,41 @@ body>sec {
     width: 170px;
     height: auto;
     object-fit: contain;
+}
+.ic-app5 {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+}
+.ic-app6 {
+    width: 65%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 13%;
+    margin-left: 27%;
+}
+.im02-appdev {
+    position: absolute;
+    max-width: 50%;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    object-fit: contain;
+    margin-right: 5%;
+}
+.im01-appdev {
+    position: absolute;
+    max-width: 21%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 8%;
+    margin-right: 29%;
 }
 .appintro-grid2 {
     display: grid;
@@ -2420,6 +2460,10 @@ body>sec {
     .app-dev-grid2 {
         margin-left: 0%;
     }
+    .app-dev-grid3 {
+        grid-template-columns: repeat(2,1fr);
+        -ms-grid-columns: 1fr 1fr;
+    }
     .crm-grid1 {
         grid-template-columns: 1fr;
         -ms-grid-columns: 1fr;
@@ -2721,6 +2765,9 @@ body>sec {
     /* --------------------------End Style Mobile Page------------------------- */
 
     /* --------------------------Start Style AppDev Page----------------------- */
+    #web-appdev {
+        padding: 3% 0 0 0;
+    }
     .ic01-quotation6 {
         margin-left: 8%;
     }
@@ -2737,8 +2784,26 @@ body>sec {
         margin-bottom: 13%;
         margin-left: 37%;
     }
-    
-    
+    .im02-appdev {
+        position: relative;
+        max-width: 90%;
+        min-width: 0;
+        height: auto;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .im01-appdev {
+        position: absolute;
+        max-width: 40%;
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 14%;
+        margin-right: 50%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -3005,6 +3070,9 @@ body>sec {
     .ml600 {
         margin-left: 5%;
     }
+    .syl-box6 {
+        padding: 15px;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
@@ -3200,6 +3268,19 @@ body>sec {
     }
     /* --------------------------End Style Mobile Page------------------------- */
 
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .app-dev-grid3 {
+        grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
+    }
+    .center378 {
+        justify-content: center;
+        text-align: center;
+    }
+    .syl-box6 {
+        padding: 20px;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media only screen and (max-width : 320px) {
