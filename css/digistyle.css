@@ -1880,6 +1880,9 @@ body>sec {
     grid-template-columns: 1fr 5fr;
     -ms-grid-columns: 1fr 5fr;
 }
+.mr-appdev {
+    margin-right: 1rem;
+}
 /* --------------------------End Style AppDev Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -2257,6 +2260,10 @@ body>sec {
         width: auto;
         height: auto;
         margin: auto;
+    }
+    .center6 {
+        justify-content: center;
+        text-align: center;
     }
     .textcenter1 {
         text-align: center;
@@ -2804,6 +2811,9 @@ body>sec {
         margin-bottom: 14%;
         margin-right: 50%;
     }
+    .ml-app-detail {
+        margin-left: 35%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -3073,6 +3083,9 @@ body>sec {
     .syl-box6 {
         padding: 15px;
     }
+    .ml-app-detail {
+        margin-left: 30%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
@@ -3188,6 +3201,9 @@ body>sec {
     .ic02-quotation6 {
         width: 4%;
         margin-left: 100%;
+    }
+    .ml-app-detail {
+        margin-left: 25%;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
