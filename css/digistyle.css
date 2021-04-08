@@ -701,6 +701,12 @@ body>sec {
 .z-in2 {
     z-index: 2;
 }
+.center {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
 .center2 {
     width: auto;
     height: auto;
@@ -2205,6 +2211,12 @@ body>sec {
     }
     .center3 {
         justify-content: center;
+    }
+    .center5 {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: auto;
     }
     .textcenter1 {
         text-align: center;
