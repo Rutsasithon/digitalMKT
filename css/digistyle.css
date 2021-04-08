@@ -1883,6 +1883,34 @@ body>sec {
 .mr-appdev {
     margin-right: 1rem;
 }
+.abs-appdev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 22%;
+    margin-left: 11%;
+}
+.line-bottom8 {
+    border: solid white;
+    border-width: 3px 0px 0px 0px;
+    width: 55px;
+    display: block;
+    margin: 40px 0;
+}
+.ic12-app {
+    width: 65px;
+    height: auto;
+    object-fit: contain;
+}
+.text-app7 {
+    font-family: 'db_heaventlight_cond';
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-size: clamp(1.7rem, 2.5vw, 2.6rem);
+}
+.mb2-app {
+    margin-bottom: 3rem;
+}
 /* --------------------------End Style AppDev Page------------------------- */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -1951,6 +1979,13 @@ body>sec {
         font-size: clamp(1.7rem, 2.5vw, 2.2rem);
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .text-app7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media only screen and (max-width : 1300px) {
@@ -2033,7 +2068,20 @@ body>sec {
     /* ----------------------------End Style Online Page----------------------- */
 
     /* --------------------------Start Style AppDev Page----------------------- */
-
+    .abs-appdev {
+        margin-top: 20%;
+        margin-left: 7%;
+    }
+    .line-bottom8 {
+        margin: 18px 0;
+    }
+    .ic12-app {
+        width: 55px;
+    }
+    .text-app7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -2219,6 +2267,13 @@ body>sec {
     .ic02-quotation6 {
         margin-left: 85%;
     }
+    .line-bottom8 {
+        margin: 18px 0;
+    }
+    .text-app7 {
+        font-size: 2rem;
+        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -2245,6 +2300,13 @@ body>sec {
         height: 136%;
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+    /* --------------------------Start Style AppDev Page----------------------- */
+    .abs-appdev {
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media only screen and (max-width : 930px) {
@@ -2814,6 +2876,12 @@ body>sec {
     .ml-app-detail {
         margin-left: 35%;
     }
+    .line-bottom8 {
+        margin: 40px 0;
+    }
+    .abs-appdev {
+        margin-left: 10%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 
@@ -2951,6 +3019,12 @@ body>sec {
         margin-left: 31%;
     }
     /* --------------------------End Style Mobile Page------------------------- */
+
+     /* --------------------------Start Style AppDev Page----------------------- */
+    .line-bottom8 {
+        margin: 20px 0;
+    }
+    /* --------------------------End Style AppDev Page------------------------- */
 }
 
 @media only screen and (max-width : 600px) {
@@ -3086,6 +3160,9 @@ body>sec {
     .ml-app-detail {
         margin-left: 30%;
     }
+    .ic12-app {
+        width: 40px;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 }
 @media only screen and (max-width : 500px) {
@@ -3138,6 +3215,15 @@ body>sec {
     .ic02-quotation6 {
         width: 4%;
         margin-left: 98%;
+    }
+    .abs-appdev {
+        margin-top: 6%;
+    }
+    .line-bottom8 {
+        margin: 12px 0;
+    }
+    .mb2-app {
+        margin-bottom: 2rem;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -3204,6 +3290,15 @@ body>sec {
     }
     .ml-app-detail {
         margin-left: 25%;
+    }
+    .mb2-app {
+        margin-bottom: 1rem;
+    }
+    .line-bottom8 {
+        margin: 8px 0;
+    }
+    .ic12-app {
+        width: 30px;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
@@ -3295,6 +3390,13 @@ body>sec {
     }
     .syl-box6 {
         padding: 20px;
+    }
+    .abs-appdev {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .line-bottom8 {
+        margin: 5px 0;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 }
