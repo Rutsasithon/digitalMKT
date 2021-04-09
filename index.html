@@ -286,6 +286,17 @@
                         <div class="banner d-mobile"><img src="./images/appdev/mobile/banner/banner1080x1080.jpg" class="stl-bnw"></div>
                     </a>
                 </li>
+                <li class="banner5">
+                    <a target="_blank" title="">
+                        <div class="banner d-desktop position-relative">
+                            <img src="./images/crm/desktop/banner/text_banner.png" class="fragment-crm fragment-crm-banner1">
+                            <img src="./images/crm/desktop/banner/icon_banner.png" class="fragment-crm fragment-crm-banner2 bouncing-item">
+                            <img src="./images/crm/desktop/banner/im_banner.png" class="fragment-crm fragment-crm-banner3">
+                            <img src="./images/crm/desktop/banner/bg_banner.jpg" class="stl-bnw">
+                        </div>
+                        <div class="banner d-mobile"><img src="./images/crm/mobile/banner/1080x1080.jpg" class="stl-bnw"></div>
+                    </a>
+                </li>
             </ul>
         </section>
         <!-- ---------------------------------------------------------TAB MENU ด้านข้าง------------------------------------------------------------ -->
@@ -1432,6 +1443,7 @@
                     $(".fragment-online").hide();
                     $(".fragment-mob").hide();
                     $(".fragment-app").hide();
+                    $(".fragment-crm").hide();
                 },
                 onSliderLoad: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1475,7 +1487,7 @@
                         $(".fragment-mob-banner3").addClass("animate__fadeInRight");
 
                         $(".fragment-mob").show();
-                    }else if ($(".banner4").hasClass("active")) {
+                    } else if ($(".banner4").hasClass("active")) {
                         // alert('hello banner1');
     
                         $(".fragment-app-banner1").addClass('animate__animated');
@@ -1488,6 +1500,19 @@
                         $(".fragment-app-banner3").addClass('animate__fadeInRight');
     
                         $(".fragment-app").show();
+                    } else if ($(".banner5").hasClass("active")) {
+                        // alert('hello banner1');
+    
+                        $(".fragment-crm-banner1").addClass('animate__animated');
+                        $(".fragment-crm-banner1").addClass('animate__fadeInRight');
+    
+                        $(".fragment-crm-banner2").addClass('animate__animated');
+                        $(".fragment-crm-banner2").addClass('animate__fadeInLeft');
+
+                        $(".fragment-crm-banner3").addClass('animate__animated');
+                        $(".fragment-crm-banner3").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-crm").show();
                     }
                 },
                 onBeforeSlide: function (el) {
@@ -1495,6 +1520,7 @@
                     $(".fragment-online").hide();
                     $(".fragment-mob").hide();
                     $(".fragment-app").hide();
+                    $(".fragment-crm").hide();
                 },
                 onAfterSlide: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1554,6 +1580,19 @@
                         $(".fragment-app-banner3").addClass('animate__fadeInRight');
     
                         $(".fragment-app").show();
+                    } else if ($(".banner5").hasClass("active")) {
+                        // alert('hello banner1');
+    
+                        $(".fragment-crm-banner1").addClass('animate__animated');
+                        $(".fragment-crm-banner1").addClass('animate__fadeInRight');
+    
+                        $(".fragment-crm-banner2").addClass('animate__animated');
+                        $(".fragment-crm-banner2").addClass('animate__fadeInLeft');
+
+                        $(".fragment-crm-banner3").addClass('animate__animated');
+                        $(".fragment-crm-banner3").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-crm").show();
                     }
                 },
                 onBeforeNextSlide: function (el) { },
