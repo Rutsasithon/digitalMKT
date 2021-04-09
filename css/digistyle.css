@@ -3497,7 +3497,7 @@ body>sec {
         background-image: url(../images/appdev/mobile/bg/bg-mob-contact.jpg);
     }
 }
-@media screen and (min-width: 400px) and (max-width: 450px) {
+@media screen and (min-width: 393px) and (max-width: 450px) {
     .d-mob2 {
         display: block;
     }
