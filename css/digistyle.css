@@ -436,7 +436,7 @@ body>sec {
     font-family: 'db_heaventbold_cond';
     line-height: 1.5;
     font-size: 4rem;
-    font-size: clamp(4rem, 2vw, 5rem);
+    font-size: clamp(3.8rem, 2vw, 5rem);
 }
 .title-text6 {
     font-family: 'db_heaventlight_cond';
@@ -2016,6 +2016,56 @@ body>sec {
     margin-bottom: 43%;
     margin-left: 35%;
 }
+.text-crm1 {
+    font-family: 'db_heaventcond';
+    line-height: 1.5;
+    font-size: 2.7rem;
+    font-size: clamp(2rem, 2vw, 2.7rem);
+}
+.ic-crm4 {
+    position: absolute;
+    max-width: 43%;
+    width: 43%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+.ic-crm5 {
+    position: absolute;
+    max-width: 25%;
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5%;
+    margin-right: 25.5%;
+    z-index: 2;
+}
+.ic-crm6 {
+    position: absolute;
+    max-width: 36%;
+    width: 36%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-left: 3%;
+}
+.ic-crm7 {
+    position: absolute;
+    max-width: 25%;
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 21%;
+    margin-left: 23%;
+}
 /* ---------------------------End Style CRM Page------------------------ */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -2093,6 +2143,16 @@ body>sec {
     /* --------------------------End Style AppDev Page------------------------- */
 
     /* --------------------------Start Style CRM Page----------------------- */
+    .ic-crm6 {
+        position: absolute;
+        max-width: 45%;
+        width: 45%;
+        height: auto;
+        object-fit: contain;
+        bottom: 0;
+        left: 0;
+        margin-left: 3%;
+    }
     /* ---------------------------End Style CRM Page------------------------ */
 }
 
@@ -3037,6 +3097,36 @@ body>sec {
     #introduce-crm {
         background-image: url(../images/crm/mobile/bg/bg01mob.jpg);
     }
+    .ic-crm4 {
+        position: relative;
+        max-width: 60%;
+        width: 60%;
+        margin-right: 5%;
+    }
+    .ic-crm5 {
+        max-width: 30%;
+        width: 30%;
+        margin-bottom: 8%;
+        margin-right: 52.5%;
+    }
+    .ic-crm6 {
+        position: relative;
+        max-width: 65%;
+        width: 65%;
+        height: auto;
+        object-fit: contain;
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+    .ic-crm7 {
+        max-width: 40%;
+        width: 40%;
+        margin-bottom: 27%;
+        margin-left: 45%;
+    }
+    #reward {
+        padding: 3% 0 0 0;
+    }
     /* ---------------------------End Style CRM Page------------------------ */
 }
 
@@ -3182,6 +3272,10 @@ body>sec {
     /* --------------------------End Style AppDev Page------------------------- */
 
     /* --------------------------Start Style CRM Page----------------------- */
+    .text-crm1 {
+        font-size: 1.7rem;
+        font-size: clamp(1.7rem, 2vw, 2rem);
+    }
     /* ---------------------------End Style CRM Page------------------------ */
 }
 
