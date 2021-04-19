@@ -166,12 +166,14 @@
             <ul id="lightSlider">
                 <li class="banner1">
                     <a target="_blank" title="">
-                        <div class="banner d-none d-xs-none d-sm-none d-md-block col-md-12 col-lg-12">
-                            <img src="./images/banner-ex/hero01.png" class="fragment-online fragment-online-banner1">
-                            <img src="./images/banner-ex/hero02.png" class="fragment-online fragment-online-banner2">
-                            <img src="./images/banner-ex/bg_herobanner.jpg" class="stl-bnw">
+                        <div class="banner d-desktop position-relative">
+                            <img src="./images/multimedia/desktop/banner/text_banner.png" class="fragment-mmd fragment-mmd-banner1">
+                            <img src="./images/multimedia/desktop/banner/icon_banner.png" class="fragment-mmd fragment-mmd-banner2 bouncing-item">
+                            <img src="./images/multimedia/desktop/banner/im_banner.png" class="fragment-mmd fragment-mmd-banner3">
+                            <img src="./images/multimedia/desktop/banner/im01_banner.png" class="fragment-mmd fragment-mmd-banner4">
+                            <img src="./images/multimedia/desktop/banner/bg_banner.jpg" class="stl-bnw">
                         </div>
-                        <div class="banner col-12 col-xs-12 col-sm-12 d-sm-block d-md-none d-lg-none"><img src="./images/home-mb/horo_mobile.jpg" class="stl-bnw"></div>
+                        <div class="banner d-mobile"><img src="./images/multimedia/mobile/banner/1080x1080.jpg" class="stl-bnw"></div>
                     </a>
                 </li>
             </ul>
@@ -412,6 +414,9 @@
 
                         $(".fragment-mmd-banner3").addClass('animate__animated');
                         $(".fragment-mmd-banner3").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner4").addClass('animate__animated');
+                        $(".fragment-mmd-banner4").addClass('animate__fadeInLeft');
     
                         $(".fragment-mmd").show();
                     }
@@ -433,6 +438,9 @@
 
                         $(".fragment-mmd-banner3").addClass('animate__animated');
                         $(".fragment-mmd-banner3").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner4").addClass('animate__animated');
+                        $(".fragment-mmd-banner4").addClass('animate__fadeInLeft');
     
                         $(".fragment-mmd").show();
                     } else if ($(".banner2").hasClass('active')) {
