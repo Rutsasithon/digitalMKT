@@ -2129,6 +2129,47 @@ body>sec {
     height: auto;
     padding: 3% 0 3% 0;
 }
+#info-graphic {
+    background-image: url(../images/multimedia/desktop/bg/bg02-1.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+    margin-bottom: -1%;
+}
+#ads {
+    background-image: url(../images/multimedia/desktop/bg/bg01-1.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#motion {
+    background-image: url(../images/multimedia/desktop/bg/bg08.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#advertorial {
+    background-image: url(../images/multimedia/desktop/bg/bg07.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+#vdo {
+    background-image: url(../images/multimedia/desktop/bg/bg06.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
 .ic-mmd1 {
     position: relative;
     max-width: 100%;
