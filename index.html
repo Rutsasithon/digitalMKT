@@ -297,6 +297,18 @@
                         <div class="banner d-mobile"><img src="./images/crm/mobile/banner/1080x1080.jpg" class="stl-bnw"></div>
                     </a>
                 </li>
+                <li class="banner6">
+                    <a target="_blank" title="">
+                        <div class="banner d-desktop position-relative">
+                            <img src="./images/multimedia/desktop/banner/text_banner.png" class="fragment-mmd fragment-mmd-banner1">
+                            <img src="./images/multimedia/desktop/banner/icon_banner.png" class="fragment-mmd fragment-mmd-banner2 bouncing-item">
+                            <img src="./images/multimedia/desktop/banner/im_banner.png" class="fragment-mmd fragment-mmd-banner3">
+                            <img src="./images/multimedia/desktop/banner/im01_banner.png" class="fragment-mmd fragment-mmd-banner4">
+                            <img src="./images/multimedia/desktop/banner/bg_banner.jpg" class="stl-bnw">
+                        </div>
+                        <div class="banner d-mobile"><img src="./images/multimedia/mobile/banner/1080x1080.jpg" class="stl-bnw"></div>
+                    </a>
+                </li>
             </ul>
         </section>
         <!-- ---------------------------------------------------------TAB MENU ด้านข้าง------------------------------------------------------------ -->
@@ -1444,6 +1456,7 @@
                     $(".fragment-mob").hide();
                     $(".fragment-app").hide();
                     $(".fragment-crm").hide();
+                    $(".fragment-mmd").hide();
                 },
                 onSliderLoad: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1513,6 +1526,22 @@
                         $(".fragment-crm-banner3").addClass('animate__fadeInLeft');
     
                         $(".fragment-crm").show();
+                    } else if ($(".banner6").hasClass("active")) {
+                        // alert('hello banner1');
+    
+                        $(".fragment-mmd-banner1").addClass('animate__animated');
+                        $(".fragment-mmd-banner1").addClass('animate__fadeInRight');
+    
+                        $(".fragment-mmd-banner2").addClass('animate__animated');
+                        $(".fragment-mmd-banner2").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner3").addClass('animate__animated');
+                        $(".fragment-mmd-banner3").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner4").addClass('animate__animated');
+                        $(".fragment-mmd-banner4").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-mmd").show();
                     }
                 },
                 onBeforeSlide: function (el) {
@@ -1521,6 +1550,7 @@
                     $(".fragment-mob").hide();
                     $(".fragment-app").hide();
                     $(".fragment-crm").hide();
+                    $(".fragment-mmd").hide();
                 },
                 onAfterSlide: function (el) {
                     if ($(".banner1").hasClass("active")) {
@@ -1593,6 +1623,22 @@
                         $(".fragment-crm-banner3").addClass('animate__fadeInLeft');
     
                         $(".fragment-crm").show();
+                    } else if ($(".banner6").hasClass("active")) {
+                        // alert('hello banner1');
+    
+                        $(".fragment-mmd-banner1").addClass('animate__animated');
+                        $(".fragment-mmd-banner1").addClass('animate__fadeInRight');
+    
+                        $(".fragment-mmd-banner2").addClass('animate__animated');
+                        $(".fragment-mmd-banner2").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner3").addClass('animate__animated');
+                        $(".fragment-mmd-banner3").addClass('animate__fadeInLeft');
+
+                        $(".fragment-mmd-banner4").addClass('animate__animated');
+                        $(".fragment-mmd-banner4").addClass('animate__fadeInLeft');
+    
+                        $(".fragment-mmd").show();
                     }
                 },
                 onBeforeNextSlide: function (el) { },
