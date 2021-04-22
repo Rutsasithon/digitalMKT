@@ -55,6 +55,9 @@ body>sec {
 .d-mobile2 {
     display:  none;
 }
+.d-mobile3 {
+    display:  none;
+}
 .d-desktop {
     display: block;
 }
@@ -2350,6 +2353,11 @@ body>sec {
     grid-template-columns: 0.5fr 6fr;
     -ms-grid-columns: 0.5fr 6fr;
 }
+.ic-mmd3 {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+}
 /* ---------------------------End Style Multi Page------------------------ */
 
 /* -------------------------------------------------------Response------------------------------------------------------------------------- */
@@ -3764,6 +3772,10 @@ body>sec {
     .ic15-mmd {
         width: 70px;
     }
+    .mmd-grid3 {
+        grid-template-columns: 0.8fr 6fr;
+        -ms-grid-columns: 0.8fr 6fr;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
     
 }
@@ -3954,6 +3966,9 @@ body>sec {
     .d-mobile2 {
         display: block;
     }
+    .d-mobile3 {
+        display: block;
+    }
     /* --------------------------Start Style AppDev Page----------------------- */
     .ic01-quotation6 {
         width: 4%;
@@ -4001,6 +4016,9 @@ body>sec {
     .text-multi8 {
         font-size: 4rem;
         font-size: clamp(3.7rem, 2vw, 5rem);
+    }
+    .ic-mmd3 {
+        width: 46px;
     }
     /* ---------------------------End Style Multi Page------------------------ */
 }
