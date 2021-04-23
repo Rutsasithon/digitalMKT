@@ -237,6 +237,9 @@ body>sec {
 .mt1{
     margin-top: 5rem;
 }
+.mt-mmd {
+    margin-top: 5rem;
+}
 .mt-onlintro{
     margin-top: 5rem;
 }
@@ -2474,6 +2477,12 @@ body>sec {
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
+@media only screen and (max-width : 1334px) {
+    .mt-mmd {
+        margin-top: 3rem;
+    }
+}
+
 @media only screen and (max-width : 1300px) {
 
     .text-mobMKT2 {
@@ -2489,6 +2498,9 @@ body>sec {
         bottom: 0;
         left: 0;
         margin-left: 7%;
+    }
+    .mt-mmd {
+        margin-top: 3rem;
     }
 }
 
