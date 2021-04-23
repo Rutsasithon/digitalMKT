@@ -528,7 +528,7 @@ body>sec {
 .title-text18 {
     font-family: 'db_heaventbold_cond';
     line-height: 1.5;
-    font-size: 3.5rem;
+    font-size: 3.4rem;
     font-size: clamp(3.4rem, 2vw, 5rem);
 }
 .digi-grid {
