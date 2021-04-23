@@ -3540,10 +3540,10 @@ body>sec {
      #introduce-multi {
         background-image: url(../images/multimedia/mobile/bg/bg09-mob.jpg);
         position: relative;
-        background-size: auto;
+        background-size: cover;
         width: 100%;
         height: auto;
-        padding: 3% 0 3% 0;
+        padding: 3% 0 5% 0;
     }
     #advertorial {
         padding: 10% 0 3% 0;
@@ -3564,6 +3564,7 @@ body>sec {
     .ic-mmd1 {
         max-width: 70%;
         width: 70%;
+        margin-top: 5%;
     }
     .im-11 {
         position: relative;
