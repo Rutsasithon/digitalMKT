@@ -2493,6 +2493,10 @@ body>sec {
     .im-mmd07 {
         margin: 32% auto 3% 36%;
     }
+    .title-text18 {
+        font-size: 3.3rem;
+        font-size: clamp(3.3rem, 2vw, 5rem);
+    }
 }
 
 @media only screen and (max-width : 1300px) {
