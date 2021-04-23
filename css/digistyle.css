@@ -79,6 +79,9 @@ body>sec {
 .d-desktop6 {
     display: block;
 }
+.d-desktop7 {
+    display: block;
+}
 .d-text {
     display: none;
 }
@@ -525,8 +528,8 @@ body>sec {
 .title-text18 {
     font-family: 'db_heaventbold_cond';
     line-height: 1.5;
-    font-size: 4rem;
-    font-size: clamp(4rem, 2vw, 5rem);
+    font-size: 3.5rem;
+    font-size: clamp(3.4rem, 2vw, 5rem);
 }
 .digi-grid {
     display: grid;
@@ -2474,12 +2477,21 @@ body>sec {
         margin-bottom: 10%;
         margin-left: 14%;
     }
+    .mt-mmd {
+        margin-top: 3rem;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
-@media only screen and (max-width : 1334px) {
-    .mt-mmd {
-        margin-top: 3rem;
+@media only screen and (max-width : 1350px) {
+    .d-desktop7 {
+        display: none;
+    }
+    .im-mmd06 {
+        margin-left: 21%;
+    }
+    .im-mmd07 {
+        margin: 32% auto 3% 36%;
     }
 }
 
@@ -3025,7 +3037,7 @@ body>sec {
     .title-text18 {
         font-family: 'db_heaventbold_cond';
         line-height: 1.5;
-        font-size: 3.5rem;
+        font-size: 2.7rem;
         font-size: clamp(2.7rem, 2vw, 4rem);
         text-align: center;
     }
