@@ -2832,6 +2832,9 @@ body>sec {
         margin-top: 30px;
         margin-left: 5%;
     }
+    .d-ipad {
+        display: block;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
@@ -2869,6 +2872,9 @@ body>sec {
 
 @media only screen and (max-width : 930px) {
     .d-desktop6 {
+        display: none;
+    }
+    .d-ipad {
         display: none;
     }
     .center1 {
