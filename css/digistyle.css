@@ -3622,6 +3622,12 @@ body>sec {
         object-fit: contain;
         margin: auto;
     }
+    .im-mmd07 {
+        margin: 32% auto 3% 24%;
+    }
+    .im-mmd06 {
+        margin-left: 9%;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
