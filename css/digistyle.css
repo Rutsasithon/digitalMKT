@@ -1268,15 +1268,15 @@ body>sec {
     height: auto;
     bottom: 0;
     right: 0;
-    margin-bottom: 1%;
-    margin-right: 48%;
+    margin-bottom: 8%;
+    margin-right: 55%;
     z-index: 2;
 }
 .fragment-crm-banner3 {
     animation-delay: 500ms;
     -webkit-animation-delay: 500ms;
     position: absolute;
-    width: 39%;
+    width: 56%;
     height: auto;
     bottom: 0;
     left: 0;
@@ -2100,19 +2100,18 @@ body>sec {
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-bottom: 2%;
     margin-right: 5%;
 }
 .ic-crm5 {
     position: absolute;
-    max-width: 25%;
-    width: 25%;
+    max-width: 21%;
+    width: 21%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     right: 0;
     margin-bottom: 5%;
-    margin-right: 25.5%;
+    margin-right: 27%;
     z-index: 2;
 }
 .ic-crm6 {
@@ -2127,14 +2126,14 @@ body>sec {
 }
 .ic-crm7 {
     position: absolute;
-    max-width: 25%;
-    width: 25%;
+    max-width: 23%;
+    width: 23%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 21%;
-    margin-left: 23%;
+    margin-bottom: 16%;
+    margin-left: 18%;
 }
 /* ---------------------------End Style CRM Page------------------------ */
 
@@ -3321,6 +3320,7 @@ body>sec {
     }
     #otp {
         padding: 3% 0 0 0;
+        background-size: cover;
     }
     .icmob-08 {
         position: relative;
@@ -3432,6 +3432,9 @@ body>sec {
     #web-appdev {
         padding: 3% 0 0 0;
     }
+    #mob-appdev {
+        background-size: cover;
+    }
     .ic01-quotation6 {
         margin-left: 8%;
     }
@@ -3504,17 +3507,20 @@ body>sec {
     #introduce-crm {
         background-image: url(../images/crm/mobile/bg/bg01mob.jpg);
     }
+    #point {
+        background-size: contain;
+    }
     .ic-crm4 {
         position: relative;
-        max-width: 60%;
-        width: 60%;
-        margin-right: 5%;
+        max-width: 80%;
+        width: 80%;
+        margin-right: -15%;
     }
     .ic-crm5 {
-        max-width: 30%;
-        width: 30%;
-        margin-bottom: 8%;
-        margin-right: 52.5%;
+        max-width: 40%;
+        width: 40%;
+        margin-bottom: 10%;
+        margin-right: 43%;
     }
     .ic-crm6 {
         position: relative;
