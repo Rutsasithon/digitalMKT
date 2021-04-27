@@ -1300,7 +1300,7 @@ body>sec {
     bottom: 0;
     left: 0;
     margin-bottom: 14%;
-    margin-left: 26%;
+    margin-left: 27%;
     z-index: 2;
 }
 .fragment-mmd-banner3 {
@@ -2148,7 +2148,7 @@ body>sec {
     margin-bottom: -1%;
 }
 #info-graphic {
-    background-image: url(../images/multimedia/desktop/bg/bg02-1.jpg);
+    background-image: url(../images/multimedia/desktop/bg/bg02.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -2157,7 +2157,7 @@ body>sec {
     margin-bottom: -1%;
 }
 #ads {
-    background-image: url(../images/multimedia/desktop/bg/bg01-1.jpg);
+    background-image: url(../images/multimedia/desktop/bg/bg01.jpg);
     position: relative;
     background-size: 100% 100%;
     width: 100%;
@@ -2241,6 +2241,7 @@ body>sec {
     right: 0;
     margin-right: 10%;
     margin-bottom: 1%;
+    z-index: 1;
 }
 .im-10 {
     position: absolute;
@@ -2252,6 +2253,17 @@ body>sec {
     right: 0;
     margin-bottom: 30%;
     margin-right: 17%;
+}
+.im-13 {
+    position: absolute;
+    max-width: 11%;
+    width: 11%;
+    height: auto;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 22%;
+    margin-right: 29%;
 }
 .im-mmd09 {
     position: absolute;
@@ -2271,8 +2283,8 @@ body>sec {
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 7%;
-    margin-left: 18%;
+    margin-bottom: 6%;
+    margin-left: 19%;
 }
 .im-mmd07 {
     width: 50%;
@@ -2294,13 +2306,13 @@ body>sec {
 }
 .im-mmd05 {
     position: absolute;
-    max-width: 42%;
-    width: 42%;
+    max-width: 36%;
+    width: 36%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 .im-mmd04 {
     position: absolute;
@@ -2310,19 +2322,19 @@ body>sec {
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 7%;
-    margin-left: 8%;
+    margin-bottom: 8%;
+    margin-left: 7.5%;
 }
 .im-mmd03 {
     position: absolute;
-    max-width: 15%;
-    width: 15%;
+    max-width: 17%;
+    width: 17%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     left: 0;
-    margin-bottom: 4%;
-    margin-left: 22%;
+    margin-bottom: 2.5%;
+    margin-left: 19%;
     z-index: 1;
 }
 .im-mmd02 {
@@ -2343,7 +2355,7 @@ body>sec {
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-bottom: 11%;
+    margin-bottom: 14%;
     margin-right: 17%;
 }
 .mmd-grid2 {
@@ -3596,6 +3608,12 @@ body>sec {
         margin-right: 33%;
         margin-bottom: 69%;
     }
+    .im-13 {
+        max-width: 23%;
+        width: 23%;
+        margin-right: 60%;
+        margin-bottom: 48%;
+    }
     .im-mmd09 {
         position: relative;
         max-width: 50%;
@@ -3608,8 +3626,8 @@ body>sec {
     .im-mmd08 {
         max-width: 30%;
         width: 30%;
-        margin-bottom: 20%;
-        margin-left: 34%;
+        margin-bottom: 18%;
+        margin-left: 36%;
     }
     .im-mmd05 {
         position: relative;
@@ -3622,20 +3640,20 @@ body>sec {
     .im-mmd04 {
         max-width: 50%;
         width: 50%;
-        margin-left: 22%;
-        margin-bottom: 11%;
+        margin-left: 20%;
+        margin-bottom: 16%;
     }
     .im-mmd03 {
         max-width: 30%;
         width: 30%;
         margin-left: 45%;
-        margin-bottom: 4%;
+        margin-bottom: 5%;
     }
     .im-mmd01 {
         max-width: 33%;
         width: 33%;
         margin-right: 14%;
-        margin-bottom: 29%;
+        margin-bottom: 33%;
     }
     .im-mmd02 {
         position: relative;
