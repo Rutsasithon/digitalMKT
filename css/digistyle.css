@@ -3322,6 +3322,9 @@ body>sec {
         padding: 3% 0 0 0;
         background-size: cover;
     }
+    #sms-vote {
+        background-size: contain;
+    }
     .icmob-08 {
         position: relative;
         max-width: 25%;
@@ -3553,9 +3556,16 @@ body>sec {
     }
     #advertorial {
         padding: 10% 0 3% 0;
+        background-size: contain;
     }
     #vdo {
         padding: 3% 0 0 0;
+    }
+    #info-graphic {
+        background-size: contain;
+    }
+    #ads {
+        background-size: contain;
     }
      .abs-multi {
         margin-top: 10px;
