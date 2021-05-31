@@ -309,6 +309,9 @@ body>sec {
 .mr5-mob {
     margin-right: 1rem;
 }
+.br320 {
+    display: none;
+}
 .line-none a:hover {
     text-decoration: none;
 }
@@ -457,7 +460,7 @@ body>sec {
     font-family: 'db_heaventbold_cond';
     line-height: 1.5;
     font-size: 4rem;
-    font-size: clamp(3.8rem, 2vw, 5rem);
+    font-size: clamp(3.3rem, 2vw, 5rem);
 }
 .title-text6 {
     font-family: 'db_heaventlight_cond';
@@ -2051,7 +2054,7 @@ body>sec {
     width: 3%;
     height: auto;
     object-fit: contain;
-    margin-left: 72%;
+    margin-left: 76%;
     margin-top: -5%;
 }
 .ic-crm1 {
@@ -2393,6 +2396,10 @@ body>sec {
         object-fit: contain;
         margin-top: 520px;
         margin-left: 147px;
+    }
+    .title-text2 {
+        font-size: 2.5rem;
+        font-size: clamp(2.5rem, 2vw, 3rem);
     }
     /* ----------------------------Start Style Online Page---------------------------- */
     .ic-online4 {
@@ -2738,14 +2745,14 @@ body>sec {
     .title-text5 {
         font-family: 'db_heaventbold_cond';
         line-height: 1.5;
-        font-size: 3.3rem;
-        font-size: clamp(3.3rem, 2vw, 5rem);
+        font-size: 2.7rem;
+        font-size: clamp(2.7rem, 2vw, 5rem);
     }
     .title-text18 {
         font-family: 'db_heaventbold_cond';
         line-height: 1.5;
-        font-size: 3.3rem;
-        font-size: clamp(3.3rem, 2vw, 5rem);
+        font-size: 2.7rem;
+        font-size: clamp(2.7rem, 2vw, 5rem);
     }
     
     .title-text7 {
@@ -2829,6 +2836,10 @@ body>sec {
     /* --------------------------Start Style CRM Page----------------------- */
     .ic02-quotation7 {
         margin-left: 83%;
+    }
+    .text-detail1 {
+        font-size: 1.7rem;
+        font-size: clamp(1.5rem, 2.5vw, 1.6rem);
     }
     /* ---------------------------End Style CRM Page------------------------ */
 
@@ -3064,7 +3075,7 @@ body>sec {
     .title-text5 {
         font-family: 'db_heaventbold_cond';
         line-height: 1.5;
-        font-size: 3.5rem;
+        font-size: 2.7rem;
         font-size: clamp(2.7rem, 2vw, 4rem);
     }
     .title-text18 {
@@ -3726,8 +3737,8 @@ body>sec {
         font-size: clamp(2rem, 2vw, 4rem);
     }
     .title-text18 {
-        font-size: 2.3rem;
-        font-size: clamp(2.3rem, 2vw, 4rem);
+        font-size: 2rem;
+        font-size: clamp(2rem, 2vw, 4rem);
     }
     .mb1 {
         margin-bottom: 3rem;
@@ -4310,6 +4321,18 @@ body>sec {
     .ic02-quotation7 {
         margin-left: 100%;
     }
+    .title-text5 {
+        font-size: 1.8rem;
+        font-size: clamp(1.8rem, 2vw, 4rem);
+    }
+    .text-detail1 {
+        font-size: 1.4rem;
+        font-size: clamp(1.4rem, 2.5vw, 2rem);
+    }
+    .title-text18 {
+        font-size: 1.8rem;
+        font-size: clamp(1.8rem, 2vw, 4rem);
+    }
     /* ---------------------------End Style CRM Page------------------------ */
 
     /* --------------------------Start Style Multi Page----------------------- 
@@ -4324,6 +4347,9 @@ body>sec {
     .text-detail4 {
         font-size: 1.5rem;
         font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    }
+    .br320 {
+        display: block;
     }
     /* --------------------------Start Style Online Page----------------------- */
 
@@ -4343,6 +4369,14 @@ body>sec {
     /* --------------------------End Style AppDev Page------------------------- */
 
     /* --------------------------Start Style CRM Page----------------------- */
+    .text-detail1 {
+        font-size: 1.2rem;
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+    }
+    .text-online6 {
+        font-size: 1.7rem;
+        font-size: clamp(1.7rem, 2vw, 3.5rem);
+    }
     /* ---------------------------End Style CRM Page------------------------ */
 }
 
