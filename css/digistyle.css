@@ -58,6 +58,12 @@ body>sec {
 .d-mobile3 {
     display:  none;
 }
+.d-mobile4 {
+    display: none;
+}
+.d-mobile600 {
+    display: none;
+}
 .d-desktop {
     display: block;
 }
@@ -80,6 +86,9 @@ body>sec {
     display: block;
 }
 .d-desktop7 {
+    display: block;
+}
+.d-desktop8 {
     display: block;
 }
 .d-text {
@@ -507,8 +516,8 @@ body>sec {
 .text-detail4 {
     font-family: 'db_heaventlight_cond';
     line-height: 1.5;
-    font-size: 2.5rem;
-    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
+    font-size: 2.3rem;
+    font-size: clamp(1.7rem, 2.5vw, 2.4rem);
 }
 .text-detail5 {
     font-family: 'db_heaventmed_cond';
@@ -1743,7 +1752,7 @@ body>sec {
     background-color: white;
     width: auto;
     height: auto;
-    padding: 25px;
+    padding: 20px;
     border: 1px solid #ffffff;
     border-radius: 15px;
     box-shadow: 0px 1px 8px -2px #888888;
@@ -2294,7 +2303,7 @@ body>sec {
     height: auto;
     object-fit: contain;
     position: relative;
-    margin: 22% auto 3% auto;
+    margin: 13% auto 3% auto;
     z-index: 1;
 }
 .im-mmd06 {
@@ -2304,7 +2313,7 @@ body>sec {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 26%;
+    margin-bottom: 22%;
     margin-left: 9%;
 }
 .im-mmd05 {
@@ -2380,8 +2389,12 @@ body>sec {
 }
 /* ---------------------------End Style Multi Page------------------------ */
 
-/* -------------------------------------------------------Response------------------------------------------------------------------------- */
-
+/* ------------------------------------------------------------------------------------------Response------------------------------------------------------------------------- */
+@media only screen and (max-width : 1771px) {
+    .d-desktop8 {
+        display: none;
+    }
+}
 @media only screen and (max-width : 1500px) {
     .d-mobile {
         display: none;
@@ -2510,6 +2523,9 @@ body>sec {
 @media only screen and (max-width : 1366px) {
     .d-desktop7 {
         display: none;
+    }
+    .d-mobile4 {
+        display: block;
     }
     .im-mmd06 {
         margin-left: 21%;
@@ -2915,6 +2931,9 @@ body>sec {
     .d-ipad {
         display: none;
     }
+    .d-mobile4 {
+        display: none;
+    }
     .center1 {
         display: flex !important;
         justify-content: center !important;
@@ -2924,7 +2943,7 @@ body>sec {
     }
     .center5 {
         display: block;
-        width: auto;
+        width: 550px;
         height: auto;
         margin: auto;
     }
@@ -3909,6 +3928,12 @@ body>sec {
         font-size: 1.6rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
+    .center5 {
+        display: block;
+        width: 320px;
+        height: auto;
+        margin: auto;
+    }
     /* --------------------------Start Style Online Page----------------------- */
     .creative-grid1 {
         grid-template-columns: 0fr 5fr;
@@ -4020,11 +4045,17 @@ body>sec {
     .abs-multi {
         margin-top: 15%;
     }
+    .d-mobile600 {
+        display: block;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 @media only screen and (max-width : 500px) {
     .d-mob {
         display: none;
+    }
+    .d-mobile4 {
+        display: block;
     }
     .text-online7 {
         font-size: 1.6rem;
@@ -4231,6 +4262,15 @@ body>sec {
     .syl-box3 {
         height: 220px;
         padding: 20px;
+    }
+    .center5 {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    .d-mobile600 {
+        display: none;
     }
      /* --------------------------Start Style Online Page----------------------- */
      .text-online2 {
