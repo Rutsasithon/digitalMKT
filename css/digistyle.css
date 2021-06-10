@@ -91,6 +91,9 @@ body>sec {
 .d-desktop8 {
     display: block;
 }
+.br378 {
+    display: none;
+}
 .d-text {
     display: none;
 }
@@ -560,6 +563,12 @@ body>sec {
     display: -ms-grid;
     grid-template-columns: 1fr 1fr;
     -ms-grid-columns: 1fr 1fr;
+}
+.crm-grid2 {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 0.9fr 1fr 1fr;
+    -ms-grid-columns: 0.9fr 1fr 1fr;
 }
 .mmd-grid1 {
     display: grid;
@@ -3925,8 +3934,8 @@ body>sec {
         font-size: clamp(1.7rem, 2.5vw, 2.5rem);
     }
     .text-detail1 {
-        font-size: 1.6rem;
-        font-size: clamp(1.6rem, 2.5vw, 2rem);
+        font-size: 1.4rem;
+        font-size: clamp(1.4rem, 2.5vw, 2rem);
     }
     .center5 {
         display: block;
@@ -4366,12 +4375,23 @@ body>sec {
         font-size: clamp(1.8rem, 2vw, 4rem);
     }
     .text-detail1 {
-        font-size: 1.4rem;
-        font-size: clamp(1.4rem, 2.5vw, 2rem);
+        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2.5vw, 2rem);
     }
     .title-text18 {
         font-size: 1.8rem;
         font-size: clamp(1.8rem, 2vw, 4rem);
+    }
+    .title-text10 {
+        font-size: 2.1rem;
+        font-size: clamp(2.1rem, 2vw, 5rem);
+    }
+    .text-online6 {
+        font-size: 1.8rem;
+        font-size: clamp(1.8rem, 2vw, 3.5rem);
+    }
+    .br378 {
+        display: block;
     }
     /* ---------------------------End Style CRM Page------------------------ */
 
@@ -4417,6 +4437,7 @@ body>sec {
         font-size: 1.7rem;
         font-size: clamp(1.7rem, 2vw, 3.5rem);
     }
+    
     /* ---------------------------End Style CRM Page------------------------ */
 }
 
