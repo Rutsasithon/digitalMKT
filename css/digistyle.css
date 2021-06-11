@@ -2254,14 +2254,14 @@ body>sec {
 }
 .im-11 {
     position: absolute;
-    max-width: 30%;
+    max-width: 17%;
     width: 30%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     right: 0;
     margin-right: 10%;
-    margin-bottom: 1%;
+    margin-bottom: -1%;
     z-index: 1;
 }
 .im-10 {
@@ -2272,19 +2272,20 @@ body>sec {
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-bottom: 30%;
-    margin-right: 17%;
+    margin-bottom: 19%;
+    margin-right: 16%;
+    z-index: 2;
 }
 .im-13 {
     position: absolute;
-    max-width: 11%;
-    width: 11%;
+    max-width: 26%;
+    width: 26%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-bottom: 22%;
-    margin-right: 29%;
+    margin-bottom: 7%;
+    margin-right: 11%;
 }
 .im-mmd09 {
     position: absolute;
@@ -3636,22 +3637,23 @@ body>sec {
     .im-11 {
         position: relative;
         max-width: 70%;
-        width: 70%;
+        width: 58%;
         height: auto;
         object-fit: contain;
-        margin: auto;
+        margin-right: 13%;
+        margin-top: 34%;
     }
     .im-10 {
-        max-width: 6%;
-        width: 6%;
-        margin-right: 33%;
-        margin-bottom: 69%;
+        max-width: 7%;
+        width: 7%;
+        margin-right: 37%;
+        margin-bottom: 65%;
     }
     .im-13 {
-        max-width: 23%;
-        width: 23%;
-        margin-right: 60%;
-        margin-bottom: 48%;
+        max-width: 45%;
+        width: 45%;
+        margin-right: 28%;
+        margin-bottom: 46%;
     }
     .im-mmd09 {
         position: relative;
