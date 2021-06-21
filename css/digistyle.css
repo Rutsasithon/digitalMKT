@@ -1065,7 +1065,7 @@ body>sec {
     display: block;
     background-color: #1a1a1a;
     width: auto;
-    height: 230px;
+    height: auto;
     padding: 30px;
     border: 1px solid #1a1a1a;
     border-radius: 15px;
@@ -1076,7 +1076,7 @@ body>sec {
     display: block;
     background-color: white;
     width: auto;
-    height: auto;
+    height: 90%;
     padding: 20px;
     border: 1px solid #ffffff;
     border-radius: 15px;
@@ -2547,6 +2547,10 @@ body>sec {
         font-size: 3.3rem;
         font-size: clamp(3.3rem, 2vw, 5rem);
     }
+    .text-detail1 {
+        font-size: 1.9rem;
+        font-size: clamp(1.1rem, 2.5vw, 1.9rem);
+    }
 }
 
 @media only screen and (max-width : 1300px) {
@@ -2587,8 +2591,11 @@ body>sec {
         padding: 20px;
     }
     .syl-box3 {
-        height: 250px;
         padding: 20px;
+    }
+    .text-detail1 {
+        font-size: 1.7rem;
+        font-size: clamp(1.1rem, 2.5vw, 1.7rem);
     }
     /* --------------------------Start Style Online Page----------------------- */
     .content-grid {
@@ -3149,10 +3156,6 @@ body>sec {
         margin-right: 33%;
     }
     .syl-box2 {
-        height: 190px;
-        padding: 20px;
-    }
-    .syl-box3 {
         height: 190px;
         padding: 20px;
     }
@@ -4267,10 +4270,6 @@ body>sec {
         font-size: clamp(1.8rem, 2vw, 3rem);
     }
     .syl-box2 {
-        height: 220px;
-        padding: 20px;
-    }
-    .syl-box3 {
         height: 220px;
         padding: 20px;
     }
