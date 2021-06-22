@@ -1396,7 +1396,7 @@ body>sec {
     font-family: 'db_heaventbold_cond';
     line-height: 1.5;
     font-size: 4rem;
-    font-size: clamp(3rem, 2vw, 5rem);
+    font-size: clamp(2.9rem, 2vw, 5rem);
 }
 .text-online2 {
     font-family: 'db_heaventmed_cond';
@@ -1597,7 +1597,16 @@ body>sec {
 }
 .im05-online {
     position: absolute;
-    max-width: 40%;
+    max-width: 27%;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    object-fit: contain;
+    margin-right: 13%;
+}
+.im05-online-1 {
+    position: absolute;
+    max-width: 41%;
     bottom: 0;
     right: 0;
     height: auto;
@@ -1606,13 +1615,13 @@ body>sec {
 }
 .im06-online {
     position: absolute;
-    max-width: 40%;
+    max-width: 27%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-bottom: 7%;
-    margin-right: 7.5%;
+    margin-bottom: 5%;
+    margin-right: 9.2%;
 }
 .abs-text {
     position: absolute;
@@ -2398,7 +2407,9 @@ body>sec {
     object-fit: contain;
 }
 /* ---------------------------End Style Multi Page------------------------ */
-
+.d-desktop1250 {
+    display: block;
+}
 /* ------------------------------------------------------------------------------------------Response------------------------------------------------------------------------- */
 @media only screen and (max-width : 1771px) {
     .d-desktop8 {
@@ -2424,6 +2435,10 @@ body>sec {
         font-size: 2.5rem;
         font-size: clamp(2.5rem, 2vw, 3rem);
     }
+    .text-online4 {
+        font-size: 1.8rem;
+        font-size: clamp(1.5rem, 2.5vw, 1.9rem);
+    }
     /* ----------------------------Start Style Online Page---------------------------- */
     .ic-online4 {
         position: absolute;
@@ -2446,14 +2461,6 @@ body>sec {
         font-size: 4.2rem;
         font-size: clamp(3.7rem, 2vw, 5rem);
     }
-    .im06-online{
-        position: absolute;
-        width: 562px;
-        height: auto;
-        object-fit: contain;
-        margin-top: 520px;
-        margin-left: 147px;
-    }
     .text-online2 {
         font-family: 'db_heaventmed_cond';
         line-height: 1.5;
@@ -2464,7 +2471,18 @@ body>sec {
         font-size: 2rem;
         font-size: clamp(1.2rem, 2.5vw, 2rem);
     }
-
+    .im05-online {
+        max-width: 31%;
+    }
+    .im06-online {
+        max-width: 35%;
+        margin-bottom: 3%;
+        margin-right: 6%;
+    }
+    .creative-grid1 {
+        grid-template-columns: 0.1fr 5fr;
+        -ms-grid-columns: 0.1fr 5fr;
+    }
     /* ----------------------------End Style Online Page---------------------------- */
 
     /* --------------------------Start Style Mobile Page----------------------- */
@@ -2575,6 +2593,9 @@ body>sec {
 }
 
 @media only screen and (max-width : 1250px) {
+    .d-desktop1250 {
+        display: none;
+    }
     .title-text1 {
         font-size: 3.5rem;
         font-size: clamp(3.5rem, 2vw, 5rem);
@@ -2645,6 +2666,14 @@ body>sec {
     .ic-online7 {
         max-width: 55%;
         margin-left: 40%;
+    }
+    .im05-online {
+        max-width: 40%;
+    }
+    .im06-online {
+        max-width: 40%;
+        margin-bottom: 7.5%;
+        margin-right: 7.5%;
     }
     /* ----------------------------End Style Online Page----------------------- */
 
@@ -3338,6 +3367,10 @@ body>sec {
         max-width: 45%;
         margin-bottom: 5%;
         margin-left: 41%;
+    }
+    .creative-grid1 {
+        grid-template-columns: 0.5fr 5fr;
+        -ms-grid-columns: 0.5fr 5fr;
     }
     /* ----------------------------End Style Online Page----------------------- */
 
