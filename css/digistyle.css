@@ -1432,7 +1432,7 @@ body>sec {
     font-family: 'db_heaventcond';
     line-height: 1.5;
     font-size: 3.5rem;
-    font-size: clamp(3rem, 2vw, 5rem);
+    font-size: clamp(2.6rem, 2vw, 3.5rem);
 }
 .text-online7 {
     font-family: 'db_heaventlight_cond';
@@ -1935,14 +1935,14 @@ body>sec {
     width: 3%;
     height: auto;
     object-fit: contain;
-    margin-left: 19%;
+    margin-left: 6%;
     margin-bottom: -3%;
 }
 .ic02-quotation6 {
     width: 3%;
     height: auto;
     object-fit: contain;
-    margin-left: 78%;
+    margin-left: 91%;
     margin-top: -7%;
 }
 .ic-app1 {
@@ -1977,20 +1977,20 @@ body>sec {
     object-fit: contain;
 }
 .ic-app5 {
-    width: 50%;
+    width: 40%;
     height: auto;
     object-fit: contain;
     position: relative;
 }
 .ic-app6 {
-    width: 65%;
+    width: 48%;
     height: auto;
     object-fit: contain;
     position: absolute;
     bottom: 0;
     left: 0;
     margin-bottom: 13%;
-    margin-left: 27%;
+    margin-left: 22%;
 }
 .im02-appdev {
     position: absolute;
@@ -2503,6 +2503,22 @@ body>sec {
         font-size: 2rem;
         font-size: clamp(1.6rem, 2.5vw, 2rem);
     }
+    .ic-app5 {
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+        position: relative;
+    }
+    .ic-app6 {
+        width: 65%;
+        height: auto;
+        object-fit: contain;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 13%;
+        margin-left: 27%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 
     /* --------------------------Start Style CRM Page----------------------- */
@@ -2896,18 +2912,17 @@ body>sec {
     /* --------------------------End Style Mobile Page------------------------- */
 
     /* --------------------------Start Style AppDev Page----------------------- */
-    .ic01-quotation6 {
-        margin-left: 12%;
-    }
-    .ic02-quotation6 {
-        margin-left: 85%;
-    }
+    
     .line-bottom8 {
         margin: 18px 0;
     }
     .text-app7 {
-        font-size: 1.5rem;
-        font-size: clamp(1.5rem, 2.5vw, 1.8rem);
+        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+    }
+    .abs-appdev {
+        margin-top: 10%;
+        margin-left: 5%;
     }
     /* --------------------------End Style AppDev Page------------------------- */
 
@@ -2955,6 +2970,12 @@ body>sec {
     .im-mmd06 {
         margin-left: 14%;
     }
+    .ic01-quotation6 {
+        margin-left: -1%;
+    }
+    .ic02-quotation6 {
+        margin-left: 98%;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
@@ -2980,7 +3001,7 @@ body>sec {
 
     /* --------------------------Start Style AppDev Page----------------------- */
     .abs-appdev {
-        margin-top: 10%;
+        margin-top: 6%;
         margin-left: 3%;
     }
     /* --------------------------End Style AppDev Page------------------------- */
@@ -3049,6 +3070,9 @@ body>sec {
     } 
     .ml-mob2 {
         margin-left: 12%;
+    }
+    .ml-mob3 {
+        margin-left: 20%;
     }    
     .mr3-mob {
         margin-right: 4rem;
@@ -3367,8 +3391,8 @@ body>sec {
         margin-right: 6%;
     }
     .title-text10 {
-        font-size: 4rem;
-        font-size: clamp(3.5rem, 2vw, 5rem);
+        font-size: 3.1rem;
+        font-size: clamp(3.1rem, 2vw, 5rem);
     }
     .ic-online5 {
         width: 15%;
@@ -3554,12 +3578,6 @@ body>sec {
     }
     #mob-appdev {
         background-size: cover;
-    }
-    .ic01-quotation6 {
-        margin-left: 8%;
-    }
-    .ic02-quotation6 {
-        margin-left: 89%;
     }
     .ic-app1 {
         max-width: 50%;
@@ -3816,6 +3834,9 @@ body>sec {
     .mr5-mob {
         margin-right: 5rem;
     }
+    .ml-mob3 {
+        margin-left: 12%;
+    }
     .title-text1 {
         font-size: 2rem;
         font-size: clamp(2rem, 2vw, 3.5rem);
@@ -3927,6 +3948,12 @@ body>sec {
     .line-bottom8 {
         margin: 20px 0;
     }
+    .ic01-quotation6 {
+        margin-left: -5%;
+    }
+    .ic02-quotation6 {
+        margin-left: 102%;
+    }
     /* --------------------------End Style AppDev Page------------------------- */
 
     /* --------------------------Start Style CRM Page----------------------- */
@@ -3991,6 +4018,9 @@ body>sec {
     }
     .mr5-mob {
         margin-right: 1.2rem;
+    }
+    .ml-mob3 {
+        margin-left: 0%;
     }
     .text-detail5 {
         font-size: 1.8rem;
@@ -4094,11 +4124,11 @@ body>sec {
     /* --------------------------Start Style AppDev Page----------------------- */
     .ic01-quotation6 {
         width: 4%;
-        margin-left: 7%;
+        margin-left: -4%;
     }
     .ic02-quotation6 {
         width: 4%;
-        margin-left: 89%;
+        margin-left: 100%;
     }
     .d-desktop5 {
         display: none;
@@ -4306,8 +4336,8 @@ body>sec {
         width: 30px;
     }
     .text-app7 {
-        font-size: 1.3rem;
-        font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+        font-size: 1rem;
+        font-size: clamp(1rem, 2.5vw, 1.8rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 
@@ -4489,8 +4519,8 @@ body>sec {
 
     /* --------------------------Start Style AppDev Page----------------------- */
     .text-app7 {
-        font-size: 1.2rem;
-        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+        font-size: 1rem;
+        font-size: clamp(1rem, 2.5vw, 1.8rem);
     }
     /* --------------------------End Style AppDev Page------------------------- */
 
