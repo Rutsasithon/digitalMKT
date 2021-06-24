@@ -94,6 +94,9 @@ body>sec {
 .d-desktop8 {
     display: block;
 }
+.d-desk {
+    display: block;
+}
 .br1500 {
     display: none;
 }
@@ -690,12 +693,12 @@ body>sec {
 }
 .ic11 {
     position: absolute;
-    max-width: 30%;
+    max-width: 25%;
     height: auto;
     object-fit: contain;
     bottom: 0;
     right: 0;
-    margin-right: 5%;
+    margin-right: 8%;
 }
 .ic12 {
     position: absolute;
@@ -705,7 +708,7 @@ body>sec {
     bottom: 0;
     right: 0;
     margin-bottom: 15%;
-    margin-right: 17%;
+    margin-right: 20%;
 }
 .ic13 {
     position: absolute;
@@ -1571,7 +1574,7 @@ body>sec {
     left: 0;
     height: auto;
     object-fit: contain;
-    margin-top: 15%;
+    margin-top: 2%;
     margin-left: -55%;
 }
 .ic-online7 {
@@ -1599,7 +1602,7 @@ body>sec {
     border-radius: 15px;
     box-shadow: 0px 1px 8px -2px #888888;
     -webkit-box-shadow: 0px 1px 8px -2px #888888;
-    margin: 10%;
+    margin: 1% 10%;
 }
 .im05-online {
     position: absolute;
@@ -2976,6 +2979,10 @@ body>sec {
     .ic02-quotation6 {
         margin-left: 98%;
     }
+    .icmob-06 {
+        max-width: 39%;
+        width: 39%;
+    }
     /* ---------------------------End Style Multi Page------------------------ */
 }
 
@@ -4271,6 +4278,9 @@ body>sec {
 @media only screen and (max-width : 400px) {
     .d-mob4 {
         display: block;
+    }
+    .d-desk {
+        display: none;
     }
     .g-recaptcha {
         /* transform:scale(0.77);
