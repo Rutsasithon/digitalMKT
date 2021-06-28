@@ -3002,6 +3002,12 @@ body>sec {
     }
     
 }
+@media screen and (max-width: 1080px) {
+    #ais_topbar.mini-menu .topbar_lang {
+        display: none;
+    }
+}
+
 @media only screen and (max-width : 1024px) {
     .text-mobMKT1 {
         font-size: 1.9rem;
@@ -4344,6 +4350,12 @@ body>sec {
         background-image: url(../images/appdev/mobile/bg/bg-mob-contact.jpg);
     }
 }
+@media screen and (max-width: 480px) {
+    .mini-menu .topbar_lang_mobile {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 393px) and (max-width: 450px) {
     .d-mob2 {
         display: block;
