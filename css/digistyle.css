@@ -1691,12 +1691,12 @@ body>sec {
 #social-channel-box {
     position: relative;
 }
-.ic-then {
+.ic-than {
     width: 40%;
     height: auto;
     object-fit: contain;
 }
-.im16-then {
+.im16-than {
     position: absolute;
     max-width: 31%;
     width: 31%;
@@ -1706,7 +1706,7 @@ body>sec {
     left: 0;
     margin-left: 5%;
 }
-.im17-then {
+.im17-than {
     position: absolute;
     max-width: 17%;
     width: 17%;
@@ -2632,11 +2632,11 @@ body>sec {
     .mt-mobintro {
         margin-top: 5%;
     }
-    .im16-then {
+    .im16-than {
         max-width: 37%;
         width: 37%;
     }
-    .im17-then {
+    .im17-than {
         max-width: 20%;
         width: 20%;
         margin-bottom: 5%;
@@ -3495,7 +3495,7 @@ body>sec {
         grid-template-columns: 0.5fr 5fr;
         -ms-grid-columns: 0.5fr 5fr;
     }
-    .im16-then{
+    .im16-than{
         position: relative;
         max-width: 50%;
         width: 50%;
@@ -3504,7 +3504,7 @@ body>sec {
         margin-left: 23%;
         margin-top: 5%;
     }
-    .im17-then {
+    .im17-than {
         max-width: 30%;
         width: 30%;
         margin-bottom: 4%;
